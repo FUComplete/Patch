@@ -34,7 +34,11 @@ Create a directory named `binary` and copy `BOOT.BIN` and the `overlay` folder f
 
 Create `build/overlay` directory.
 
-Run `armips main.asm` to compile. 
+Run `armips main.asm` to build. 
+
+# Miscellaneous
+
+Check [here](https://github.com/FUComplete/Patch/wiki/Enhancements-and-BonusDLC) for resized minimap hack and bonus dlc enable cheats.
 
 # FAQ
 
@@ -57,7 +61,7 @@ Each event quest is stored in their respective "â˜…" rank. So if a quest was 8â˜
 
 ### Why can't my P2G save load?
 
-I modified the savedata decryption/encryption to use FU. If you want to use your P2G save on the patch, please convert your save to FU.
+I modified the savedata decryption/encryption to use FU. If you want to use your P2G save on the patch, please convert your save to FU. 
 
 # Credits and Thanks
 
