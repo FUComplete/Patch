@@ -63,6 +63,12 @@ Each event quest is stored in their respective "â˜…" rank. So if a quest was 8â˜
 
 I modified the savedata decryption/encryption to use FU. If you want to use your P2G save on the patch, please convert your save to FU. 
 
+### Why can't I join other players/halls and am put into a weirdly named game/hall?
+
+Due to the way the patch works there's compatibility issues with unpatched and patched versions in multiplayer. To avoid these issues I have changed the game/hall to a new one. 
+
+**So in order to play online, both sides need to be on the patch.**
+
 # Credits and Thanks
 
 **Hario** for helping with the programming side of things.
