@@ -11,8 +11,10 @@
 .definelabel EquipDetailArmSeriesX,0x08820A24             // "Color:" series text X pos
 .definelabel EquipDetailHunterTypeX,0x08820A70            // "Hunter Type:" text X pos
 .definelabel EquipDetailSlotsX,0x088232BC                 // "Slots:" X pos
+.definelabel ComradeBoardColon10X,0x088340C4              // "Comrade Points" colon X pos
 .definelabel ClockFacePos,0x08840504                      // Clock face combined X/Y pos
 .definelabel PauseMenuTextX,0x088494A8                    // Text X pos
+.definelabel OptionsMenuMDisplayTxtX,0x0884994C           // "OFF" text X pos (when "Status Display" is set to "OFF")
 .definelabel AbandonQstCfrmTextX,0x08849C78               // "Yes/No" text X pos
 .definelabel DATABINCryptoDef1_1,0x0884EBB8               // 
 .definelabel DATABINCryptoDef2_1,0x0884EBDC               //
@@ -123,7 +125,10 @@
 .definelabel FarmRecSndItmWin1TxtColor,0x08935C42         // Text color
 .definelabel FarmRecSndItmWin1WinStyle,0x08935C43         // Window Style
 .definelabel FarmRecSndItmWin1TxtPos,0x08935C44           // Text X/Y pos
-.definelabel FarmRecSndItmWin1TxtLead,0x08935C48          // Text leading 
+.definelabel FarmRecSndItmWin1TxtLead,0x08935C48          // Text leading
+.definelabel EquipDetailPgTxtFmt,0x08935D58               // "< x/x >" page selection text formating
+.definelabel HUDExclamationDrawPos,0x08937B9C             // Exclamation X/Y texture pos
+.definelabel HUDExclamationDrawSize,0x08937BA0            // Exclamation X/Y texture size
 .definelabel AbandonQstBGPos,0x0893585D8                  // Abandon Quest Background X/Y pos
 .definelabel AbandonQstBGScl,0x0893585DC                  // Scale
 .definelabel AbandonQstTxtScl,0x089385E0                  // Text scale
@@ -135,6 +140,14 @@
 .definelabel MonListTxtColor,0x0893861A                   // Text color
 .definelabel MonListWinStyle,0x0893861B                   // Window style
 .definelabel MonListWinScl,0x0893861C                     // Scale
+.definelabel GrannyShopPageIndicatorLX,0x089387A8         // Left page indicator X pos 
+.definelabel GrannyShopPageIndicatorRX,0x089387AC         // Right page indicator X pos
+.definelabel ReloadSpritePos,0x08938AEC                   // Reload bullet texture X/Y pos
+.definelabel ReloadSpriteID,0x08938AF4                    // Sprite ID for Reload sprie
+.definelabel LoadingSpritePos,0x08938AF6                  // Loading... bullet texture X/Y pos
+.definelabel ChangeSpritePos,0x08938B00                   // Change bullet texture X/Y pos
+.definelabel BowgunBulletSpritePos,0x08938B0C             // Bullet position for bowgun X/Y pos
+.definelabel GunlanceBulletSpritePos,0x08938B14           // Bullet position for gunlance X/Y pos
 .definelabel ItmWhlBGPos,0x08938B74                       // Item Wheel background X/Y pos
 .definelabel ItmWhlBGScl,0x08938B78                       // Scale
 .definelabel ItmWhlTxtBGPos,0x08938B80                    // Item Wheel background for text X/Y pos
@@ -264,6 +277,7 @@
 
 // lobby_task.ovl @ 0x09A5A580
 
+.definelabel EquipSetStatColonX,0x09AE62AC                // Colon placement for status window on sets
 .definelabel GHRoomSelBGX,0x09A74208
 .definelabel GHRoomSelBGY,0x09A7420C
 .definelabel GHRoomSelBGW,0x09A74210

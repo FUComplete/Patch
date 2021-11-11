@@ -23,6 +23,9 @@
 .include "asm/refcomradeinfo.asm"
 .include "asm/refmonsterlist.asm"
 .include "asm/statuswindow.asm"
+.include "asm/grannyshop.asm"
+.include "asm/hud.asm"
+.include "asm/optionsmenu.asm"
 
 // Unknown values I patched before...
 // Don't remember why either...
@@ -52,6 +55,7 @@
 .include "asm/armorcolor_ovl.asm"
 .include "asm/bedsave_ovl.asm"
 .include "asm/chestcombine_ovl.asm"
+.include "asm/equipsetdetail_ovl.asm"
 .include "asm/farm_ovl.asm"
 .include "asm/npcquest_ovl.asm"
 .include "asm/shops_ovl.asm"
