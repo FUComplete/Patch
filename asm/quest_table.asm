@@ -1,44 +1,57 @@
 // Reallocated table for quests... this
 // table is the Guild Hall quest ID pages
-// str_tbl.pac @ 0x6B000
-
-.org 0x08A32510 // revisit this once str_tbl is finalized
-
-
+// str_tbl.pac @ 0x6B000 - EN
+// str_tbl.pac @ 0x80000 - JP
+.ifdef jp
+  .org 0x08A47510 // revisit this once str_tbl is finalized
 // Pointers for each star
-// HR1
-.dw 0x08A32540  // 1* 
-.dw 0x08A32558  // 2*
-.dw 0x08A3256C  // 3*
-
-// HR2
-.dw 0x08A3259C  // 4*
-
-// HR3
-.dw 0x08A325D4  // 5*
-
-// HR 4
-.dw 0x08A32604  // 6*
-
-// HR 5
-.dw 0x08A32624  // 7*
-
-// HR 6
-.dw 0x08A32660  // 8*
-
-// HR 7
-.dw 0x08A326B0  // 9*
-
-// HR 8 
-.dw 0x08A326EC  // 10*
-
-// HR 9
-.dw 0x08A32734  // 11*
-
-.fill 4
-
+  // HR1
+  .dw 0x08A47540  // 1* 
+  .dw 0x08A47558  // 2*
+  .dw 0x08A4756C  // 3*
+  // HR2
+  .dw 0x08A4759C  // 4*
+  // HR3
+  .dw 0x08A475D4  // 5*
+  // HR 4
+  .dw 0x08A47604  // 6*
+  // HR 5
+  .dw 0x08A47624  // 7*
+  // HR 6
+  .dw 0x08A47660  // 8*
+  // HR 7
+  .dw 0x08A476B0  // 9*
+  // HR 8 
+  .dw 0x08A476EC  // 10*
+  // HR 9
+  .dw 0x08A47734  // 11*
+  .fill 4
+.else
+  .org 0x08A32510 // revisit this once str_tbl is finalized
+// Pointers for each star
+  // HR1
+  .dw 0x08A32540  // 1* 
+  .dw 0x08A32558  // 2*
+  .dw 0x08A3256C  // 3*
+  // HR2
+  .dw 0x08A3259C  // 4*
+  // HR3
+  .dw 0x08A325D4  // 5*
+  // HR 4
+  .dw 0x08A32604  // 6*
+  // HR 5
+  .dw 0x08A32624  // 7*
+  // HR 6
+  .dw 0x08A32660  // 8*
+  // HR 7
+  .dw 0x08A326B0  // 9*
+  // HR 8 
+  .dw 0x08A326EC  // 10*
+  // HR 9
+  .dw 0x08A32734  // 11*
+  .fill 4
+.endif
 // Quest ID
-
 // HR1
 // 1*
 .dh 1       // A True Foe - The Giadrome!
@@ -91,7 +104,6 @@
 .dh 30001   // Its name is "Mega Kut-Ku"!? (m60023)
 .fill 2
 .align 4
-
 // HR2
 // 4*
 .dh 1101    // Gathering - Swamp Zone
@@ -122,7 +134,6 @@
 .dh 1126    // Go Fish Goldenfish!
 .fill 2
 .align 4
-
 // HR3
 // 5*
 .dh 1201    // Absolute Power
@@ -149,7 +160,6 @@
 .dh 30003   // Triumvirate of the Sands (m60024)
 .fill 2
 .align 4
-
 // HR4
 // 6*
 .dh 2001    // Gathering - Snowy Mountains
@@ -168,7 +178,6 @@
 .dh 30004   // 2 Colors of Meow - Sm. Arena (m60033)
 .fill 2
 .align 4
-
 // HR5
 // 7*
 .dh 2101    // Gathering - Swamp Zone
@@ -202,7 +211,6 @@
 .dh 30006   // Jungle Hunt! (m60027)
 .fill 2
 .align 4
-
 // HR6
 // 8*
 .dh 2201    // Land of the Tremors
@@ -246,7 +254,6 @@
 .dh 30009   // JUMP: Flame Emeror's Return (JDLC1) (m60036)
 .fill 2
 .align 4
-
 // HR7
 // 9*
 .dh 3001    // G-Lvl Gathering - Grt Forest
@@ -279,7 +286,6 @@
 .dh 30012   // Super Hypnocatrice Brawl (m60021)
 .fill 2
 .align 4
-
 // HR8
 // 10*
 .dh 3101    // G-Lvl Gathering - Frst&Hills
@@ -319,7 +325,6 @@
 .dh 30020   // JUMP: Red Rumble Roundup (JDLC5) (60007)
 .fill 2
 .align 4
-
 // HR9
 // 11*
 .dh 3201    // Absolute Power

@@ -1,7 +1,5 @@
 // Equipment Name/Descrtion PTR/ID
-
 // Blademaster (string_table_4)
-
 // Great Sword/Long Sword
 .org EquipDescStrIDTbl
   .dh 0     // None
