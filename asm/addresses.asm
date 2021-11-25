@@ -283,7 +283,9 @@
 .definelabel GHRoomSelBGW,0x09A74210
 .definelabel GHRoomSelBGH,0x09A74214
 .definelabel SmithyArmTypeViewTxtY,0x09A7CD04             // Text for armor type view in smithy shop (to sort between blade/gun)
-.definelabel GHReqHRNumX,0x09A873D8                       // Required HR # X pos at quest giver 
+.definelabel GHReqHRNumX,0x09A873D8                       // Required HR # X pos at quest giver
+.definelabel NPCQstPageIndBGW,0x09A889A0                  // Quest page indicator background width
+.definelabel NPCQstPageIndArwW,0x09A889E0                 // Quest page "arrow" width
 .definelabel FarmPlantItmNoneX,0x09A8D81C                 // Farm planting row item "None" text X pos
 .definelabel FarmPlantItmX,0x09A8D864                     // Same as above but the text when you actually plant something
 .definelabel BedSavePromptCfrm3X,0x09AAC538               // "Exit game?" Yes/No X pos
@@ -306,6 +308,8 @@
 .definelabel ItmShopBuyAmtTxtPos,0x09AFEF80               // Shop buy amount # X/Y pos
 .definelabel ItmShopBuyAmtArwUpPos,0x09AFEF84             // Top arrow X/Y pos
 .definelabel ItmShopBuyAmtArwDwPos,0x09AFEF88             // Bottom arrow X/Y pos
+.definelabel NPCQstPageIndArwPos,0x09AFF490               // Quest page indicator "arrow" X pos
+.definelabel NPCQstPageIndBGPos,0x09AFF49C                // Quest page indicator background X pos
 .definelabel NPCQstPageRewardAmtPos,0x09AFF578            // Quest page reward # X/Y pos
 .definelabel NPCQstPageFeeAmtPos,0x09AFF584               // Contract fee X/Y pos
 .definelabel NPCQstPageTimeAmtPos,0x09AFF590              // Time limit X/Y pos
