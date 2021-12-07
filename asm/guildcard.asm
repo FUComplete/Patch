@@ -2,11 +2,22 @@
 // Use English OSK only 
 .org GCDescriptOSKType
   .db 0x2
-//  Fix character width from full to half
+// Fix character width from full to half
 .org GCEditCharWidth
   sllv      v0,v0,zero
 .org GCCharWidth
   sllv      v0,v0,zero
+// Make it so that text takes the full width of the box...
+// GCEdit
+.org 0x088F8C84
+  andi      v1,s3,0x1F
+.org 0x088F8CAC
+  sra       v0,s3,0x5
+// GC
+.org 0x088FA0BC
+  andi      v1,s3,0x1F
+.org 0x088FA0E4
+  sra       v0,s3,0x5
 // Hunter Diary page
 .org GCHunterDiaryClrWepX
   .dh 180
