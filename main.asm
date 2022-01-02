@@ -63,6 +63,9 @@
     .include "asm/npcquest_ovl.asm"
     .include "asm/shops_ovl.asm"
   .close
+  .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
+    .include "asm/optionsmenu_ovl.asm"
+  .close
   // str_tbl.bin related additions
   .open "data/str_tbl.pac","build/str_tbl.pac",0x089C7510
     .include "asm/quest_table.asm"
