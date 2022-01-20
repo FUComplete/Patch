@@ -26,4 +26,13 @@
   .dh 60      // X pos
 .org TrenyaDestPtsTitlePos
   .dh 303     // X pos
-
+// Treshis Disciple "Amount" positioning fix
+.org TreshisDAmtTxtPos
+  .dh 222     // X pos
+  .dh 64      // Y pos
+.org TreshisDAmtArwUpPos
+  .dh 222     // X pos
+  .dh 48      // Y pos
+.org TreshisDAmtArwDownPos
+  .dh 222     // X pos
+  .dh 80      // Y pos

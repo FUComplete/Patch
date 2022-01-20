@@ -21,3 +21,6 @@
 // Chest arrange item/equip sub menu wider width
 .org ChestArrangeSubBoxScl
   .dh 9
+// Chest place "amount" into inventory
+.org ChestMoveAmtTxtPos
+  .dh 230

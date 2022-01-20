@@ -11,6 +11,8 @@
 .definelabel EquipDetailArmSeriesX,0x08820A24             // "Color:" series text X pos
 .definelabel EquipDetailHunterTypeX,0x08820A70            // "Hunter Type:" text X pos
 .definelabel EquipDetailSlotsX,0x088232BC                 // "Slots:" X pos
+.definelabel ChestMoveAmtArwUpX,0x08832E68
+.definelabel ChestMoveAmtArwDownX,0x08832EC0
 .definelabel ComradeBoardColon10X,0x088340C4              // "Comrade Points" colon X pos
 .definelabel ClockFacePos,0x08840504                      // Clock face combined X/Y pos
 .definelabel PauseMenuTextX,0x088494A8                    // Text X pos
@@ -295,6 +297,9 @@
 .definelabel ArmColorUndoBTNLineX,0x09AE1050              // "Undo" button outline X pos
 .definelabel ArmColorUndoBTNW,0x09AE106C                  // "Undo" button outline width
 .definelabel ArmColorUndoBTNH,0x09AE1074                  // "Undo" button outline height
+.definelabel TreshisDAmtTxtPos,0x09AFDE98
+.definelabel TreshisDAmtArwUpPos,0x09AFDE9C
+.definelabel TreshisDAmtArwDownPos,0x09AFDEA0
 .definelabel GHRoomSelTitlePos,0x09AFEC60                 // Gathering Hall Title X/Y pos
 .definelabel GHRoomSelCol1X,0x09AFEC64                    // Column 1 X pos 
 .definelabel GHRoomSelColY,0x09AFEC66                     // Column Y pos
@@ -357,6 +362,6 @@
 .definelabel ChestCombineTxtBLead,0x09B05B80              // Text leading
 .definelabel ArmColorBGScl,0x09B05C40                     // Armor color background scale
 .definelabel ChestArrangeSubBoxScl,0x09B05CB8             // Chest "Arrange Items" sub menu (Item/Equipment) scale
-
+.definelabel ChestMoveAmtTxtPos,0x09B05D60
 
 

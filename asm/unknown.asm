@@ -12,4 +12,9 @@
   .dh 378
 // Rewrite Equip STR PTR test
 .org EquipDescStrIDTbl
-  .import "data/equipdesc.bin" 
+  .import "data/equipdesc.bin"
+// Chest add "amount" to inventory
+.org ChestMoveAmtArwUpX
+  .dh 0
+.org ChestMoveAmtArwDownX
+  .dh 0
