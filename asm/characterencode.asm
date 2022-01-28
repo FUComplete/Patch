@@ -11,3 +11,6 @@
   .import "data/charencode.bin",0xC0,184
 .org UTF8MB3Char
   .import "data/charencode.bin",0x180,384
+// Fix quest details for G1-3 to show the "star" rank...
+.org 0x0881B55C
+  .dh 0x1 // read first byte only

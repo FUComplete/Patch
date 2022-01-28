@@ -1,4 +1,6 @@
 *.pac
 *.ovl
 BOOT.BIN
+UIBOOT.BIN
 armips
+uirescale/
