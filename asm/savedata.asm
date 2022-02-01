@@ -6,6 +6,13 @@
     .ascii "ULJM05500MOD"
   .org 0x089AFF74
     .ascii "ULJM05500MOD"
+  // Increase decrypt block and decrease quest block size
+  .org 0x088C2C50
+    .dh 10224 // quest block
+  .org 0x088C2CD8
+    .dh 15    // quests to decrypt
+  .org 0x088C2CE0
+    .dh 10240 // quest ID
 .else
   .org 0x08997238
     .ascii "ULUS10391MOD"
@@ -133,4 +140,11 @@
     .fill   7,0
     .ascii  "Game Data for Monster Hunter Freedom Unite."
     .fill   17,0
+  // Increase decrypt block and decrease quest block size
+  .org 0x088C2C50
+    .dh 10224 // quest block
+  .org 0x088C2CD8
+    .dh 15    // quests to decrypt
+  .org 0x088C2CE0
+    .dh 10240 // quest ID
 .endif

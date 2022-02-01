@@ -21,3 +21,17 @@
   .dh 91
 .org TrainHallRoomSelCursor2X
   .dh 238
+// Increase limit of quest reads, decrease block size
+.org 0x09A5EF54
+  .dh 14 // amount to show
+.org 0x09A5EF5C
+  .dh 10240      //
+.org 0x09A5F3A8  // these deal with block size
+  .dh 10224      // and quest ID positions...
+.org 0x09A69508  //
+  .dh 10240      //
+// fix player/password alignment a little....
+.org 0x09A654D0
+  .dh 412        // amount of players X pos 
+.org 0x09A65594
+  .dh 406        // password set prompt X pos
