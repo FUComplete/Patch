@@ -4,7 +4,7 @@
   .open "binary/BOOT.BIN","build/BOOT.BIN",0x08801A4C
     .include "asm/crypto_databin.asm"
     .include "asm/equipdetails.asm"
-    // .include "asm/hallid.asm"
+    .include "asm/hallid.asm"
     .include "asm/hud.asm"
     .include "asm/savedata.asm"
   .close
@@ -27,7 +27,7 @@
     .include "asm/bedsave.asm"
     .include "asm/equipdetails.asm"
     .include "asm/guildcard.asm"
-    // .include "asm/hallid.asm"
+    .include "asm/hallid.asm"
     .include "asm/invcombine.asm"
     .include "asm/itemwheel.asm"
     .include "asm/mainmenu.asm"
