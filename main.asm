@@ -8,6 +8,9 @@
     .include "asm/hud.asm"
     .include "asm/savedata.asm"
   .close
+  .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
+    .include "asm/trainhall_ovl.asm"
+  .close
   .open "binary/overlay/install_task.ovl","build/overlay/install_task.ovl",0x09A5A580
     .include "asm/datainstall_ovl.asm"
   .close
