@@ -94,10 +94,10 @@ Changes the "scale" of the minimap to either 75% or 50% of its original size. On
 
 This is specific to HunsterVerse. This allows cross-play between FUComplete and unmodded versions of the game. There are some things to note:
 
-1. Do not post event specific quests when online unless the other players are also on the patch. There's incompatibilites with unmodded/modded which will lead to bugs (or being accidently flagged as a cheater).
+1. When the code is enabled, you can play with FU/P2G players however the event quests in each section are removed from listing to avoid issues with unpatched clients.
 2. The only quests outside of the ones that came with the game that do work with unmodded versions are the challenge quests. This is because they are added to your save and thus are treated as valid "DLC" quests.
 
-This code is not provided in the patch and will need to be accessed/added via the HunsterVerse discord.
+Please check [here](https://github.com/FUComplete/Patch/wiki/Enhancements-and-BonusDLC#enable-cross-play) for the code or see pins on HunsterVerse.
 
 # FAQ
 
