@@ -34,13 +34,13 @@
     .dh 238
   // Increase limit of quest reads, decrease block size
   .org 0x09A5EF54
-    .dh 14 // amount to show
+    .dh 18 // amount to show
   .org 0x09A5EF5C
-    .dh 10240      //
+    .dh 8880       //
   .org 0x09A5F3A8  // these deal with block size
-    .dh 10224      // and quest ID positions...
+    .dh 8864       // and quest ID positions...
   .org 0x09A69508  //
-    .dh 10240      //
+    .dh 8880       //
   // fix player/password alignment a little....
   .org 0x09A654D0
     .dh 412        // amount of players X pos 
