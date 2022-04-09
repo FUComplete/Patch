@@ -1,6 +1,15 @@
 *.pac
 *.ovl
+*.at3
+*.tmh
 BOOT.BIN
 UIBOOT.BIN
 armips
 uirescale/
+iso/
+tools/
+env/
+data/en
+data/quests
+data/fu
+build/

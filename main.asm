@@ -6,16 +6,23 @@
     .include "asm/equipdetails.asm"
     // .include "asm/hallid.asm"
     .include "asm/hud.asm"
+    .include "asm/optionsmenu.asm"
     .include "asm/savedata.asm"
   .close
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
     .include "asm/trainhall_ovl.asm"
+  .close
+  .open "binary/overlay/demo_task.ovl","build/overlay/demo_task.ovl",0x09A5A580
+    .include "asm/mainmenu_ovl.asm"
   .close
   .open "binary/overlay/install_task.ovl","build/overlay/install_task.ovl",0x09A5A580
     .include "asm/datainstall_ovl.asm"
   .close
   .open "binary/overlay/lobby_task.ovl","build/overlay/lobby_task.ovl",0x09A5A580
     .include "asm/guildhall_ovl.asm"
+  .close
+  .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
+    .include "asm/optionsmenu_ovl.asm"
   .close
   // .open "data/str_tbl.pac","build/str_tbl.pac",0x089C7510
   //   .include "asm/quest_table.asm"
@@ -46,6 +53,9 @@
   // Overlay specific changes
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
     .include "asm/trainhall_ovl.asm"
+  .close
+  .open "binary/overlay/demo_task.ovl","build/overlay/demo_task.ovl",0x09A5A580
+    .include "asm/mainmenu_ovl.asm"
   .close
   .open "binary/overlay/edit_task.ovl","build/overlay/edit_task.ovl",0x09A5A580
     .include "asm/charcreate_ovl.asm"
