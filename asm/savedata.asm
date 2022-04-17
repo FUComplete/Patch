@@ -8,11 +8,11 @@
     .ascii "ULJM05500MOD"
   // Increase decrypt block and decrease quest block size
   .org 0x088C2C50
-    .dh 10224 // quest block
+    .dh 8864  // quest block
   .org 0x088C2CD8
-    .dh 14    // quests to decrypt
+    .dh 18    // quests to decrypt
   .org 0x088C2CE0
-    .dh 10240 // quest ID
+    .dh 8880 // quest ID
 .else
   .org 0x08997238
     .ascii "ULUS10391MOD"
