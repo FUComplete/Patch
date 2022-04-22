@@ -2,6 +2,8 @@
   .include "asm/addresses.asm"
 .ifdef jp
   .open "binary/BOOT.BIN","build/BOOT.BIN",0x08801A4C
+//     .include "asm/bonus_misc.asm"
+//     .include "asm/bonus_titles.asm"
     .include "asm/crypto_databin.asm"
     .include "asm/equipdetails.asm"
     // .include "asm/hallid.asm"
@@ -12,13 +14,22 @@
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
     .include "asm/trainhall_ovl.asm"
   .close
+  // .open "binary/overlay/cont_task.ovl","build/overlay/cont_task.ovl",0x09A5A580
+  //   .include "asm/bonus_renopts.asm"
+  // .close
   .open "binary/overlay/demo_task.ovl","build/overlay/demo_task.ovl",0x09A5A580
     .include "asm/mainmenu_ovl.asm"
+  .close
+  // .open "binary/overlay/game_sub.ovl","build/overlay/game_sub.ovl",0x09C14280
+  //   .include "asm/bonus_misc_ovl.asm"
+  //   .include "asm/bonus_palico.asm"
   .close
   .open "binary/overlay/install_task.ovl","build/overlay/install_task.ovl",0x09A5A580
     .include "asm/datainstall_ovl.asm"
   .close
   .open "binary/overlay/lobby_task.ovl","build/overlay/lobby_task.ovl",0x09A5A580
+    // .include "asm/bonus_poogies.asm"
+    // .include "asm/bonus_trenya.asm"
     .include "asm/guildhall_ovl.asm"
   .close
   .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
@@ -27,8 +38,13 @@
   // .open "data/str_tbl.pac","build/str_tbl.pac",0x089C7510
   //   .include "asm/quest_table.asm"
   // .close 
+  .open "build/audio/SN_LBY_0.at3",0x08B6E880
+    .include "asm/trainhall_aud.asm"
+  .close
 .else
   .open "binary/BOOT.BIN","build/BOOT.BIN",0x08801A4C
+    // .include "asm/bonus_misc.asm"
+    // .include "asm/bonus_titles.asm"
     .include "asm/characterencode.asm"
     .include "asm/crypto_databin.asm"
     .include "asm/savedata.asm"
@@ -54,6 +70,9 @@
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
     .include "asm/trainhall_ovl.asm"
   .close
+  // .open "binary/overlay/cont_task.ovl","build/overlay/cont_task.ovl",0x09A5A580
+  //   .include "asm/bonus_renopts.asm"
+  // .close
   .open "binary/overlay/demo_task.ovl","build/overlay/demo_task.ovl",0x09A5A580
     .include "asm/mainmenu_ovl.asm"
   .close
@@ -62,11 +81,15 @@
   .close
   .open "binary/overlay/game_sub.ovl","build/overlay/game_sub.ovl",0x09C14280
     .include "asm/kitchen_ovl.asm"
+    // .include "asm/bonus_misc_ovl.asm"
+    // .include "asm/bonus_palico.asm"
   .close
   .open "binary/overlay/install_task.ovl","build/overlay/install_task.ovl",0x09A5A580
     .include "asm/datainstall_ovl.asm"
   .close
   .open "binary/overlay/lobby_task.ovl","build/overlay/lobby_task.ovl",0x09A5A580
+    // .include "asm/bonus_poogies.asm"
+    // .include "asm/bonus_trenya.asm"
     .include "asm/guildhall_ovl.asm"
     .include "asm/armorcolor_ovl.asm"
     .include "asm/bedsave_ovl.asm"
@@ -83,4 +106,7 @@
   // .open "data/str_tbl.pac","build/str_tbl.pac",0x089C7510
   //   .include "asm/quest_table.asm"
   // .close
+  .open "build/audio/SN_LBY_0.at3",0x08B6E880
+    .include "asm/trainhall_aud.asm"
+  .close
 .endif

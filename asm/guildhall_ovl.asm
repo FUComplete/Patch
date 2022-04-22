@@ -47,10 +47,17 @@
 .endif
 // Quest amount/block size 
 .org 0x09A822EC
-  .dh 18      // Amount of quests to read
+  .dh 38      // Amount of quests to read
 .org 0x09A83510
   .dh 8880    // Quest block size
 .org 0x09A835B4
-  .dh 18      // Amount of quests
+  .dh 38      // Amount of quests
 .org 0x09A83618
   .dh 8864    // Quest ID
+// Quest realocation
+.org 0x09A834F8
+  j     0x09A83508
+  lui   v0,0x8CD
+.org 0x09A83508
+  lui   at,0x0
+  ori   at,at,0x3EC0

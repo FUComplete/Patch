@@ -98,6 +98,7 @@ python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0015 "$DATA_DIR/str_tbl.pa
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0017 "$DATA_DIR/demo.tmh"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0043 "$OVL_DIR/demo_task.ovl"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0044 "$OVL_DIR/edit_task.ovl"
+python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0045 "$OVL_DIR/cont_task.ovl"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0046 "$OVL_DIR/option_task.ovl"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0049 "$OVL_DIR/install_task.ovl"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0050 "$OVL_DIR/lobby_task.ovl"
