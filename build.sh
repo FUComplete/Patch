@@ -34,13 +34,13 @@ cp "$DATA_DIR/SN_LBY_0.at3" "$BUILD_DIR/audio"
 cp "$DATA_DIR/SV_SHYUK.at3" "$BUILD_DIR/audio"
 dd conv=notrunc bs=1 if="$BUILD_DIR/challenge_tbl_en.bin" of="$BUILD_DIR/audio/SN_LBY_0.at3" seek=221328
 dd conv=notrunc bs=1 if="$BUILD_DIR/event_tbl_en.bin" of="$BUILD_DIR/audio/SV_SHYUK.at3" seek=1392144
-# Apply code changes
-"$WORKDIR/armips" "$WORKDIR/main.asm"
 # Copy english translated files
 mkdir -p "$BUILD_DIR/quests" && find data/en -type f \( -iname \*.mib \) | xargs cp -t "$BUILD_DIR/quests"
 mkdir -p "$BUILD_DIR/text" && find data/en -type f \( -iname \*.pac -o -iname \*.bin \) | xargs cp -t "$BUILD_DIR/text"
 mkdir -p "$BUILD_DIR/pmf" && find data/fu -type f \( -iname \*.pmf \) | xargs cp -t "$BUILD_DIR/pmf"
 mkdir -p "$BUILD_DIR/gfx" && find data/fu -type f \( -iname \*.PNG -o -iname \*.tmh \) | xargs cp -t "$BUILD_DIR/gfx"
+# Apply code changes
+"$WORKDIR/armips" "$WORKDIR/main.asm"
 # Apply credits/nekofix 
 xdelta3 -dfs "$FU_DATA/demo.tmh" "$PATCHES/credits_en.xdelta" "$BUILD_DIR/gfx/demo.tmh"
 xdelta3 -dfs "$DATA_DIR/guild.tmh" "$PATCHES/nekofix.xdelta" "$BUILD_DIR/gfx/guild.tmh"
@@ -64,13 +64,13 @@ cp "$DATA_DIR/SN_LBY_0.at3" "$BUILD_DIR/audio"
 cp "$DATA_DIR/SV_SHYUK.at3" "$BUILD_DIR/audio"
 dd conv=notrunc bs=1 if="$BUILD_DIR/challenge_tbl.bin" of="$BUILD_DIR/audio/SN_LBY_0.at3" seek=221328
 dd conv=notrunc bs=1 if="$BUILD_DIR/event_tbl.bin" of="$BUILD_DIR/audio/SV_SHYUK.at3" seek=1392144
-# Apply code changes
-"$WORKDIR/armips" "$WORKDIR/main.asm" -definelabel jp 0
 # Create directories
 mkdir -p "$BUILD_DIR/text"
 mkdir -p "$BUILD_DIR/gfx"
 # Trim str_tbl.pac
 xdelta3 -dfs "$DATA_DIR/str_tbl.pac" "$PATCHES/str_tbl_trim.xdelta" "$BUILD_DIR/text/str_tbl.pac"
+# Apply code changes
+"$WORKDIR/armips" "$WORKDIR/main.asm" -definelabel jp 0
 # Apply credits/nekofix 
 xdelta3 -dfs "$DATA_DIR/demo.tmh" "$PATCHES/credits.xdelta" "$BUILD_DIR/gfx/demo.tmh"
 xdelta3 -dfs "$DATA_DIR/guild.tmh" "$PATCHES/nekofix.xdelta" "$BUILD_DIR/gfx/guild.tmh"
