@@ -107,6 +107,15 @@ python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0056 "$OVL_DIR/game_sub.ov
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 0059 "$DATA_DIR/guild.tmh"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 6594 "$DATA_DIR/SV_SHYUK.at3"
 python "$TOOLS/mhff/psp/data.py" x "$ISO/P2GDATA.BIN" 6598 "$DATA_DIR/SN_LBY_0.at3"
+# Truncate the files because mhff adds extra data at the end on single file extractions...
+truncate --size=64512 "$OVL_DIR/arcade_task.ovl"
+truncate --size=2816 "$OVL_DIR/cont_task.ovl"
+truncate --size=6528 "$OVL_DIR/demo_task.ovl"
+truncate --size=36352 "$OVL_DIR/edit_task.ovl"
+truncate --size=926848 "$OVL_DIR/game_task.ovl"
+truncate --size=12800 "$OVL_DIR/install_task.ovl"
+truncate --size=722560 "$OVL_DIR/lobby_task.ovl"
+truncate --size=6400 "$OVL_DIR/option_task.ovl"
 cd "$WORKDIR"
 # Patch P2G DATA.BIN with English patched files, then extract
 if [ ! -f "$FUC_EN/quest_str.pac" ]; then
