@@ -1,3 +1,5 @@
+.ifdef jp
+.else
 // Various shop UI changes
 // Smithy
 .org SmithyArmTypeViewTxtY
@@ -19,3 +21,9 @@
 .org ItmShopBuyAmtArwDwPos
   .dh 222     // X pos
   .dh 80      // Y pos
+.endif
+// Auto enable equipment previews
+.org 0x09A80C78
+  sb     a1,0x2c(a0)
+.org 0x09A80E14
+  .dh 0xF

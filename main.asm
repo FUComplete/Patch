@@ -31,6 +31,7 @@
     .include "asm/bonus_poogies.asm"
     .include "asm/bonus_trenya.asm"
     .include "asm/guildhall_ovl.asm"
+    .include "asm/shops_ovl.asm"
   .close
   .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
     .include "asm/optionsmenu_ovl.asm"
