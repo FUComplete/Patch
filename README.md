@@ -21,7 +21,7 @@ FUComplete also brings many QoL improvements, including:
 
 There is also an optional patch called `DosAudio`, which swaps several battle themes with ones featured in MH2Dos (Monster Hunter 2 Dos) - more information below.
 
-# Applying the FUC Patch
+# Applying the Patch
 
 Download the [latest patch](https://github.com/FUComplete/Patch/releases/latest).
 
@@ -36,7 +36,7 @@ Drag and drop your ISO of P2G onto the `FUComplete` app. It'll start the patchin
 
 You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese). After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
 
-# Building FUC Yourself
+# Building
 
 Dependencies *(Ubuntu/Debian)*:
 * build-essential
