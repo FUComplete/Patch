@@ -2,8 +2,6 @@
 <h1>FUComplete</h1>
 </div>
 
-FUComplete is a modification of P2G (Portable 2nd G) with the localization from FU ported along with translations of the various event quests/equipments. Event quests are built-in and you can load FU/F2 saves without conversion... also because P2G code base is being used, you also get: 
-
 FUComplete is a modification of the game MHP2G (Portable 2nd G).
 
 It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any file modification.<br/>It translates the game's language from Japanese into English using MHFU's localization data.<br/>This allows users who do not understand Japanese to enjoy the previously JP-exclusive additions and changes, including:
