@@ -2,7 +2,7 @@
 <h1>FUComplete</h1>
 </div>
 
-FUComplete is a modification of the game MHP2G (Portable 2nd G).
+FUComplete is a modification of the game MHP2G (Portable 2nd G). It supports both official PSP hardware and emulation.
 
 It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any save conversion. It can also translate the game's language from Japanese into English using MHFU's localization data, which allows users who do not understand Japanese to enjoy the previously JP-exclusive features, such as:
 
