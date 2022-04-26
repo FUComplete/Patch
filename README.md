@@ -4,18 +4,18 @@
 
 FUComplete is a modification of the game MHP2G (Portable 2nd G).
 
-It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any file modification.<br/>It can also translate the game's language from Japanese into English using MHFU's localization data.<br/>This allows users who do not understand Japanese to enjoy the previously JP-exclusive additions and changes, including:
+It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any save conversion. It can also translate the game's language from Japanese into English using MHFU's localization data, which allows users who do not understand Japanese to enjoy the previously JP-exclusive features, such as:
 
 * "Standard" control layout (X/O are swapped, meaning O = Accept / X = Cancel)
 * Uncensored, original blood effects (In MHF2/MHFU, the blood effects were scaled down)
-* Original Japanese version of the Snowy Mountains battle theme [https://youtu.be/_8b8huJne1I]
-* 10 Japanese-exclusive downloadable quests (Featuring full English translations with FUComplete)
+* Original Japanese version of the [Snowy Mountains battle theme](https://youtu.be/_8b8huJne1I)
+* 10 Japanese-exclusive downloadable quests (English translations with FUComplete)
 * Japanese-exclusive poogie costume
 
-FUComplete also features many QoL improvements, such as:
+FUComplete also brings many QoL improvements, including:
 
 * All DLC (Event Quests, Challenge Quests, Bonus Material) is embedded into the game at the same time
-* Cross-play compatibility with vanilla/unmodded versions of MHF2/MHP2G/MHFU
+* Cross-play compatibility with vanilla/unmodded versions of MHP2G/MHFU
 * Equipment preview is auto-enabled, so no more Data Install!
 * Several bonus cheats (some of which are only compatible with emulators, see below for more information)
 
