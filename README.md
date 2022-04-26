@@ -111,6 +111,10 @@ The patch changes the following battle themes:
 
 The `CQUESTS.TXT` file contains info on each challenge fiesta quest so refer to that if you would like to know the specifics about them.
 
+### Why wont the patch pick up my FU save even though I selected `en`?
+
+If you are playing the EU version of FU (`ULES01213`), please rename the save folder to `ULUS10391`.
+
 ### Why can't my P2G save load (`EN`)? Why can't my FU save load (`JP`)?
 
 For `EN`, to easily allow FU players to migrate to this patch the savedata decrypt and encrypt method was change to match that of FUs.
