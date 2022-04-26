@@ -4,7 +4,7 @@
 
 FUComplete is a modification of the game MHP2G (Portable 2nd G).
 
-It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any file modification.<br/>It translates the game's language from Japanese into English using MHFU's localization data.<br/>This allows users who do not understand Japanese to enjoy the previously JP-exclusive additions and changes, including:
+It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any file modification.<br/>It can also translate the game's language from Japanese into English using MHFU's localization data.<br/>This allows users who do not understand Japanese to enjoy the previously JP-exclusive additions and changes, including:
 
 * "Standard" control layout (X/O are swapped, meaning O = Accept / X = Cancel)
 * Uncensored, original blood effects (In MHF2/MHFU, the blood effects were scaled down)
