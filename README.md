@@ -2,13 +2,24 @@
 <h1>FUComplete</h1>
 </div>
 
-FUComplete is a modification of P2G (Portable 2nd G) with the localization from FU ported along with translations of the various event quests/equipments. Event quests are built-in and you can load FU/F2 saves without conversion... also because P2G code base is being used, you also get: 
+FUComplete is a modification of the game MHP2G (Portable 2nd G).
 
-* "Standard" control layout (X/O swap)
-* Uncensored blood
-* Japanese exclusive poogie
+It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any save conversion. It can also translate the game's language from Japanese into English using MHFU's localization data, which allows users who do not understand Japanese to enjoy the previously JP-exclusive features, such as:
 
-Right now there's only one optional patch, `DosAudio` which restores the original battle themes from Dos.
+* "Standard" control layout (X/O are swapped, meaning O = Accept / X = Cancel)
+* Uncensored, original blood effects (In MHF2/MHFU, the blood effects were scaled down)
+* Original Japanese version of the [Snowy Mountains battle theme](https://youtu.be/_8b8huJne1I)
+* 10 Japanese-exclusive downloadable quests (English translations with FUComplete)
+* Japanese-exclusive poogie costume
+
+FUComplete also brings many QoL improvements, including:
+
+* All DLC (Event Quests, Challenge Quests, Bonus Material) is embedded into the game at the same time
+* Cross-play compatibility with vanilla/unmodded versions of MHP2G/MHFU
+* Equipment preview is auto-enabled, so no more Data Install!
+* Several bonus cheats (some of which are only compatible with emulators, see below for more information)
+
+There is also an optional patch called `DosAudio`, which swaps several battle themes with ones featured in MH2Dos (Monster Hunter 2 Dos) - more information below.
 
 # Patching
 
@@ -23,7 +34,7 @@ PSN - MD5: cc39d070b2d2c44c9ac8187e00b75dc4
 
 Drag and drop your ISO of P2G onto the `FUComplete` app. It'll start the patching process.
 
-You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese). After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
+You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese).</br>After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
 
 After that is done the next steps depend on if you selected English or Japanese.
 
