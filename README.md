@@ -21,7 +21,7 @@ FUComplete also brings many QoL improvements, including:
 
 There is also an optional patch called `DosAudio`, which swaps several battle themes with ones featured in MH2Dos (Monster Hunter 2 Dos) - more information below.
 
-# Patching
+# Applying the FUC Patch
 
 Download the [latest patch](https://github.com/FUComplete/Patch/releases/latest).
 
@@ -36,9 +36,9 @@ Drag and drop your ISO of P2G onto the `FUComplete` app. It'll start the patchin
 
 You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese). After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
 
-# Building
+# Building FUC Yourself
 
-Dependancies *(Ubuntu/Debian)*:
+Dependencies *(Ubuntu/Debian)*:
 * build-essential
 * python3
 * python-is-python3
@@ -57,19 +57,19 @@ Run `./setup.sh` and wait for it to finish... once finished then run either `./b
 The patched image will be located in `build/FUC_(EN/JP).iso`.
 
 
-# Codes
+# Optional Cheat Codes
 
 You will find these codes in the `ULJM05500.ini` included in the release and updates to them [here](https://github.com/FUComplete/Patch/wiki/Enhancements-and-BonusDLC). To use these either merge the file into your existing cheats file or place it in `memstick/PSP/Cheats` if on PPSSPP and enable cheats.
 
 ### Guildhall QoL
 
-This code ONLY works on emulator, its unstable on real hardware. What this code does if give you some "Quality of Life" improvements to Guildhall. It has the following changes:
+This code ONLY works on an emulator, as it's unstable on real hardware. What this code does is give you some "Quality of Life" improvements to the Guildhall. It has the following changes:
 
-- Full chest access. This is the same chest thats in your home except now you have full access to it in Guildhall (**OFFLINE ONLY**)
-- The NPC by the questboard in guildhall now allows you to create/improve your equipment. (**OFFLINE ONLY**)
-- The felyne between the table and Treshi in guildhall now has a new peddler shop menu. This menu is separate from granny peddler outside the hall and doesnt affect when items go on sale or the table rotations themselves. It is the combination of all peddler tables into one static table. (**ONLINE/OFFLINE**)
+- Full chest access. This is the same chest that's in your home except now you have full access to it in the Guildhall. (**OFFLINE ONLY**)
+- The NPC by the questboard in the Guildhall now allows you to create/improve your equipment. (**OFFLINE ONLY**)
+- The felyne between the table and Treshi in the Guildhall now has a custom peddler shop menu. This menu is separate from the Peddling Granny outside the hall, and doesn't share her random discount sales or rotating items. This means that if you want item cycling or random discount sales, the original Peddling Granny is required. It is the combination of all peddler tables into one static table. (**ONLINE/OFFLINE**)
 
-The reason why the new smithy/full chest codes are offline only is due to a limitation of the game which can lead to crashing or unintended results.
+The reason why the new smithy/full chest codes are offline only is due to a limitation of the game, which can lead to crashing or unintended results.
 
 ### HUD off above 40 HP
 
@@ -87,7 +87,7 @@ Changes the "scale" of the minimap to either 75% or 50% of its original size. On
 
 ### Why use P2G as a base and not FU? 
 
-Due to issues with finding translators for the various langauges and having memory limit issues, it was decided to move to P2G as I didnt have to worry about more than one language and I had significantly more memory to play with.
+Due to issues with finding translators for the various langauges and having memory limit issues, it was decided to move to P2G as I didn't have to worry about more than one language and I had significantly more memory to play with.
 
 ### When I try to patch the game it says "Invalid ISO"?
 
@@ -109,7 +109,7 @@ The patch changes the following battle themes:
 
 ### Is there info on what the challenge/fiesta quests are? Can't see what the quest details are from the selection screen.
 
-The `CQUESTS.TXT` file contains info on each challenge fiesta quest so refer to that if you would like to know the specifics about them.
+The `CQUESTS.TXT` file contains info on each challenge/fiesta quest, so refer to that if you would like to know the specifics about them.
 
 ### Why wont the patch pick up my FU save even though I selected `en`?
 
@@ -123,7 +123,7 @@ For `JP`, there's really no reason to use FU saves when the Japanese language is
 
 ### I used the Guildhall QoL code and I can't access smithy/full chest in hall?
 
-With the way the game works with adhoc play, If a player changes equipment in hall theres a very high chance of a crash... Even if the player manages to get to the point of embarking on a quest, when it validates what gear the player had it will visually show you having switched... but will still have the gear you had on when you initially joined the hall. For this reason smithy/full chest are blocked from online play and are OFFLINE ONLY.
+With the way the game works with Adhoc play, If a player changes equipment in the Guildhall there's a very high chance of a crash... Even if the player manages to get to the point of embarking on a quest, when it validates what gear the player had it will visually show you having switched... But will still have the gear you had on when you initially joined the Guildhall. For this reason, smithy/full chest are blocked from online play and are OFFLINE ONLY.
 
 # Credits and Thanks
 
