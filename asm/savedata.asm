@@ -14,6 +14,19 @@
   .org 0x088C2CE0
     .dh 8880 // quest ID
 .else
+// EUR GameID
+  // .org 0x08997238
+  //   .ascii "ULES01213MOD"
+  // .org 0x0899727C
+  //   .ascii "ULES01213MOD"
+  // .org 0x089AE784
+  //   .ascii "ULES01213"
+  // .org 0x089AF904
+  //   .ascii "ULES01213"
+  // .org 0x089AFF58
+  //   .ascii "ULES01213"
+  // .org 0x089AFF74
+  //   .ascii "ULES01213MOD"
   .org 0x08997238
     .ascii "ULUS10391MOD"
   .org 0x0899727C
@@ -99,6 +112,9 @@
   // GameID
   .org 0x089B0070
     .ascii "ULUS10266"
+  // EUR GameID
+  // .org 0x089B0070
+  //   .ascii "ULES00851"
   // Key
   .org 0x088C3F0C
     .dh 0xB9

@@ -5,6 +5,9 @@
 .else
   .org DataInstallDir
     .ascii "ULUS10391MOD"
+  // EUR GameID
+  // .org DataInstallDir
+  //   .ascii "ULES01213MOD"
   // small changes to fix some yes/no
   // prompts and path
   .org DataInstallCfrm1X
