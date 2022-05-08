@@ -34,7 +34,11 @@ PSN - MD5: cc39d070b2d2c44c9ac8187e00b75dc4
 
 Drag and drop your ISO of P2G onto the `FUComplete` app. It'll start the patching process.
 
-You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese). After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
+You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese). 
+
+If you choose `EN` you'll additionally be asked which region savedata to load, either `US` (ULUS10391) or `EU` (ULES01213). 
+
+After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
 
 # Building
 
@@ -81,7 +85,7 @@ Changes the "scale" of the minimap to either 75% or 50% of its original size. On
 
 ### True Raw/Ele/Status
 
-"Debloats" the Raw, Element and Status values of all weapons. Similar feature like in Portable 3rd where you had the true value listed. There's 2 versions depending on which language you patched, if English choose `EN` else if Japanese choose `JP`.
+"Debloats" the Raw, Element and Status values of all weapons. Similar feature like in Portable 3rd where you had the true value listed.
 
 # FAQ
 
@@ -110,10 +114,6 @@ The patch changes the following battle themes:
 ### Is there info on what the challenge/fiesta quests are? Can't see what the quest details are from the selection screen.
 
 The `CQUESTS.TXT` file contains info on each challenge/fiesta quest, so refer to that if you would like to know the specifics about them.
-
-### Why wont the patch pick up my FU save even though I selected `en`?
-
-If you are playing the EU version of FU (`ULES01213`), please rename the save folder to `ULUS10391`.
 
 ### Why can't my P2G save load (`EN`)? Why can't my FU save load (`JP`)?
 
