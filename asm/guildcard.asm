@@ -1,29 +1,29 @@
-// Guildcard UI
-// Use English OSK only 
+; Guildcard UI
+; Use English OSK only 
 .org GCDescriptOSKType
   .db 0x2
-// Fix character width from full to half
+; Fix character width from full to half
 .org GCEditCharWidth
   sllv      v0,v0,zero
 .org GCCharWidth
   sllv      v0,v0,zero
-// Make it so that text takes the full width of the box...
-// GCEdit
+; Make it so that text takes the full width of the box...
+; GCEdit
 .org 0x088F8C84
   andi      v1,s3,0x1F
 .org 0x088F8CAC
   sra       v0,s3,0x5
-// GC
+; GC
 .org 0x088FA0BC
   andi      v1,s3,0x1F
 .org 0x088FA0E4
   sra       v0,s3,0x5
-// Hunter Diary page
+; Hunter Diary page
 .org GCHunterDiaryClrWepX
   .dh 180
 .org GCHunterDiaryImprvWepX
   .dh 116
-// Felyne Diary
+; Felyne Diary
 .org GCFelyneDiaryTxtAlign1
   .dh 128
 .org GCFelyneDiaryMaxFondTxtX
@@ -38,19 +38,19 @@
   .dh 392
 .org GCFelyneDiaryComradeTxtY
   .dh 212
-// Treasure
+; Treasure
 .org GCTreasureAreaStrPTR
   li        v1,0x089A9A68
 .org GCTreasureAreaCharLimit
   sb        zero,0x94(v0)
 .org GCTreasureAreaSTRID
-  .dh 1   // Mountains
-  .dh 2   // Jungle
-  .dh 3   // Desert
-  .dh 4   // Swamp
-  .dh 5   // Forest&Hills
-  .dh 6   // Volcano
-  .dh 7   // Great Forest
+  .dh 1   ; Mountains
+  .dh 2   ; Jungle
+  .dh 3   ; Desert
+  .dh 4   ; Swamp
+  .dh 5   ; Forest&Hills
+  .dh 6   ; Volcano
+  .dh 7   ; Great Forest
 .org GCTreasureColX
   .dh 312
 .org GCTreasurePTValLeftBG

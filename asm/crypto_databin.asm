@@ -1,5 +1,5 @@
-// Crypto for DATA.BIN
-// NULL Keys
+; Crypto for DATA.BIN
+; NULL Keys
 .org DATABINCryptoDef1_1
   .dh 0x0
 .org DATABINCryptoDef1_2
@@ -12,6 +12,6 @@
   .dh 0x0
 .org DATABINCryptoMod2
   .dh 0x0
-// Rewrite Sub Table
+; Rewrite Sub Table
 .org DATABINCryptoSubTable
   .import "data/databin.crypt"

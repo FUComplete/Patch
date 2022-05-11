@@ -1,4 +1,4 @@
-// Chest combine 
+; Chest combine 
 .org ChestCombSelectTxtBX
   .dh 30
 .org ChestCombSelectTxtAX
@@ -15,12 +15,12 @@
   .dh 182
 .org ChestCombineTxtBPos
   .dh 64
-// Armor color fixes for english
+; Armor color fixes for english
 .org ArmColorBGScl
   .dh 19
-// Chest arrange item/equip sub menu wider width
+; Chest arrange item/equip sub menu wider width
 .org ChestArrangeSubBoxScl
   .dh 9
-// Chest place "amount" into inventory
+; Chest place "amount" into inventory
 .org ChestMoveAmtTxtPos
   .dh 230

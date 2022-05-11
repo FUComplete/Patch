@@ -1,4 +1,4 @@
-// Fix various ID and folder names
+; Fix various ID and folder names
 .ifdef jp
   .org 0x08997238
     .ascii "ULJM05500MOD"
@@ -6,27 +6,27 @@
     .ascii "ULJM05500MOD"
   .org 0x089AFF74
     .ascii "ULJM05500MOD"
-  // Increase decrypt block and decrease quest block size
+  ; Increase decrypt block and decrease quest block size
   .org 0x088C2C50
-    .dh 8864  // quest block
+    .dh 8864  ; quest block
   .org 0x088C2CD8
-    .dh 18    // quests to decrypt
+    .dh 18    ; quests to decrypt
   .org 0x088C2CE0
-    .dh 8880 // quest ID
+    .dh 8880 ; quest ID
 .else
-// EUR GameID
-  // .org 0x08997238
-  //   .ascii "ULES01213MOD"
-  // .org 0x0899727C
-  //   .ascii "ULES01213MOD"
-  // .org 0x089AE784
-  //   .ascii "ULES01213"
-  // .org 0x089AF904
-  //   .ascii "ULES01213"
-  // .org 0x089AFF58
-  //   .ascii "ULES01213"
-  // .org 0x089AFF74
-  //   .ascii "ULES01213MOD"
+; EUR GameID
+  ; .org 0x08997238
+  ;   .ascii "ULES01213MOD"
+  ; .org 0x0899727C
+  ;   .ascii "ULES01213MOD"
+  ; .org 0x089AE784
+  ;   .ascii "ULES01213"
+  ; .org 0x089AF904
+  ;   .ascii "ULES01213"
+  ; .org 0x089AFF58
+  ;   .ascii "ULES01213"
+  ; .org 0x089AFF74
+  ;   .ascii "ULES01213MOD"
   .org 0x08997238
     .ascii "ULUS10391MOD"
   .org 0x0899727C
@@ -39,10 +39,10 @@
     .ascii "ULUS10391"
   .org 0x089AFF74
     .ascii "ULUS10391MOD"
-  // Change key to match MHFU
+  ; Change key to match MHFU
   .org 0x089AFF98
     .ascii "3Nc94Hq1zOLh8d62Sb69"
-  // Need to make this cleaner...
+  ; Need to make this cleaner...
   .org 0x088C2384
     .dh 0x4A
   .org 0x088C23A4
@@ -75,7 +75,7 @@
     .dh 0x7B
   .org 0x088C2418
     .dh 0xB3
-  // Because we need to have the key stored twice...
+  ; Because we need to have the key stored twice...
   .org 0x088C40A4
     .dh 0x4A
   .org 0x088C40C4
@@ -108,14 +108,14 @@
     .dh 0x7B
   .org 0x088C4138
     .dh 0xB3
-  // MHF2 Save Import Key/Folder swap
-  // GameID
+  ; MHF2 Save Import Key/Folder swap
+  ; GameID
   .org 0x089B0070
     .ascii "ULUS10266"
-  // EUR GameID
-  // .org 0x089B0070
-  //   .ascii "ULES00851"
-  // Key
+  ; EUR GameID
+  ; .org 0x089B0070
+  ;   .ascii "ULES00851"
+  ; Key
   .org 0x088C3F0C
     .dh 0xB9
   .org 0x088C3F2C
@@ -148,7 +148,7 @@
     .dh 0xE9
   .org 0x088C3FA0
     .dh 0xAB
-  // Modify SaveData PARAM.SFO strings to english
+  ; Modify SaveData PARAM.SFO strings to english
   .org ParamSFOStr
     .ascii  "Monster Hunter Freedom Unite"
     .fill   12,0
@@ -156,11 +156,11 @@
     .fill   7,0
     .ascii  "Game Data for Monster Hunter Freedom Unite."
     .fill   17,0
-  // Increase decrypt block and decrease quest block size
+  ; Increase decrypt block and decrease quest block size
   .org 0x088C2C50
-    .dh 8864  // quest block
+    .dh 8864  ; quest block
   .org 0x088C2CD8
-    .dh 18    // quests to decrypt
+    .dh 18    ; quests to decrypt
   .org 0x088C2CE0
-    .dh 8880 // quest ID
+    .dh 8880 ; quest ID
 .endif

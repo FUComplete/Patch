@@ -1,11 +1,11 @@
 .ifdef jp
-  // This handles page selector format
+  ; This handles page selector format
   .org EquipDetailPgTxtFmt
     .ascii "%2d/%d "
 .else
   .org EquipDetailPgTxtFmt
     .ascii "%2d/%d "
-  // Equipment Details UI
+  ; Equipment Details UI
   .org EquipDetailResValX
     .dh 84
   .org EquipDetailArmSeriesX

@@ -6,7 +6,7 @@
     .include "asm/bonus_titles.asm"
     .include "asm/crypto_databin.asm"
     .include "asm/equipdetails.asm"
-    // .include "asm/hallid.asm"
+    ; .include "asm/hallid.asm"
     .include "asm/hud.asm"
     .include "asm/optionsmenu.asm"
     .include "asm/savedata.asm"
@@ -49,12 +49,12 @@
     .include "asm/characterencode.asm"
     .include "asm/crypto_databin.asm"
     .include "asm/savedata.asm"
-    // .include "asm/str_equipment.asm"
+    ; .include "asm/str_equipment.asm"
     .include "asm/abandonquest.asm"
     .include "asm/bedsave.asm"
     .include "asm/equipdetails.asm"
     .include "asm/guildcard.asm"
-    // .include "asm/hallid.asm"
+    ; .include "asm/hallid.asm"
     .include "asm/invcombine.asm"
     .include "asm/itemwheel.asm"
     .include "asm/mainmenu.asm"
@@ -67,7 +67,7 @@
     .include "asm/optionsmenu.asm"
     .include "asm/unknown.asm"
   .close
-  // Overlay specific changes
+  ; Overlay specific changes
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
     .include "asm/trainhall_ovl.asm"
   .close
@@ -103,7 +103,7 @@
   .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
     .include "asm/optionsmenu_ovl.asm"
   .close
-  // str_tbl.bin related additions
+  ; str_tbl.bin related additions
   .open "build/text/str_tbl.pac",0x089C7510
     .include "asm/bonus_extpat.asm"
   .close

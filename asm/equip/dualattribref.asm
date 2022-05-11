@@ -1,0 +1,15 @@
+.definelabel SnowVenomAttrib,0x08976C54
+.definelabel SnowVenomPlusAttrib,0x08976C5E
+.definelabel GlacialMedusaAttrib,0x08976C68
+.definelabel FirestormAttrib,0x08976C72
+.definelabel VolcanicStormAttrib,0x08976C7C
+.definelabel FestiveFallTyphoonAttrib,0x08976C86
+.definelabel FestiveRustlingRainAttrib,0x08976C90
+.definelabel MeltingWailAttrib,0x08976C9A
+.definelabel MeltingWailPlusAttrib,0x08976CA4
+.definelabel MeltingBlazerAttrib,0x08976CAE
+.definelabel UltimusCelestialsAttrib,0x08976CB8
+.definelabel UltimusApocalypseAttrib,0x08976CC2
+.definelabel TwinNailsAttrib,0x08976CCC
+.definelabel TwinNailsPlusAttrib,0x08976CD6
+.definelabel FireandIceAttrib,0x08976CE0

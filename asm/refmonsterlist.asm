@@ -1,4 +1,4 @@
-// Monster List UI (In "Reference" Menu)
+; Monster List UI (In "Reference" Menu)
 .org MonListMaxCrownX
   .dh 78
 .org MonListMinCrownX
@@ -8,6 +8,6 @@
 .org MonListIconX
   .dh 172
 .org MonListWinPos
-  .dh 224   // X pos
+  .dh 224   ; X pos
 .org MonListWinScl
   .dh 33

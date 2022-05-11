@@ -1,3 +1,3 @@
-// Pause Menu
+; Pause Menu
 .org PauseMenuTextX
   .dh 216

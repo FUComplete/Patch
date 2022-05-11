@@ -1,4 +1,4 @@
-// Wandering Felyne Chef check fix
+; Wandering Felyne Chef check fix
 .org 0x08A4A4F0
   li    a1,0x7FF
   sll   a1,a1,16

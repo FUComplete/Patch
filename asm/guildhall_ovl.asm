@@ -1,16 +1,16 @@
-// Modify the read address for quest table to
-// a new location (0x08A32510)
+; Modify the read address for quest table to
+; a new location (0x08A32510)
 .ifdef jp
-  // .org 0x09A84A94
-  //   .dh 0x8A4
-  // .org 0x09A84A9C
-  //   .dh 0x7510
+  ; .org 0x09A84A94
+  ;   .dh 0x8A4
+  ; .org 0x09A84A9C
+  ;   .dh 0x7510
 .else
-  // .org 0x09A84A94
-  //   .dh 0x8A3
-  // .org 0x09A84A9C
-  //   .dh 0x2510
-// Gathering Hall room selectiom window
+  ; .org 0x09A84A94
+  ;   .dh 0x8A3
+  ; .org 0x09A84A9C
+  ;   .dh 0x2510
+; Gathering Hall room selectiom window
   .org GHRoomSelBGX
     .dh 77
   .org GHRoomSelBGY
@@ -30,31 +30,31 @@
     .dh 255
   .org GHRoomSelCursor2X
     .dh 238
-  // Required HR # at NPC
+  ; Required HR # at NPC
   .org GHReqHRNumX
     .dh 96
-  // Quest board (posted quest)
+  ; Quest board (posted quest)
   .org GHQstBrdPlayersAmtPos
-    .dh 410     // X pos
+    .dh 410     ; X pos
   .org GHQstBrdRewardAmtPos
-    .dh 328     // X pos
+    .dh 328     ; X pos
   .org GHQstBrdFeeAmtPos
-    .dh 328     // X pos
+    .dh 328     ; X pos
   .org GHQstBrdTimeAmtPos
-    .dh 328     // X pos
+    .dh 328     ; X pos
   .org GHQstBrdLocationPos
-    .dh 328     // X pos
+    .dh 328     ; X pos
 .endif
-// Quest amount/block size 
+; Quest amount/block size 
 .org 0x09A822EC
-  .dh 38      // Amount of quests to read
+  .dh 38      ; Amount of quests to read
 .org 0x09A83510
-  .dh 8880    // Quest block size
+  .dh 8880    ; Quest block size
 .org 0x09A835B4
-  .dh 38      // Amount of quests
+  .dh 38      ; Amount of quests
 .org 0x09A83618
-  .dh 8864    // Quest ID
-// Quest realocation
+  .dh 8864    ; Quest ID
+; Quest realocation
 .org 0x09A834F8
   j     0x09A83508
   lui   v0,0x8CD
