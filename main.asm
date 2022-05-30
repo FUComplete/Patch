@@ -10,6 +10,7 @@
     .include "asm/hud.asm"
     .include "asm/optionsmenu.asm"
     .include "asm/savedata.asm"
+    .include "asm/supply_chest_ovl.asm"
   .close
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
     .include "asm/trainhall_ovl.asm"
@@ -31,6 +32,7 @@
     .include "asm/bonus_poogies.asm"
     .include "asm/bonus_trenya.asm"
     .include "asm/guildhall_ovl.asm"
+    .include "asm/pokke_village_ovl.asm"
     .include "asm/shops_ovl.asm"
   .close
   .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
@@ -66,6 +68,7 @@
     .include "asm/hud.asm"
     .include "asm/optionsmenu.asm"
     .include "asm/unknown.asm"
+    .include "asm/supply_chest_ovl.asm"
   .close
   ; Overlay specific changes
   .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
@@ -98,6 +101,7 @@
     .include "asm/equipsetdetail_ovl.asm"
     .include "asm/farm_ovl.asm"
     .include "asm/npcquest_ovl.asm"
+    .include "asm/pokke_village_ovl.asm"
     .include "asm/shops_ovl.asm"
   .close
   .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580

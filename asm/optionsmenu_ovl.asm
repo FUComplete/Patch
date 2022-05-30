@@ -17,3 +17,21 @@
 ; disable data install toggle
 .org 0x09A5BD94
   .dh 0
+;
+; volume block outline
+;
+; ╷ ──────────────────────────────┬───
+; │ Outline is four lines...      │
+; │ No line is correct or square. │
+; │ Why draw it this way?         │
+; └───────────────────────────────┴───
+;                   - IncognitoMan
+;
+.org 0x09A5B9D8
+  .dh 12    ; block outline X pos (right)
+.org 0x09A5B9EC
+  .dh 11    ; block outline height (right)
+.org 0x09A5BB00
+  .dh 11    ; block outline Y pos (bottom)
+.org 0x09A5BC14
+  .dh 11    ; block outline height (left)
