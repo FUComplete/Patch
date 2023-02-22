@@ -115,12 +115,6 @@ The patch changes the following battle themes:
 
 The `CQUESTS.TXT` file contains info on each challenge/fiesta quest, so refer to that if you would like to know the specifics about them.
 
-### Why can't my P2G save load (`EN`)? Why can't my FU save load (`JP`)?
-
-For `EN`, to easily allow FU players to migrate to this patch the savedata decrypt and encrypt method was change to match that of FUs.
-
-For `JP`, there's really no reason to use FU saves when the Japanese language is set... 
-
 ### I used the Guildhall QoL code and I can't access smithy/full chest in hall?
 
 With the way the game works with Adhoc play, If a player changes equipment in the Guildhall there's a very high chance of a crash... Even if the player manages to get to the point of embarking on a quest, when it validates what gear the player had it will visually show you having switched... But will still have the gear you had on when you initially joined the Guildhall. For this reason, smithy/full chest are blocked from online play and are OFFLINE ONLY.
