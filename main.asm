@@ -1,117 +1,94 @@
 .psp
-  .include "asm/addresses.asm"
-.ifdef jp
-  .open "binary/BOOT.BIN","build/BOOT.BIN",0x08801A4C
-    .include "asm/bonus_misc.asm"
-    .include "asm/bonus_titles.asm"
-    .include "asm/crypto_databin.asm"
-    .include "asm/equipdetails.asm"
-    ; .include "asm/hallid.asm"
-    .include "asm/hud.asm"
-    .include "asm/optionsmenu.asm"
-    .include "asm/savedata.asm"
-    .include "asm/supply_chest_ovl.asm"
-  .close
-  .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
-    .include "asm/trainhall_ovl.asm"
-  .close
-  .open "binary/overlay/cont_task.ovl","build/overlay/cont_task.ovl",0x09A5A580
-    .include "asm/bonus_renopts.asm"
-  .close
-  .open "binary/overlay/demo_task.ovl","build/overlay/demo_task.ovl",0x09A5A580
-    .include "asm/mainmenu_ovl.asm"
-  .close
-  .open "binary/overlay/game_sub.ovl","build/overlay/game_sub.ovl",0x09C14280
-    .include "asm/bonus_misc_ovl.asm"
-    .include "asm/bonus_palico.asm"
-  .close
-  .open "binary/overlay/install_task.ovl","build/overlay/install_task.ovl",0x09A5A580
-    .include "asm/datainstall_ovl.asm"
-  .close
-  .open "binary/overlay/lobby_task.ovl","build/overlay/lobby_task.ovl",0x09A5A580
-    .include "asm/bonus_poogies.asm"
-    .include "asm/bonus_trenya.asm"
-    .include "asm/guildhall_ovl.asm"
-    .include "asm/pokke_village_ovl.asm"
-    .include "asm/shops_ovl.asm"
-  .close
-  .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
-    .include "asm/optionsmenu_ovl.asm"
-  .close
-  .open "build/text/str_tbl.pac",0x089C7510
-    .include "asm/bonus_extpat.asm"
-  .close
-  .open "build/audio/SN_LBY_0.at3",0x08B6E880
-    .include "asm/trainhall_aud.asm"
-  .close
-.else
-  .open "binary/BOOT.BIN","build/BOOT.BIN",0x08801A4C
-    .include "asm/bonus_misc.asm"
-    .include "asm/bonus_titles.asm"
-    .include "asm/characterencode.asm"
-    .include "asm/crypto_databin.asm"
-    .include "asm/savedata.asm"
-    ; .include "asm/str_equipment.asm"
-    .include "asm/abandonquest.asm"
-    .include "asm/bedsave.asm"
-    .include "asm/equipdetails.asm"
-    .include "asm/guildcard.asm"
-    ; .include "asm/hallid.asm"
-    .include "asm/invcombine.asm"
-    .include "asm/itemwheel.asm"
-    .include "asm/mainmenu.asm"
-    .include "asm/pausemenu.asm"
-    .include "asm/refcomradeinfo.asm"
-    .include "asm/refmonsterlist.asm"
-    .include "asm/statuswindow.asm"
-    .include "asm/grannyshop.asm"
-    .include "asm/hud.asm"
-    .include "asm/optionsmenu.asm"
-    .include "asm/unknown.asm"
-    .include "asm/supply_chest_ovl.asm"
-  .close
-  ; Overlay specific changes
-  .open "binary/overlay/arcade_task.ovl","build/overlay/arcade_task.ovl",0x09A5A580
-    .include "asm/trainhall_ovl.asm"
-  .close
-  .open "binary/overlay/cont_task.ovl","build/overlay/cont_task.ovl",0x09A5A580
-    .include "asm/bonus_renopts.asm"
-  .close
-  .open "binary/overlay/demo_task.ovl","build/overlay/demo_task.ovl",0x09A5A580
-    .include "asm/mainmenu_ovl.asm"
-  .close
-  .open "binary/overlay/edit_task.ovl","build/overlay/edit_task.ovl",0x09A5A580
-    .include "asm/charcreate_ovl.asm"
-  .close
-  .open "binary/overlay/game_sub.ovl","build/overlay/game_sub.ovl",0x09C14280
-    .include "asm/kitchen_ovl.asm"
-    .include "asm/bonus_misc_ovl.asm"
-    .include "asm/bonus_palico.asm"
-  .close
-  .open "binary/overlay/install_task.ovl","build/overlay/install_task.ovl",0x09A5A580
-    .include "asm/datainstall_ovl.asm"
-  .close
-  .open "binary/overlay/lobby_task.ovl","build/overlay/lobby_task.ovl",0x09A5A580
-    .include "asm/bonus_poogies.asm"
-    .include "asm/bonus_trenya.asm"
-    .include "asm/guildhall_ovl.asm"
-    .include "asm/armorcolor_ovl.asm"
-    .include "asm/bedsave_ovl.asm"
-    .include "asm/chestcombine_ovl.asm"
-    .include "asm/equipsetdetail_ovl.asm"
-    .include "asm/farm_ovl.asm"
-    .include "asm/npcquest_ovl.asm"
-    .include "asm/pokke_village_ovl.asm"
-    .include "asm/shops_ovl.asm"
-  .close
-  .open "binary/overlay/option_task.ovl","build/overlay/option_task.ovl",0x09A5A580
-    .include "asm/optionsmenu_ovl.asm"
-  .close
-  ; str_tbl.bin related additions
-  .open "build/text/str_tbl.pac",0x089C7510
-    .include "asm/bonus_extpat.asm"
-  .close
-  .open "build/audio/SN_LBY_0.at3",0x08B6E880
-    .include "asm/trainhall_aud.asm"
-  .close
-.endif
+
+; set some functions/addresses
+sceIoOpen   equ 0x0890B938
+sceIoRead   equ 0x0890B908
+sceIoClose  equ 0x0890B918
+memcpy      equ 0x0880CD4C
+strcpy      equ 0x0880FB30
+patcherAddr equ 0x08A4A600
+configAddr  equ 0x08A4A5E0
+bootFree1   equ 0x08954C88  ; Bank 1, size: 0xCB0
+bootFree2   equ 0x08955EE8  ; Bank 2, size: 0xD20
+filewlAddr  equ 0x08956800  ; File whitelist
+ValStore    equ 0x08956B50  ; Store values for specific things
+RegStore    equ 0x08956B80  ; Size 0x60, stores registers v0-t9
+
+; Set a macro for adjusting addresses to uncached
+.macro  vla,dest,value
+    la      dest,value + 0x40000000
+.endmacro
+.macro  vj,value
+    j       value + 0x40000000
+.endmacro
+
+; Main binary
+.open "binary/BOOT.BIN","build/EBOOT.BIN",0x08801A4C
+    .include    "patches/boot.asm"
+    .include    "modloader/preloader.asm"
+.close
+
+; Main Menu
+.open "binary/overlay/demo_task.ovl","build/0043",0x09A5A580
+    .include    "patches/demo_task.asm"
+.close
+
+; New Game Menu
+.open "binary/overlay/edit_task.ovl","build/0044",0x09A5A580
+    .include    "patches/edit_task.asm"
+.close
+
+; Continue Menu
+.open "binary/overlay/cont_task.ovl","build/0045",0x09A5A580
+    .include    "patches/cont_task.asm"
+.close
+
+; Options Menu
+.open "binary/overlay/option_task.ovl","build/0046",0x09A5A580
+    .include    "patches/option_task.asm"
+.close
+
+; Lobby Task (village/guildhall)
+.open "binary/overlay/lobby_task.ovl","build/0050",0x09A5A580
+    .include    "patches/lobby_task.asm"
+.close
+
+; Game Task (in-quest)
+.open "binary/overlay/game_task.ovl","build/0051",0x09A5A580
+    .include    "patches/game_task.asm"
+.close
+
+; Training Hall
+.open "binary/overlay/arcade_task.ovl","build/0053",0x09A5A580
+    .include    "patches/arcade_task.asm"
+.close
+
+; Game Sub
+.open "binary/overlay/game_sub.ovl","build/0056",0x09C14280
+    .include    "patches/game_sub.asm"
+.close
+
+; Actual patcher code to be executed
+.createfile "build/loader.bin",patcherAddr
+    loader_start:
+    ; This is executed on boot
+    .include    "modloader/instructionfix.asm"
+    .include    "modloader/configset.asm"
+    @@Return:
+        vj       RestoreFDataReg
+        nop
+    ; Executed as called upon...
+    .include    "modloader/fileidgen.asm"
+    .include    "modloader/fileloader.asm"
+    .include    "modloader/filepatcher.asm"
+    .include    "modloader/questloader.asm"
+    ; Mods
+    .include    "mods/guildhall.asm"
+    .include    "mods/hh_rework.asm"
+    loader_end:
+.close
+
+.createfile "build/config.bin",0x0
+    .word       loader_end-loader_start
+    .include    "modloader/config.asm"
+.close

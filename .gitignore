@@ -2,6 +2,7 @@
 *.ovl
 *.at3
 *.tmh
+*.exe
 BOOT.BIN
 UIBOOT.BIN
 armips
