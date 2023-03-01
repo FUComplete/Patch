@@ -27,7 +27,7 @@ Features:
 * Configuration file support so you can enable/disable/tweak the features you want.
 * Various QoL features such as:
   - Guildhall drink buff
-  - Full chest access everywhere[^2]
+  - Full chest access in the Gathering Hall[^2]
   - Early kill Lao/Shen on Fortress[^4]
   - Faster pickup from supply chests
   - ...and more!
@@ -184,7 +184,7 @@ _**Quality of Life**_
 * Auto equipment previews in shops enabled by default without the requirement of a data install.
 * Faster pickup speed from supply chests.
 * Able to buy in bulk to chest the Binoculars, Powercharm, Armorcharm and BBQ Spit. Useful for decoration crafting.
-* You can now change your equipment at any chest/item box in the village, including the one in the Gathering Hall.[^2]
+* You can now change your equipment in the Gathering Hall.[^2]
 * Status display settings (the settings for enabling/disabling HUD in quest) are now persistent between quests.
 * Guildhall table now has a "drink buff" - This means you can get a quick boost to Health and Stamina without leaving the Gathering Hall, based on how many Felyne Chefs you have working in your kitchen. Press 'Circle' to activate while sitting at the table.[^3]
   - For each active chef in your kitchen, receive +10 max HP (max +50 at 5 chefs).
