@@ -1,123 +1,224 @@
 <div align="center">
-<h1>FUComplete</h1>
+
+[![LATEST](https://img.shields.io/github/v/release/FUComplete/Patch?label=LATEST&style=for-the-badge)](https://github.com/FUComplete/Patch/releases/latest)[![DLOADS](https://img.shields.io/github/downloads/FUComplete/Patch/total?style=for-the-badge)](https://github.com/FUComplete/Patch/releases)[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/incognitoman)
+
+<a>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/5410031/221336968-d4518bd4-b2ec-4e53-9282-ed8dca82856e.svg">
+      <img height="150px" src="https://user-images.githubusercontent.com/5410031/221336946-f21aff0f-84b5-4661-92b7-da1a520a46a2.svg">
+    </picture>
+  </p>
+</a>
 </div>
 
-FUComplete is a modification of the game MHP2G (Portable 2nd G). It supports both official PSP hardware and emulation.
+***
 
-It's able to natively load savedata from MHF2 and MHFU (Freedom 2 and Freedom Unite) without any save conversion. It can also translate the game's language from Japanese into English using MHFU's localization data, which allows users who do not understand Japanese to enjoy the previously JP-exclusive features, such as:
+FUComplete is a modification of the game MHP2G (Portable 2nd G), aiming to be "feature complete" and add/expand to the game while also maintaining crossplay with vanilla players. It also aims to work not only on emulation but also on real hardware like PSP or Vita.
 
-* "Standard" control layout (X/O are swapped, meaning O = Accept / X = Cancel)
-* Uncensored, original blood effects (In MHF2/MHFU, the blood effects were scaled down)
-* Original Japanese version of the [Snowy Mountains battle theme](https://youtu.be/_8b8huJne1I)
-* 10 Japanese-exclusive downloadable quests (English translations with FUComplete)
-* Japanese-exclusive poogie costume
+Features:
 
-FUComplete also brings many QoL improvements, including:
+* MHFU localization ported over and Japanese exclusive content translated to English.
+* Able to load any region save without a need to convert.
+* All 38 events and 14 challenges are integrated into the game.
+* Increased limit on quests in savedata from 6 to 18.
+* In-game toggle to switch between built-in (official) events and savedata (custom) quests.
+* Modloader support, which makes updating and modding the game "*easier*".
+* Configuration file support so you can enable/disable/tweak the features you want.
+* Various QoL features such as:
+  - Guildhall drink buff
+  - Full chest access everywhere[^2]
+  - Early kill Lao/Shen on Fortress[^4]
+  - Faster pickup from supply chests
+  - ...and more!
 
-* All DLC (Event Quests, Challenge Quests, Bonus Material) is embedded into the game at the same time
-* Cross-play compatibility with vanilla/unmodded versions of MHP2G/MHFU
-* Equipment preview is auto-enabled, so no more Data Install!
-* Several bonus cheats (some of which are only compatible with emulators, see below for more information)
+For more details on the changes see [What's Changed](#whats-changed)
 
-There is also an optional patch called `DosAudio`, which swaps several battle themes with ones featured in MH2Dos (Monster Hunter 2 Dos) - more information below.
+# Applying Patch
 
-# Applying the Patch
+Make sure you use either a UMD dump or PSN version of `Monster Hunter Portable 2nd G`.
 
-Download the [latest patch](https://github.com/FUComplete/Patch/releases/latest).
+With the latest release, there is now a new app to handle patching, configuration, file replacer and quest injection called [FUCTool](https://github.com/FUComplete/FUCTool). Launch it and under the `Patcher` tab press the `Select` button to select your ISO.
 
-Make sure you use either a UMD dump or PSN version of Portable 2nd G. The hashes should be one of the following:
+In the output window you should see:
+  ``` 
+  INFO | Checking ISO...
+  INFO | Valid ISO file.
+  ```
+If instead you get:
+  ```
+  INFO | Checking ISO...
+  ERROR | Invalid ISO, your dump should match one of the following md5 hashes:
+  ERROR | UMD: 1f76ee9ccbd6d39158f06e6e5354a5bd
+  ERROR | PSN: cc39d070b2d2c44c9ac8187e00b75dc4
+  ```
+Please make sure you select the correct image that matches the above hashes.
 
-```
-UMD - MD5: 1f76ee9ccbd6d39158f06e6e5354a5bd
-PSN - MD5: cc39d070b2d2c44c9ac8187e00b75dc4
-```
+Check `Keep patched DATA.BIN outside of the ISO.` if you plan to modify files and use file replacer.
 
-Drag and drop your ISO of P2G onto the `FUComplete` app. It'll start the patching process.
+Press the `Patch ISO` button to start the patching process. You'll know its done once you see `INFO | Patching done`
 
-You'll be asked which langauge you want the patch in, `EN` (English) or `JP` (Japanese). 
+<div align="center">
 
-If you choose `EN` you'll additionally be asked which region savedata to load, either `US` (ULUS10391) or `EU` (ULES01213). 
+| <img src="https://user-images.githubusercontent.com/5410031/221740339-9e2baf45-cfba-4798-af37-4a819f0d24d3.png" width="50%"></img> |
+|:---:|
+| Patching Completed |
 
-After that it will ask if you would like to install optional patches, answer Y or N if you want to apply them or not.
+</div>
 
-# Building
-
-Dependencies *(Ubuntu/Debian)*:
-* build-essential
-* python3
-* python-is-python3
-* python3-venv
-* xdelta3
-* p7zip-full
-* [UMD-Replace](https://www.romhacking.net/utilities/891/)
-* [DecEboot](https://www.romhacking.net/utilities/1225/)
-
-Dump your copies of Freedom Unite and Portable 2nd G, rename them to `FU.iso` and `P2G.iso` respectively and place them in a folder called `iso`.
-
-Place the UMD-Replace and DecEboot archives in a folder called `tools` ***(Do not extract them, just place them in the directory as is)***.
-
-Run `./setup.sh` and wait for it to finish... once finished then run either `./build.sh en` or `./build.sh jp` depending on which language you are building for.
-
-The patched image will be located in `build/FUC_(EN/JP).iso`.
-
-
-# Optional Cheat Codes
-
-You will find these codes in the `ULJM05500.ini` included in the release and updates to them [here](https://github.com/FUComplete/Patch/wiki/Enhancements-and-BonusDLC). To use these either merge the file into your existing cheats file or place it in `memstick/PSP/Cheats` if on PPSSPP and enable cheats.
-
-### Guildhall QoL
-
-This code ONLY works on an emulator, as it's unstable on real hardware. What this code does is give you some "Quality of Life" improvements to the Guildhall. It has the following changes:
-
-- Full chest access. This is the same chest that's in your home except now you have full access to it in the Guildhall. (**OFFLINE ONLY**)
-- The NPC by the questboard in the Guildhall now allows you to create/improve your equipment. (**OFFLINE ONLY**)
-- The felyne between the table and Treshi in the Guildhall now has a custom peddler shop menu. This menu is separate from the Peddling Granny outside the hall, and doesn't share her random discount sales or rotating items. This means that if you want item cycling or random discount sales, the original Peddling Granny is required. It is the combination of all peddler tables into one static table. (**ONLINE/OFFLINE**)
-
-The reason why the new smithy/full chest codes are offline only is due to a limitation of the game, which can lead to crashing or unintended results.
-
-### HUD off above 40 HP
-
-A port of the Portable 3rd code that turns off your HUD when HP is above 40. HUD will reappear when below 40 or when pressing the L trigger.
-
-### Minimap Scaled 75%/50%
-
-Changes the "scale" of the minimap to either 75% or 50% of its original size. Only have either the 75% OR 50% enabled, not both. Also have them enabled before playing to prevent issues.
-
-### True Raw/Ele/Status
-
-"Debloats" the Raw, Element and Status values of all weapons. Similar feature like in Portable 3rd where you had the true value listed.
-
-# FAQ
+# Frequently Asked Questions
 
 ### Why use P2G as a base and not FU? 
 
-Due to issues with finding translators for the various langauges and having memory limit issues, it was decided to move to P2G as I didn't have to worry about more than one language and I had significantly more memory to play with.
+* Due to issues with finding translators for the various langauges and having memory limit issues, it was decided to move to P2G as I didn't have to worry about more than one language and I had significantly more memory to play with.
 
 ### When I try to patch the game it says "Invalid ISO"?
 
-Please use a clean dump of P2G, either from your UMD or PSN. Your ISO should match one of the following hashes: 
-```
-UMD - MD5: 1f76ee9ccbd6d39158f06e6e5354a5bd
-PSN - MD5: cc39d070b2d2c44c9ac8187e00b75dc4
-```
+* Please use a clean dump of `Monster Hunter Portable 2nd G`, either from your UMD or PSN. Your ISO should match one of the following hashes: 
+  ```
+  UMD - MD5: 1f76ee9ccbd6d39158f06e6e5354a5bd
+  PSN - MD5: cc39d070b2d2c44c9ac8187e00b75dc4
+  ```
 
-### What does the `DosAudio` patch change?
+### What are the default settings?
 
-The patch changes the following battle themes:
-* [Jungle](https://youtu.be/wP1Tiq74gWs)
-* [Desert](https://youtu.be/Hjf1QfiTBbY)
-* [Swamp](https://youtu.be/ZRQT-QYB0_I)
-* [Snowy Mountain](https://youtu.be/7T0Vp7okMhE)
-* [Volcano](https://youtu.be/vHSCNxTjX1c)
-* [Tower](https://youtu.be/f5ZNBm9EuEc)
+* Default settings are as follows:
+  ```
+  File replacer:      DISC0
+  Save Region:        ULUS10391
+  True Raw/Ele/Stat:  Disabled
+  Dos Audio:          Disabled
+  Field of View:      Default
+  Vert Cam Start Pos: Default
+  Minimap Scale:      Default
+  HH Tweak:           Disabled
+  ```
+
+### How do I change the default settings?
+
+* Use [FUCTool](https://github.com/FUComplete/FUCTool) to manage `config.bin`. Please check out the tools repo for more information on what each option does.
+
+### Where do I place `config.bin`?
+
+* This depends on if you are on Emulator(PC/Android) or PSP/Vita.
+  - If on PC (PPSSPP): Go to `File` → `Open Memory Stick` and you should be in the "root" of the memory stick.
+  - If on Android (PPSSPP): By default Android sets the "root" directory at the root of your storage. If you are unsure where it is, go to `Settings` → `System` and scroll down to the `PSP Memory Stick` section.
+  - If on PSP/Vita: Go to the root of your memory stick. On Vita for example it's `ux0:/pspemu` and PSP is literally root of of memory card.
+
+| <img src="https://user-images.githubusercontent.com/5410031/221684781-2c7eefe8-8872-435e-8e2f-4682a74c1a40.png"></img> | <img src="https://user-images.githubusercontent.com/5410031/221686090-6c87f3f5-6f2c-4bcd-9310-981f3d5df25c.png"></img> | <img src="https://user-images.githubusercontent.com/5410031/221691384-ae9db9fb-487f-427c-a530-6ba2422ed67c.png"></img> |
+|:---:|:---:|:---:|
+| PC | Android | PSP/Vita | 
+
+* Once you are at the root, create a folder called `FUC` and place `config.bin` inside that folder. It should look something like this:
+  ```
+  .
+  ├───FUC
+  │   └───config.bin
+  └───PSP
+      ├───GAME
+      └───SAVEDATA
+          ├───ULES01213
+          ├───ULUS10391
+          └───ULJM05500
+  ```
+
+### How do I use File Replacer?
+
+* Please refer to [FUCTool](https://github.com/FUComplete/FUCTool) repo for more info on how to set it up and make use of it.
+
+### Why do I get "Old savedata detected" on PPSSPP after adding/removing quests from save? Does it cause any problems?
+
+* It won't cause problems, once you save in-game the error message will go away.
+* SED is used to handle the encryption side of things which seems to use an older method of save encryption.
+
+### When I run the game on my PSP/Vita, village lags/runs slow... how do I fix this?
+
+* Please set your CPU clock speed to `333/166` by pressing `Select` at VSH menu and changing the option `CPU CLOCK GAME` to `333/166`. 
+
+| <img src="https://user-images.githubusercontent.com/5410031/221753464-6f484bdf-9f77-4be9-af68-74ce12b5f5d6.png" width="50%"></img> |
+|:---:|
+| VSH Menu |
+
+### Why do my quest files not show up on FUCTool?
+
+* Quest files must be either `.mib` or `.pat` and have to be **decrypted**. 
 
 ### Is there info on what the challenge/fiesta quests are? Can't see what the quest details are from the selection screen.
 
-The `CQUESTS.TXT` file contains info on each challenge/fiesta quest, so refer to that if you would like to know the specifics about them.
+* The `CQUESTS.TXT` file contains info on each challenge/fiesta quest, so refer to that if you would like to know the specifics about them.
 
-### I used the Guildhall QoL code and I can't access smithy/full chest in hall?
+# What's Changed
 
-With the way the game works with Adhoc play, If a player changes equipment in the Guildhall there's a very high chance of a crash... Even if the player manages to get to the point of embarking on a quest, when it validates what gear the player had it will visually show you having switched... But will still have the gear you had on when you initially joined the Guildhall. For this reason, smithy/full chest are blocked from online play and are OFFLINE ONLY.
+### <ins>FUCTool:</ins>
+
+A new program called `FUCTool` is bundled with the patch to handle various aspects such as patching, updating the configuration file, setting up file replacer and injecting quests. To know more on how to use it please see the [FUCTool](https://github.com/FUComplete/FUCTool) repo.
+
+### <ins>Configuration:</ins>
+
+`config.bin` is the configuration file loaded by the game to set specific features of the patch, these options are:
+
+* File replacer read location
+* Save region
+* True raw/element/status display
+* Dos audio
+* Field of view (FoV)
+* Vertical snap start position
+* Minimap scale
+* Hunting Horn tweak
+
+### <ins>File Replacer:</ins>
+
+File replacer, as its name implies, lets you replace individual files in the game that are stored in `ms0:/FUC/nativePSP`. Think of it like MHWs `nativePC` implementation.
+
+Please refer to the [FUCTool](https://github.com/FUComplete/FUCTool) repo for more information on how to set it up.
+
+### <ins>Changes:</ins>
+
+_**Quality of Life**_
+* The 38 events and 14 challenges are now built into the game. Savedata quest store limit has been raised to 18, up from 6.
+* The option to toggle Data Install now has a new function: It now switches between the integrated event quests and any quests added to Savedata.
+* All Bonus DLC are enabled by default.[^1]
+* Easily switch between what region save to load ***(optional/config)***.
+* Auto equipment previews in shops enabled by default without the requirement of a data install.
+* Faster pickup speed from supply chests.
+* Able to buy in bulk to chest the Binoculars, Powercharm, Armorcharm and BBQ Spit. Useful for decoration crafting.
+* You can now change your equipment at any chest/item box in the village, including the one in the Gathering Hall.[^2]
+* Status display settings (the settings for enabling/disabling HUD in quest) are now persistent between quests.
+* Guildhall table now has a "drink buff" - This means you can get a quick boost to Health and Stamina without leaving the Gathering Hall, based on how many Felyne Chefs you have working in your kitchen. Press 'Circle' to activate while sitting at the table.[^3]
+  - For each active chef in your kitchen, receive +10 max HP (max +50 at 5 chefs).
+  - For 1-4 active chefs in your kitchen, receive +25 max Stamina (max +50 at 5 chefs).
+* Display true raw/element/status of weapons ***(optional/config)***.
+* Adjust field of view value ***(optional/config)***.
+* Set starting vertical camera position ***(optional/config)***.
+* Adjust minimap scale ***(optional/config)***.
+
+_**Gameplay/Mechanic**_
+* Any quest with Lao-Shan Lung, Ash Lao-Shan Lung or Shen Gaoren on Fortress have their HP thresholds removed, allowing for a pre area 5 kill.[^4]
+* Hunting Horn tweaks ***(optional/config)*** rework the weapon slightly to make it more approachable and rebuff it back to P2/F2 levels.
+  - Note mechanics work similar to Frontier, where notes only clear if you sheath your weapon or have a forced sheathed interaction.
+  - Left and right swing MV/KO values increased to match P2/F2 values. 31 MV and 18 KO, up from 27 MV and 15 KO.
+  - Hilt jab poke attack now does cutting damage instead of impact.
+  
+_**General/Other**_
+* Fixed various localization errors and updated menus to match.
+* Increased draw distance of NPCs in village.
+* Adjusted item wheel to match FU
+* Sharpness indicator and glow now uniform and fixed.
+* Fixed draw region of the "!" sprite to display properly.
+* Felyne on guildcard no longer has melynx ears.
+* Bowgun shells in HUD are now correctly aligned.
+* Guildcard elements fixed to avoid string overflows and better alignment.
+* Guildhall Shop NPC position fixed, feet no longer clip through the floor and now has a shadow.
+* Wandering Chef NPC position fixed, no longer floats in the air and is more visible on game start.
+* Dummied strings for non-monsters now display properly when using HPD hack.
+* ICON0 updated so you can easily tell the difference between patched/unpatched.
+* Use Dos battle themes instead of the default ones ***(optional/config)***.
+
+[^1]: Bonus DLC is as follows: Peddling Granny Items, Trenya's Boat, 3000 Pokke Points, Piggie Fashions (Angel Leotard, Sleep Pig White, Mafumofu Jumpsuit, Famitsu Disguise), Titles, Comrade Skills (Elemental Atk Dragon), Felyne Comrade Armor (Felyne Samurai), Wandering Felyne Chef. 
+[^2]: Equipment changing is ***disabled*** in the online gathering hall.
+[^3]: This does not provide any felyne food skills and you can either drink in hall for a quick boost ***OR*** eat in kitchen... not ***BOTH***.
+[^4]: If you play with unpatched players and want a "early" kill, make sure you or another patched player are the first to enter the area. This is because area host is in control of HP mechanics.
+
 
 # Credits and Thanks
 
@@ -134,3 +235,7 @@ With the way the game works with Adhoc play, If a player changes equipment in th
 **Yuzucchi** for insight on some code.
 
 **Capcom** for creating P2G/FU.
+
+**Testers** - Fallingferret, Abbanon, 6thQuill, RecitalMode, Mr.Madness and anyone else I may have missed.
+
+**[MH Modding Discord](https://discord.gg/gJwMdhK)** for putting up with my rants and helping out with figuring out some of the code. Especially a thank you to Silvris, Miralis and Dave uRrr.
