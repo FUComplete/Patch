@@ -38,7 +38,9 @@ For more details on the changes see [What's Changed](#whats-changed)
 
 Make sure you use either a UMD dump or PSN version of `Monster Hunter Portable 2nd G`.
 
-With the latest release, there is now a new app to handle patching, configuration, file replacer and quest injection called [FUCTool](https://github.com/FUComplete/FUCTool). Launch it and under the `Patcher` tab press the `Select` button to select your ISO.
+Download the [latest release](https://github.com/FUComplete/Patch/releases/latest).
+
+With the latest release, there is now a new app included to handle patching, configuration, file replacer and quest injection called [FUCTool](https://github.com/FUComplete/FUCTool). Launch it and under the `Patcher` tab press the `Select` button to select your ISO.
 
 In the output window you should see:
   ``` 
