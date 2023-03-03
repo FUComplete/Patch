@@ -84,6 +84,12 @@ GHDrinkCheck:
 ; Full chest access in offline guildhall (also affects farms/kitchen)
 GHChestCheck:
     addiu   a0,a0,0x7FF8
+    ; Check what stage is loaded
+    la      a2,0x090AF41A
+    lb      a2,0x0(a2)
+    li      a3,0x55
+    bne     a2,a3,@@GHChestReturn
+    li      a1,0x1
     la      a2,0x09A00E14
     lb      a3,0x0(a2)
     addiu   a3,a3,-0xA
