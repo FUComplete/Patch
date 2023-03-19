@@ -45,3 +45,9 @@
         .dh     0       ; Start read position
     .org 0x09A69510
         .dh     32      ; Offset read position
+
+@@THQuestRequestSelect:
+    .org 0x09A6874C
+        .dh     14      ; Player amount text width
+    .org 0x09A687E4
+        .dh     442     ; Player amount text X pos

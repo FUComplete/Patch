@@ -84,8 +84,14 @@
     lh      a0,0x8(v1)
     sh      a0,0x0(v0)
 
+@@SetFUIcon:
+    vla     v0,0x088C02E4
+    lb      a0,0x5(v1)
+    beq     a0,zero,@@VertCamSet
+    li      a1,0xE
+    sb      a1,0x0(v0)
+
 @@VertCamSet:
     vla     v0,0x088138BC
     lb      a0,0xA(v1)
     sb      a0,0x0(v0)
-

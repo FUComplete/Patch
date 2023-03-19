@@ -11,7 +11,7 @@
         nop
 
 @@CharacterEncodeFix:
-    ; Repalce various tables 
+    ; Replace various tables 
     .org 0x089122AE
         .import "patches/charencode.bin",0x00,188  ; UTF8 special characters
     .org 0x089126AE
@@ -191,7 +191,7 @@
         .dh     108     ; Highlight UV X
         .dh     33      ; Highlight UV Y
         .dh     44      ; Highlight UV Width
-        .dh     10       ; Highlight UV Height
+        .dh     10      ; Highlight UV Height
     .org 0x0893676A
         .dh     43      ; Type1 bar Y pos
     .org 0x08936776

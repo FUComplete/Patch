@@ -14,3 +14,5 @@ data/en
 data/quests
 data/fu
 build/
+binary/
+log.txt

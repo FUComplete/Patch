@@ -149,6 +149,21 @@ FilePatcher:
     sb      a2,0x2C(v0)     ; Right swing KO
     sb      a0,0x39(v0)     ; First poke damage type
     sb      a0,0x51(v0)     ; Second poke damage type
+    ; Lao/Shen early kill config check
+    la      v0,configAddr
+    lb      a0,0xD(v0)
+    beq     a0,zero,. + 0x2C
+    la      v0,0x09AC3148
+    ; Lao/Ash check
+    sw      zero,0x0(v0)
+    sw      zero,0x4(v0)
+    sw      zero,0x8(v0)
+    sw      zero,0xC(v0)
+    ; Shen check
+    sw      zero,0x7C(v0)
+    sw      zero,0x80(v0)
+    sw      zero,0x84(v0)
+    sw      zero,0x88(v0)
     ; Restore Reg
     b       @@FilePatcherRR
     nop

@@ -6,8 +6,8 @@
     .db     0x3     ; vertical snap start position
     .db     0x0     ; minimap scale
     .db     0x0     ; HH rework toggle
+    .db     0x0     ; Early Lao kill toggle
     .db     0x0     ; unused
     .db     0x0     ; unused
-    .db     0x0     ; unused
-    .ascii  "1.3.0 "  ; Version (add a space at the end, limit 8 characters)
+    .ascii  "1.3.1 "  ; Version (add a space at the end, limit 8 characters)
     .align  0x10

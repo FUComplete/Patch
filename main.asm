@@ -23,7 +23,7 @@ RegStore    equ 0x08956B80  ; Size 0x60, stores registers v0-t9
 .endmacro
 
 ; Main binary
-.open "binary/BOOT.BIN","build/EBOOT.BIN",0x08801A4C
+.open "binary/EBOOT.BIN","build/EBOOT.BIN",0x08801A4C
     .include    "patches/boot.asm"
     .include    "modloader/preloader.asm"
 .close
