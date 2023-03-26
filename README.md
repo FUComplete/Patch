@@ -86,14 +86,15 @@ Press the `Patch ISO` button to start the patching process. You'll know its done
 
 * Default settings are as follows:
   ```
-  File replacer:      DISC0
-  Save Region:        ULUS10391
-  True Raw/Ele/Stat:  Disabled
-  Dos Audio:          Disabled
-  Field of View:      Default
-  Vert Cam Start Pos: Default
-  Minimap Scale:      Default
-  HH Tweak:           Disabled
+  File replacer:       DISC0
+  Save Region:         ULUS10391
+  True Raw/Ele/Stat:   Disabled
+  Dos Audio:           Disabled
+  Field of View:       Default
+  Vert Cam Start Pos:  Default
+  Minimap Scale:       Default
+  HH Tweak:            Disabled
+  Lao/Shen Early Kill: Disabled
   ```
 
 ### How do I change the default settings?
@@ -167,6 +168,7 @@ A new program called `FUCTool` is bundled with the patch to handle various aspec
 * Vertical snap start position
 * Minimap scale
 * Hunting Horn tweak
+* Early kill Lao/Shen (Fortress)
 
 ### <ins>File Replacer:</ins>
 
@@ -195,7 +197,7 @@ _**Quality of Life**_
 * Adjust minimap scale ***(optional/config)***.
 
 _**Gameplay/Mechanic**_
-* Any quest with Lao-Shan Lung, Ash Lao-Shan Lung or Shen Gaoren on Fortress have their HP thresholds removed, allowing for a pre area 5 kill.[^4]
+* Any quest with Lao-Shan Lung, Ash Lao-Shan Lung or Shen Gaoren on Fortress have their HP thresholds removed, allowing for a pre area 5 kill. ***(optional/config)***[^4]
 * Hunting Horn tweaks ***(optional/config)*** rework the weapon slightly to make it more approachable and rebuff it back to P2/F2 levels.
   - Note mechanics work similar to Frontier, where notes only clear if you sheath your weapon or have a forced sheathed interaction.
   - Left and right swing MV/KO values increased to match P2/F2 values. 31 MV and 18 KO, up from 27 MV and 15 KO.

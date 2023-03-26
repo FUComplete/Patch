@@ -90,6 +90,7 @@
     beq     a0,zero,@@VertCamSet
     li      a1,0xE
     sb      a1,0x0(v0)
+    sb      a1,0x3ABC(v0)
 
 @@VertCamSet:
     vla     v0,0x088138BC
