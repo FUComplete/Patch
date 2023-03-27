@@ -115,7 +115,7 @@ FilePatcher:
     ; HH Rework patches
     la      v0,configAddr
     lb      a0,0xC(v0)
-    beq     a0,zero,@@FilePatcherRR
+    beq     a0,zero,@@GTPLaoShenPatch
     la      v0,0x09BAC0B8
     la      a0,0x27BDFFE0   ; addiu sp,sp,-0x20
     la      a1,0xAFA70018   ; sw    a3,0x18(sp)
@@ -149,6 +149,7 @@ FilePatcher:
     sb      a2,0x2C(v0)     ; Right swing KO
     sb      a0,0x39(v0)     ; First poke damage type
     sb      a0,0x51(v0)     ; Second poke damage type
+@@GTPLaoShenPatch:
     ; Lao/Shen early kill config check
     la      v0,configAddr
     lb      a0,0xD(v0)
