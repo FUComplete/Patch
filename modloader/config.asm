@@ -9,5 +9,5 @@
     .db     0x0     ; Early Lao kill toggle
     .db     0x0     ; unused
     .db     0x0     ; unused
-    .ascii  "1.3.1 "  ; Version (add a space at the end, limit 8 characters)
+    .ascii  "DEBUG "  ; Version (add a space at the end, limit 8 characters)
     .align  0x10

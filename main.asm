@@ -23,53 +23,53 @@ RegStore    equ 0x08956B80  ; Size 0x60, stores registers v0-t9
 .endmacro
 
 ; Main binary
-.open "binary/EBOOT.BIN","build/EBOOT.BIN",0x08801A4C
+.open "binary/EBOOT.BIN","build/ISO_ROOT/PSP_GAME/SYSDIR/EBOOT.BIN",0x08801A4C
     .include    "patches/boot.asm"
     .include    "modloader/preloader.asm"
 .close
 
 ; Main Menu
-.open "binary/overlay/demo_task.ovl","build/0043",0x09A5A580
+.open "binary/overlay/demo_task.ovl","build/data_in/0043",0x09A5A580
     .include    "patches/demo_task.asm"
 .close
 
 ; New Game Menu
-.open "binary/overlay/edit_task.ovl","build/0044",0x09A5A580
+.open "binary/overlay/edit_task.ovl","build/data_in/0044",0x09A5A580
     .include    "patches/edit_task.asm"
 .close
 
 ; Continue Menu
-.open "binary/overlay/cont_task.ovl","build/0045",0x09A5A580
+.open "binary/overlay/cont_task.ovl","build/data_in/0045",0x09A5A580
     .include    "patches/cont_task.asm"
 .close
 
 ; Options Menu
-.open "binary/overlay/option_task.ovl","build/0046",0x09A5A580
+.open "binary/overlay/option_task.ovl","build/data_in/0046",0x09A5A580
     .include    "patches/option_task.asm"
 .close
 
 ; Lobby Task (village/guildhall)
-.open "binary/overlay/lobby_task.ovl","build/0050",0x09A5A580
+.open "binary/overlay/lobby_task.ovl","build/data_in/0050",0x09A5A580
     .include    "patches/lobby_task.asm"
 .close
 
 ; Game Task (in-quest)
-.open "binary/overlay/game_task.ovl","build/0051",0x09A5A580
+.open "binary/overlay/game_task.ovl","build/data_in/0051",0x09A5A580
     .include    "patches/game_task.asm"
 .close
 
 ; Training Hall
-.open "binary/overlay/arcade_task.ovl","build/0053",0x09A5A580
+.open "binary/overlay/arcade_task.ovl","build/data_in/0053",0x09A5A580
     .include    "patches/arcade_task.asm"
 .close
 
 ; Game Sub
-.open "binary/overlay/game_sub.ovl","build/0056",0x09C14280
+.open "binary/overlay/game_sub.ovl","build/data_in/0056",0x09C14280
     .include    "patches/game_sub.asm"
 .close
 
 ; Actual patcher code to be executed
-.createfile "build/loader.bin",patcherAddr
+.createfile "build/ISO_ROOT/FUC/loader.bin",patcherAddr
     loader_start:
     ; This is executed on boot
     .include    "modloader/instructionfix.asm"
@@ -88,7 +88,7 @@ RegStore    equ 0x08956B80  ; Size 0x60, stores registers v0-t9
     loader_end:
 .close
 
-.createfile "build/config.bin",0x0
+.createfile "build/ISO_ROOT/FUC/config.bin",0x0
     .word       loader_end-loader_start
     .include    "modloader/config.asm"
 .close

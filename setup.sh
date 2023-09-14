@@ -13,7 +13,7 @@ DECEBOOT="$TOOLS/deceboot"
 # Grab repos and build the tools...
 # ---------------------------------------
 if [ ! -d "$TOOLS/mhff" ]; then
-mkdir "$TOOLS"
+mkdir -p "$TOOLS"
 mkdir "$TOOLS/armips" && git clone --recurse-submodules https://github.com/Kingcom/armips.git "$TOOLS/armips"
 mkdir "$TOOLS/mhef" && git clone https://github.com/IncognitoMan/mhef.git "$TOOLS/mhef"
 mkdir "$TOOLS/mhff" && git clone https://github.com/IncognitoMan/mhff.git "$TOOLS/mhff"
@@ -50,7 +50,7 @@ fi
 # ---------------------------------------
 # Extract clean files from MHP2G
 # ---------------------------------------
-if [ ! -f "$ISO/P2GDATA.BIN" ]; then
+if [ ! -f "$ISO/PARAM.SFO" ]; then
 source "$WORKDIR/env/bin/activate"
 7z e "$ISO/P2G.iso" -o"$ISO/" PSP_GAME/USRDIR/DATA.BIN
 7z e "$ISO/P2G.iso" -o"$ISO/" PSP_GAME/SYSDIR/EBOOT.BIN
@@ -66,11 +66,10 @@ fi
 if [ ! -f "$OVL_DIR/demo_task.ovl" ]; then
 mkdir -p "$ISO/clean_droot"
 python "$TOOLS/mhff/psp/data.py" a "$ISO/P2GDATA.BIN" "$ISO/clean_droot"
+rm "$ISO/P2GDATA.BIN"
 cd "$ISO/clean_droot"
 sed 's/"//g' "$DATA_DIR/index.csv" | while IFS=, read id file; do mkdir -p $(dirname "$file") && mv "$id" "$file"; done
 cp -R "$ISO/clean_droot/overlay/"* "$BIN_DIR/overlay"
-# cd "$WORKDIR"
-# rm -rf "$ISO/clean_droot"
 fi
 cd "$WORKDIR"
 
@@ -88,18 +87,5 @@ python "$TOOLS/mhff/psp/data.py" a "$WORKDIR/build/ISO_ROOT/PSP_GAME/USRDIR/DATA
 cd "$ISO/patch_droot"
 sed 's/"//g' "$DATA_DIR/index.csv" | while IFS=, read id file; do mkdir -p $(dirname "$file") && mv "$id" "$file"; done
 fi
-cd "$WORKDIR"
 
-# ---------------------------------------
-# Download event quests from server
-# ---------------------------------------
-if [ ! -f "$DATA_DIR/quests/m60001.mib" ]; then
-mkdir "$DATA_DIR/quests"
-cd "$DATA_DIR/quests"
-sed 's/"//g' "$DATA_DIR/qid.lst" | while IFS=, read QID BLOCK; do wget --user-agent="Capcom Portable Browser v1.3 for MH_Portable_2nd_G" --referer="http://viper.capcom.co.jp/psp/MHP2G/DL_MENU.PHP" "http://viper.capcom.co.jp/psp/MHP2G/QUEST/$QID"; done
-# Decrypt them
-source "$WORKDIR/env/bin/activate"
-for f in *.mib; do python "$TOOLS/mhef/examples/psp/quest.py" d 2G_JP "$f" "$f.dec"; done
-for f in *.dec; do mv "$f" "${f%.dec}"; done
-fi
 echo "DONE"
