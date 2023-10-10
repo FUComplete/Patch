@@ -56,7 +56,7 @@ If instead you get:
   ```
 Please make sure you select the correct image that matches the above hashes.
 
-Check `Keep patched DATA.BIN outside of the ISO.` if you plan to modify files and use file replacer. 
+Check `Keep patched DATA.BIN outside of the ISO.` if you plan to modify files and use file replacer.  
 *(Intended for mod developers, regular players can skip this step.)*
 
 Press the `Patch ISO` button to start the patching process. You'll know its done once you see `INFO | Patching done`
