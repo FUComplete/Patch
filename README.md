@@ -56,7 +56,8 @@ If instead you get:
   ```
 Please make sure you select the correct image that matches the above hashes.
 
-Check `Keep patched DATA.BIN outside of the ISO.` if you plan to modify files and use file replacer.
+Check `Keep patched DATA.BIN outside of the ISO.` if you plan to modify files and use file replacer. 
+*(Intended for mod developers, regular players can skip this step.)*
 
 Press the `Patch ISO` button to start the patching process. You'll know its done once you see `INFO | Patching done`
 
@@ -221,7 +222,7 @@ _**General/Other**_
 [^1]: Bonus DLC is as follows: Peddling Granny Items, Trenya's Boat, 3000 Pokke Points, Piggie Fashions (Angel Leotard, Sleep Pig White, Mafumofu Jumpsuit, Famitsu Disguise), Titles, Comrade Skills (Elemental Atk Dragon), Felyne Comrade Armor (Felyne Samurai), Wandering Felyne Chef. 
 [^2]: Equipment changing is ***disabled*** in the online Gathering Hall.
 [^3]: This does not provide any felyne food skills and you can either drink in hall for a quick boost ***OR*** eat in kitchen... not ***BOTH***.
-[^4]: If you play with unpatched players and want a "early" kill, make sure you or another patched player are the first to enter the area. This is because area host is in control of HP mechanics.
+[^4]: If you play with unpatched players and want an "early" kill, make sure you or another patched player are the first to enter the area. This is because area host is in control of HP mechanics.
 
 
 # Credits and Thanks
