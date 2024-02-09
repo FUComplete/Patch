@@ -459,8 +459,6 @@ MinimapLoadingScreenScale:
 ; Instruction patching
 ; -------------------------------
 
-; TBD: add to as modloader is expanded upon
-
 FileIDGenInsPatch:
     vla     a0,0x0884E158
     la      a1,CheckFileID
@@ -693,6 +691,6 @@ PARAMSFOStringsEN:
     .align  0x10
 
 PreloadExecVersion:
-    .ascii  "1.4.0 ENG "
+    .ascii  "DEBUG ENG "
     .align  0x10
     

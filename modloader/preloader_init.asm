@@ -6,12 +6,6 @@ PreloaderInitHook:
 .org 0x089970C8
 .area 192,0
 PreloaderInit:
-    ; Backup the registers v1, a1, and s0
-    ; v0 - 0x00000000 
-    ; v1 - 0x08B4C600
-    ; a1 - DEADBEEF (a1-t7 should be this)
-    ; s0 - 0x08B1C600 (once preloader/modloader is done copy s0 -> a0)
-    ; Remaining regstore space used to store some variables during preload_init
     addiu   sp,sp,-0x20
     sw      s0,0x1C(sp)
     sw      a1,0x18(sp)

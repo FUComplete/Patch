@@ -1,11 +1,5 @@
 .psp
 
-; New location of stuff for modloader - 0x08A35510
-; Total size free'd shrinking str_tbl = 86016 
-; str_tbl.pac location - 0x089C7510 (preloader and such will be dumped here and then flushed)
-; SV_SHYUK.at3 location - 0x08B80080 ( gathering hall)
-; SV_GOLIO.at3 location - 0x08B6E880 : 1589248 in size (in options menu)
-
 ; Syscalls
 sceIoOpen   equ 0x0890B938
 sceIoRead   equ 0x0890B908
@@ -38,18 +32,6 @@ MLConfigBin         equ 0x08A35850  ; Size - 64
 MLDataBlock         equ 0x08A35890  ; Size - 80
 MLnativePSP         equ 0x08A358E0  ; size - 48
 ModloaderCode       equ 0x08A35910  ; modload.bin location
-
-
-
-; FileWLStore ; Size - 826, Alloc - 832
-; ModloaderDataStore
-; ModloaderExec
-
-; bootFree1   equ 0x08954C88  ; Bank 1, size: 0xCB0
-; bootFree2   equ 0x08955EE8  ; Bank 2, size: 0xD20
-; filewlAddr  equ 0x08956800  ; File whitelist
-; ValStore    equ 0x08956B50  ; Store values for specific things
-; RegStore    equ 0x08956B80  ; Size 0x60, stores registers v0-t9
 
 ; Set a macro for adjusting addresses to uncached
 .macro  vla,dest,value
@@ -142,30 +124,10 @@ ModloaderCode       equ 0x08A35910  ; modload.bin location
     modloader_end:
 .close
 
-; Actual patcher code to be executed
-; .createfile "build/ISO_ROOT/FUC/loader.bin",patcherAddr
-;     loader_start:
-;     ; This is executed on boot
-;     .include    "modloader/instructionfix.asm"
-;     .include    "modloader/configset.asm"
-;     @@Return:
-;         vj       RestoreFDataReg
-;         nop
-;     ; Executed as called upon...
-;     .include    "modloader/fileidgen.asm"
-;     .include    "modloader/fileloader.asm"
-;     .include    "modloader/filepatcher.asm"
-;     .include    "modloader/questloader.asm"
-;     ; Mods
-;     .include    "mods/guildhall.asm"
-;     .include    "mods/hh_rework.asm"
-;     loader_end:
-; .close
-
 .createfile "build/ISO_ROOT/FUC/CONFIG.BIN",0x0
     .area 64,0
         ; Version string, also found in preloader_exec.
-        .ascii  "1.4.0 ENG "  ; Version (add a space at the end, limit 12 characters total)
+        .ascii  "DEBUG ENG "  ; Version (add a space at the end, limit 12 characters total)
         .align  0x10
         .db     0x0     ; 0x10 - File replacer toggle
         .db     0x1     ; 0x11 - Save region (0x0:JP, 0x1:US, 0x2:EU)

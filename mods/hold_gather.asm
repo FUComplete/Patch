@@ -1,53 +1,4 @@
 ; Hold to gather... 
-;
-; Hook: 09A9CBA4 (crouched)
-; Ins:
-;    li  a1,0
-;    li  a2,0x1D
-; read button buffer and check 0x090AF419 if the value is 5D (gather plant) and 60 (carve)
-;
-; Hook: 09A630C0 (standing)
-; Ins:
-    ; sb  zero,0x298(s4)
-    ; sb  zero,0x299(s4)
-; read button buffer and check 0x090AF419 if the value is 47 (gather plant), 4A (carve), 
-; 51 (mine) and 52 (gather bug)
-;
-;       note: this is changing 2 bytes so check that the first byte is 00 and second the 
-;             values above
-;
-; Hook: 0886CFEC (carve writeback)
-;      v1 stores the adjusted carve left
-;
-; Hook: 09AAA0F0 (farm)
-; Ins:
-;   sb      zero,0x298(s0)
-;   move    a0,s0
-;   0x0800 = mine, 0x0801 = bug
-
-;
-; carving notes
-; 09AA0E9C
-; 09AA0EB0
-; 09AA0EC0 - these 3 seem to deal with values set at 0x090AF4B4
-; 090AF468 - pointer to monster thats carveable? 
-; 090AF591 - potential flag for near prox?
-; 090AF7CA - carve amount
-; 08827140 - instruction for finding max carve
-; 09A01A7C - might cross with f7ca above
-; 09A409B4 - monster instance data for carves (0x6 carves remaining)
-; 090AF600 - button buffer start (offset 0x1, 0x20 = holding O)
-; 09A00846 - player inv check for 0x90,0x91,0x92,0x4CA (old,iron,mega,fish pickaxe) 
-;            and 0x94,0x95,0x96,0x4C9 (old,reg,mega,fish bugnet)
-;            check every 0x4 for said item ID.
-; 090AF7C8 - current selected item in item wheel
-; 09AA2488 - code dealing with checks if player has either net/pickaxe type
-
-; inf carves US
-; _C0 Infinite Carves
-; _L 0x81244DC6 0x00140020
-; _L 0x00000005 0x00000000
-
 ; ---------------------------------
 ; Carve Counter
 ; ---------------------------------
@@ -96,13 +47,7 @@ GatherCEND:
 ; ---------------------------------
 ; Gathering (Standing)
 ; ---------------------------------
-; v0 - 09D5E530 (?)
-; v1 - 3 (?)
-; a0 - 09D5E710 (?)
-; a1 - 099959A0 
-; a2 - 00000063 (?)
-; a3 - 00000000 (?)
-; s4 - 090AF180 ( player state mem)
+
 GatherStanding:
     addiu   sp,sp,-0x20
     sw      a3,0x1C(sp)
@@ -193,7 +138,6 @@ GatherSEND:
 ; ---------------------------------
 ; Gathering (Farm)
 ; ---------------------------------
-; 09AAA0F0 - hook
 
 GatherFarm:
     addiu   sp,sp,-0x20

@@ -1,17 +1,3 @@
-; hook: 09A5AE14
-; ins:
-;    seb a0,a2
-;    addiu v1,v1,a0
-; reg:
-    ; v0  config byte address
-    ; v1  config value
-    ; a0  ???
-    ; a1  config option ID (5 is background loading)
-    ; a2  ???
-    ; a3  ??? (0x3?)
-    ; t0  ???
-    ; t1  ???
-    ; backup s0, s1, s3
 nativePSPToggle:
     addiu   sp,sp,-0x30
     sw      s3,0x2C(sp)
