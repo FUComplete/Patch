@@ -1,4 +1,25 @@
 ; BOOT.BIN patches
+@@SyscallPatches:
+    ; We need some missing IoFileMgr syscall to create directories...
+    ; so to make the space we kill the sceHttp library effectively. We
+    ; no longer need the http library anyway because the "Download" option
+    ; is removed.
+    ;
+    ; There's some additional space for even more IoFileMgr syscalls or
+    ; we can make use of other potential syscalls from other libraries if
+    ; needed.
+    .org 0x0890C96C
+        .dw     0x06a70004  ; sceIoMkdir
+
+    .org 0x0890c478 ; sceHttp -> IoFileMgrForUser
+        .dw     0x0890C4F4  ; Name
+        .dw     0x40010011  ; Flags
+        .db     5   ; entry_size
+        .db     0   ; var_count
+        .dh     1   ; func_count
+        .dw     0x0890C96C  ; NID PTR
+        .dw     0x0890BC80  ; FUNC PTR
+
 @@DataBinCrypto:
     ; Lets kill DATA.BIN crypto so it reads decrypted 
     .org 0x0884D868
@@ -9,6 +30,17 @@
         nop
     .org 0x0884EE0C
         nop
+
+@@QuestBlockDecrypt:
+    ; Block size
+    .org 0x088C2C50
+        .dh     0x22A0
+    ; Quest file name block
+    .org 0x088C2CE0
+        .dh     0x22B0
+    ; Number of quests
+    .org 0x088C2CD8
+        .dh     18
 
 @@CharacterEncodeFix:
     ; Replace various tables 
@@ -31,11 +63,23 @@
     .org 0x089972AC
         .import "patches/equipdesc.bin" ; Equipment string ID's
 
+@@DisableBackgroundLoading:
+    .org 0x088E1AC0
+        li      v1,0x0
+
 @@DisableDataInstall:
     .org 0x08839D04
         li      v0,0x0
     .org 0x0884DE28
         li      v0,0x0
+
+@@DataInstallDirDummy:
+    .org 0x08997238
+        .ascii  "DATINSTDUMMY"
+    .org 0x0899727C
+        .ascii  "DATINSTDUMMY"
+    .org 0x089AFF74
+        .ascii  "DATINSTDUMMY"
 
 @@DataInstallToggleOnline:
     .org 0x088398C8
