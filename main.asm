@@ -67,6 +67,11 @@ ModloaderCode       equ 0x08A35910  ; modload.bin location
     .include    "patches/option_task.asm"
 .close
 
+; Gallery Menu
+.open "binary/overlay/gallery_task.ovl","build/data_in/0047",0x09A5A580
+    .include    "patches/gallery_task.asm"
+.close
+
 ; Lobby Task (village/guildhall)
 .open "binary/overlay/lobby_task.ovl","build/data_in/0050",0x09A5A580
     .include    "patches/lobby_task.asm"
