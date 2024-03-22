@@ -1,0 +1,25 @@
+str_tbl.pac 450560
+string_table_0.txt
+string_table_1.txt
+string_table_2.txt
+string_table_3.txt
+string_table_4.txt
+string_table_5.txt
+string_table_6.txt
+string_table_7.txt
+string_table_8.txt
+string_table_9.txt
+string_table_10.txt
+string_table_11.txt
+string_table_12.txt
+string_table_13.txt
+string_table_14.txt
+string_table_15.txt
+string_table_16.txt
+string_table_17.txt
+string_table_18.txt
+string_table_19.txt
+string_table_20.txt
+string_table_21.txt
+string_table_22.txt
+enddata.bin

@@ -1,0 +1,1442 @@
+<EMPTY STRING>
+Cfrm
+G
+Back
+Undo
+
+Yes
+No
+~C02[Yes]~C00・ No 
+~C00 Yes ・~C02[No]
+Select an item to exchange.<NEWLINE><NEWLINE>                            Info
+Item has been exchanged.
+Sell remaining items?<NEWLINE>OK?<NEWLINE>                  Yes   ~C02[No]~C00
+Sell remaining items?<NEWLINE>OK?<NEWLINE>                 ~C02[Yes]~C00   No
+Place item into Item Bag. When<NEWLINE>the Item Bag is full, you can<NEWLINE>switch out other items.
+Send to Item Box. If the Item Box<NEWLINE>is full, you will not be able to<NEWLINE>send the item.
+Sell remaining items and exit.
+Select the item to receive,<NEWLINE>then put it in the Item Bag.<NEWLINE>　　　　　　　　　　　　　　Info
+Select the item to receive,<NEWLINE>then send it to the Item Box.<NEWLINE>　　　　　　　　　　　　　　Info
+~C02The Item Box is full.
+Returning to village in 20 secs.
+Returning to village in 1 min.
+Quest completed!
+Reward decreased by %dz.
+Time left: %d min.
+Good work!
+Quest failed...
+Time limit: %d min.
+Time's up!
+Supplies delivered.
+Deliveries possible for 20 secs!
+The injured elder dragon fled.
+Objective cleared!
+Victory!
+Unable to protect the Fortress.
+Unable to protect the Town.
+One monster left!
+Two monsters left!
+Five monsters left!
+10 monsters left!
+20 monsters left!
+One monster left!
+Two monsters left!
+Five monsters left!
+10 monsters left!
+20 monsters left!
+Treasure Hunters Quest Time Up!
+Discard
+Give
+Deliver
+Exchange
+Discard
+~C10Give
+~C00Deliver
+Exchange
+Discard
+Give
+~C10Deliver
+~C00Exchange
+Discard
+~C10Give
+Deliver
+~C00Exchange
+~C10Discard
+Give
+Deliver
+Exchange
+Exchange
+Discard
+Quit
+Combo List
+Monster List
+Comrade Info
+Combined Item:
+Materials:
+SuccessRt:
+Result:
+100%
+95%
+90%
+85%
+75%
+65%
+55%
+~C05No.%d
+None Recorded
+~C05No.%d~C02 [Alchemy]
+None Purchased
+~C05Name:~C00%s
+~C05Type:~C00%s
+~C05No. Hunted:~C00%d
+~C05Max Length:~C00   %s<NEWLINE>~C05Min Length:~C00   %s
+%6.1f
+- - -
+Bird Wyvern
+Flying Wyvern
+Pelagus
+Piscine Wyvern
+Carapaceon
+Elder Dragon
+Lynian
+Herbivore
+Neopteron
+NO DATA
+Rathian
+Fatalis
+Kelbi
+Mosswine
+Bullfango
+Yian Kut-Ku
+Lao-Shan Lung
+Cephadrome
+Felyne
+Veggie Elder
+Rathalos
+Aptonoth
+Genprey
+Diablos
+Khezu
+Velociprey
+Gravios
+Cat Cart
+Vespoid
+Gypceros
+Plesioth
+Basarios
+Melynx
+Hornetaur
+Apceros
+Monoblos
+Velocidrome
+Gendrome
+Rock
+Ioprey
+Iodrome
+str_tbl_0_136
+Kirin
+Cephalos
+Giaprey
+Fatalis
+Rathian
+Yian Kut-Ku
+Gypceros
+Yian Garuga
+Rathalos
+Rathian
+Diablos
+Monoblos
+Khezu
+Plesioth
+Gravios
+Daimyo Hermitaur
+Rathalos
+Lao-Shan Lung
+Blangonga
+Congalala
+Rajang
+Kushala Daora
+Shen Gaoren
+Great Thunderbug
+Shakalaka
+Yama Tsukami
+Chameleos
+Kushala Daora
+Blango
+Conga
+Remobra
+Lunastra
+Teostra
+Hermitaur
+Shogun Ceanataur
+Bulldrome
+Anteka
+Popo
+Fatalis
+Yama Tsukami
+Ceanataur
+Treshi
+Tigrex
+Akantor
+Giadrome
+Yian Garuga
+King Shakalaka
+Vespoid Queen
+Nargacuga
+Hypnocatrice
+Lavasioth
+Blangonga
+Congalala
+Daimyo Hermitaur
+Shogun Ceanataur
+Ukanlos
+Rajang
+NO DATA
+Rathian
+Fatalis
+Kelbi
+Mosswine
+Bullfango
+Yian Kut-Ku
+Lao-Shan Lung
+Cephadrome
+Felyne
+Veggie Elder
+Rathalos
+Aptonoth
+Genprey
+Diablos
+Khezu
+Velociprey
+Gravios
+Vespoid
+Gypceros
+Plesioth
+Basarios
+Melynx
+Hornetaur
+Apceros
+Monoblos
+Velocidrome
+Gendrome
+Ioprey
+Iodrome
+Kirin
+Cephalos
+Giaprey
+Fatalis
+Pink Rathian
+Blue Yian Kut-Ku
+Purple Gypceros
+Yian Garuga
+Silver Rathalos
+Gold Rathian
+Black Diablos
+White Monoblos
+Red Khezu
+Green Plesioth
+Black Gravios
+Daimyo Hermitaur
+Azure Rathalos
+Ash Lao-Shan Lung
+Blangonga
+Congalala
+Rajang
+Kushala Daora
+Shen Gaoren
+Great Thunderbug
+Shakalaka
+Yama Tsukami
+Chameleos
+Kushala Daora
+Blango
+Conga
+Remobra
+Lunastra
+Teostra
+Hermitaur
+Shogun Ceanataur
+Bulldrome
+Anteka
+Popo
+Fatalis
+Ceanataur
+Treshi
+Tigrex
+Akantor
+Giadrome
+Yian Garuga
+King Shakalaka
+Vespoid Queen
+Nargacuga
+Hypnocatrice
+Lavasioth
+Copper Blangonga
+Emerald Congalala
+Plum D.Hermitaur
+Terra S.Ceanataur
+Ukanlos
+Rajang
+View Quest Details
+No quest has been accepted.
+View Quest Details
+Quest Name:
+Quest Name:
+Reward:
+Contract:
+Time:
+Zone:
+Main Monsters:
+Special Conditions:
+Quest Name:
+Quest Level:
+Quest Cleared:
+Quest Failed:
+Quest Name:
+Client:
+Quest Details:
+Material A:
+Material B:
+Combined Item:<NEWLINE><NEWLINE>SuccessRt:<NEWLINE>Result:<NEWLINE>Amount:
+Unknown
+%d%
+???%
+Combine
+Success:<NEWLINE><NEWLINE><NEWLINE>Result:<NEWLINE>Amount:
+Failure:<NEWLINE><NEWLINE><NEWLINE>Result:<NEWLINE>Amount:
+Please select
+%s ∞
+No inventory space.
+%s<NEWLINE>~C05Amount Held: ~C00%2d
+Menu
+Please select an item.
+No inventory space left.
+No space for this item type.
+%s ∞
+%s ×%2d
+You have too many of this item.
+Equipment Details~C00
+RARE-%d
+~C02[Yes]~C00・ No
+ Yes ・~C02[No]
+Next
+Items
+Combine
+　~C05%s    ~C00%01d/2
+－－－－－－－－
+∞
+Required Slots:%d
+:%3+d
+~B03Next
+~B03Back
+Status
+Name
+Weapon
+Money
+HR
+GuildPt
+PokkePt
+Lcation
+Health
+Stamina
+Attack
+Defense
+Fire Res
+Water Res
+Thundr Res
+Ice Res
+Dragon Res
+:
+GreatSword
+Hvy Bowgun
+Hammer
+Lance
+Sword
+Lt Bowgun
+DualBlades
+Long Sword
+HuntingHrn
+Gunlance
+Bow
+[Kitchen Skill]
+[Activate Skill]
+%d (Next:%d)
+%dz
+%dpts
+Skill Details
+     Skill Details       %d/%d
+ Skill Details
+  Skill Details             %d/%d
+Skill Tree
+
+ E 
+~C05: ~C00%s
+~C05: ~C00%s
+????
+Nothing equipped.
+~C05: ~C10%s
+Hunter Type:
+Rarity:
+Slots:
+Hunter Type:
+Rarity:
+Slots:
+Attack:
+Sharpness:
+Attack:
+Reload:
+Recoil:
+Mod Level:
+Attack:
+Defense   :     Level     :
+Fire Res  :     Water Res :
+Thundr Res:     Ice Res   :
+Dragon Res:
+Slowest
+UltrSlow
+SuprSlow
+VerySlow
+Slow
+Normal
+Fast
+VeryFast
+SuprFast
+Fastest
+Strngest
+Strong
+Moderate
+Light
+Weak
+VeryWeak
+Weakest
+Blademaster
+Gunner
+Blademaster/Gunner
+Color:
+S-Series
+X/Z-Series
+: ~C%02d%s~C00
+Zoom Scope
+Fixed Scope
+Long Barrel
+Silencer
+-
+Cap.:   ~C06LV 1  2  3
+~C06LV 1  2
+Cap.:
+~C%02d%s Attrib%s
+~C%02dDefense~C%02d+%d
+:~C%02d%3d0
+(Total Val):~C%02d%2d0
+%s~C%02d：%s
+~C%02d%2d
+%s~C%02d%2d
+%s~C%02d/
+%s/
+Power Barrel
+Shield
+[Note:        ]
+[Charge Attack]
+Lvl %s~C%02d%s
+    %s~C%02d%s
+[Slot Details 1]
+[Slot Details 2]
+[Usable Coating]
+Affnity:
+●
+○
+－
+No Slots
+Open Slots:%s
+Normal S
+Pierce S
+Pellet S
+Crag S  
+Clust S 
+RecovS
+PoisnS
+Para S
+SleepS
+Flame S 
+Water S 
+ThunderS
+Freeze S
+Dragon S
+Tranq S     
+Paint S     
+Demon S     
+Armor S     
+Fire
+Water
+Thndr
+Dragn
+Ice
+Poisn
+Para
+Sleep
+[Skill Tree:Skill Points]
+%-10s:~C%02d%3+d
+No Skill Effects
+No Skill Effects
+[Normal Type]
+[Spread Type]
+[Long Type]
+RapdLv1
+RapdLv2
+RapdLv3
+RapdLv4
+RapdLv5
+SctrLv1
+SctrLv2
+SctrLv3
+SctrLv4
+SctrLv5
+PrceLv1
+PrceLv2
+PrceLv3
+PrceLv4
+PrceLv5
+%d / %d
+Info
+Sort
+START
+SELECT
+%d/%d
+Qty:
+Nothing found.
+Quest Completed!
+str_tbl_0_508
+You lost your bait.
+Target monster slain!
+Quest item obtained! 
+str_tbl_0_512
+Returning to camp...
+str_tbl_0_514
+str_tbl_0_515
+I wonder if there's anything here...
+It's still raw...
+You can't carry any more items.
+You didn't catch anything.
+You couldn't carve anything off.
+Supply Items were returned.
+Heat endurance increased!
+Cold endurance increased!
+Cooling effect has expired!
+Warming effect has expired!
+str_tbl_0_526
+Speed burst has expired!
+Natural recovery returned to normal!
+Natural recovery has increased!
+Stamina has stopped decreasing!
+Temporarily retreated.
+ obtained.
+ fell down.
+ achieved.
+ at maximum.
+ has fallen unconscious.
+ has broken.
+ was stolen.
+ taken back.
+ delivered.
+ was made!
+ was made...
+ was caught!
+ was dropped.
+ received.
+ has broken.
+ at max.
+ given.
+ was given all away.
+ is biting you!
+ is really hot!
+str_tbl_0_552
+Mountains
+Jungle
+Desert
+Swamp
+Forest&Hills
+Volcano
+Great Forest
+str_tbl_0_560
+is done for!
+caught a fish!
+is handing you an item!
+broke off from the group!
+str_tbl_0_565
+str_tbl_0_566
+Award:
+acquired.
+No space left in inventory.
+There is nothing else here.
+Total Reward: 0z
+You've fallen unconscious.
+Total Reward: 0z
+No continues remaining.
+Weapon power has decreased!
+Weapon power has increased!
+Sharpness is at maximum!
+Enter a name for your character.
+~B00Enter　　~B01Cancel
+Select a gender for your character.
+~B09Select　　~B01Cancel
+Select clothing for your character.
+~B09Select　　~B01Cancel
+Select a face for your character.
+~B09Select　　~B01Cancel
+Select a hairstyle for your character.
+~B09Select　　~B01Cancel
+Select a hair color for your character.
+~B00Color　　~B01Cancel
+Select a voice for your character.
+~B09Select　　~B00Voice test　　~B01Cancel
+Confirm your character selection.
+~B00Confirm　　~B01Cancel
+NAME
+GENDER
+CLOTHING
+FACE
+HAIRSTYLE
+HAIR COLOR
+VOICE
+CONFIRM
+MALE
+FEMALE
+TYPE%02d
+Are you a beginner?
+Rotate
+Please enter a name.
+You cannot use that name.
+~B00~B01：Back
+Do you want to use this character?
+Do you want to quit character creation?
+Welcome to the world of Monster Hunter!
+Begin game without saving?
+We hope you enjoy your stay!
+Welcome to the brand new world of Monster Hunter!
+ＮＥＷ　ＧＡＭＥ
+ＣＯＮＴＩＮＵＥ
+ＧＡＬＬＥＲＹ
+ＯＰＴＩＯＮＳ
+ＤＯＷＮＬＯＡＤ
+ＤＡＴＡ ＩＮＳＴＡＬＬ
+Opening
+MHF2 Opening
+Proof of a Hero
+Promotion Video
+Soul of the World
+Sterling Hunter
+The Roaring King
+The Sly Hunter
+Behold the Kut-Ku!
+The Jungle Outlaw
+Congalala Ecology
+Desert Hunter
+Light in the Dark
+Khezu Ecology
+One-Horned Daimyo
+Daimyo Ecology
+The Piscine Plesioth
+Plesioth Ecology
+The Poison Gypceros
+The White Darkness
+Roar of the Wolf
+Roar of the Horn
+The Devil's Scythe
+Steel in the Blizzard
+Shadow in the Tempest
+Kushala Daora Ecology
+The Tyrant Tigrex
+Raging Tigrex
+Tigrex Ecology
+A Phantom Appears
+Desert Tyrant
+Diablos Ecology
+Volcanic Leader
+Gravios Ecology
+Rathian Ecology
+Empress of Flame
+Revived Queen's Battle
+Deep Forest Illusion
+Emperor of Flame
+The Raging Rajang
+Alluring Lullaby
+On Swift Wings
+Magma-Swimming Wyvern
+Lao-Shan Lung
+Lao-Shan Lung!?
+Rocky Mountain Dragon
+Tyrannical Roar
+Akantor Ecology
+Dragon of the Tower
+Destruction Approaches
+Legend of Flight
+Anger and Calamity
+The Ancestor
+Silver World
+The Green of the Land
+White Night Dune
+Location of Eternity
+The Still Swamp
+Burning Rock
+The Tower
+Deep Sea of Green
+              [Opening]<NEWLINE>The opening movie of<NEWLINE>Monster Hunter Freedom Unite.
+            [MHF2 Opening]<NEWLINE>The opening movie of<NEWLINE>Monster Hunter Freedom 2.
+          [Proof of a Hero]<NEWLINE>The staff credits of<NEWLINE>Monster Hunter Freedom Unite.
+          [Promotion Video]<NEWLINE>A promotional movie of<NEWLINE>Monster Hunter Freedom Unite.<NEWLINE>(Japanese release version)
+         [Soul of the World]<NEWLINE>           "Era of Wonder"<NEWLINE>The earth and sky echo with this song<NEWLINE>of man and nature.
+       [Giadrome: Bird Wyvern]    <NEWLINE>Leader of the Giaprey, who live in<NEWLINE>large numbers in cold climates.<NEWLINE>Its icy spray can stop you cold.
+         [Bulldrome: Pelagus]<NEWLINE>Boar-like monster with enormous<NEWLINE>fangs. Leader of Bullfangos, it<NEWLINE>will not leave wayward hunters alone.
+      [Velocidrome: Bird Wyvern]<NEWLINE>Leader of the Velociprey, with a<NEWLINE>distinctive red crest. Any escape<NEWLINE>from it must include Health recovery.
+      [Yian Kut-Ku: Bird Wyvern]<NEWLINE>A wyvern with large ears. While it<NEWLINE>may appear cute and cuddly, it is<NEWLINE>incredibly dangerous when angered.
+         [Congalala: Pelagus]<NEWLINE>A Pelagus with pink fur. While it<NEWLINE>may look a bit "slow", it possesses<NEWLINE>strength no hunter should ignore.
+         [Congalala: Pelagus]<NEWLINE>Its appetite and curiosity mean many<NEWLINE>things enter its mouth. It releases<NEWLINE>powerful gas when in danger.
+     [Cephadrome: Piscine Wyvern]<NEWLINE>Swims in the desert sands like water.<NEWLINE>A special Piscine, its excellent<NEWLINE>hearing makes it weak to loud sounds.
+           [Khezu: Wyvern]<NEWLINE>Its eyesight degenerated from living<NEWLINE>in dark caves, its sharp senses lash<NEWLINE>out with electricity at intruders.
+           [Khezu: Wyvern]<NEWLINE>A white giant with eyesight devolved<NEWLINE>from living in dark caves, it sticks<NEWLINE>to ceilings and attacks from above.
+    [Daimyo Hermitaur: Carapaceon]<NEWLINE>Giant Carapaceon that uses a wyvern's<NEWLINE>skull for a shell. Its large claws and<NEWLINE>unexpected movements make it a danger.
+    [Daimyo Hermitaur: Carapaceon]<NEWLINE>A Carapaceon ignorant of the outside<NEWLINE>world except when lured out with bait<NEWLINE>or threatened.
+      [Plesioth: Piscine Wyvern]<NEWLINE>A giant fish-like Piscine wyvern that<NEWLINE>roams the seas freely. It hunts prey<NEWLINE>with a high pressure water jet.
+      [Plesioth: Piscine Wyvern]<NEWLINE>Giant fish-like Piscine wyvern living<NEWLINE>in the sea. Known to drag those who<NEWLINE>approach the sea into a watery grave.
+       [Gypceros: Bird Wyvern]<NEWLINE>The flash from its head-mounted crest<NEWLINE>is aimed at a hunter's eyes, while its<NEWLINE>poison halts one's movements.
+         [Blangonga: Pelagus]<NEWLINE>Known for its white fur and long<NEWLINE>whiskers. As a Blango pack leader,<NEWLINE>it commands the group's actions.
+      [Yian Garuga: Bird Wyvern]<NEWLINE>Hard black shell and long mane earned<NEWLINE>it the nickname of Black Wolf Raven. <NEWLINE>Sly, it evades traps. Poisonous tail.
+          [Monoblos: Wyvern]<NEWLINE>Its one crimson horn garnered it the<NEWLINE>name Monoblos. Moving underground,<NEWLINE>its howl is absolutely terrifying.
+    [Shogun Ceanataur: Carapaceon]<NEWLINE>The long reach of its pinchers make<NEWLINE>careful strategy a must. When facing<NEWLINE>an enemy, it shows true ferociousness.
+        [Kushala Daora Battle]<NEWLINE>A decisive battle against Kushala<NEWLINE>Daora in the Snowy Mountains. The<NEWLINE>wounded dragon will take no prisoners.
+    [Kushala Daora: Elder Dragon]<NEWLINE>The Kushala Daora, with its metal-like<NEWLINE>skin, will change the weather whenever<NEWLINE>it arrives on the scene.
+    [Kushala Daora: Elder Dragon]<NEWLINE>The Kushala Daora sheds its rusted<NEWLINE>metal skin for a new covering as<NEWLINE>a part of its growth process.
+           [Tigrex: Wyvern]<NEWLINE>A wyvern with strong jaws and limbs.<NEWLINE>Does not excel at flight, but second<NEWLINE>to none when moving on the ground.
+           [Tigrex: Wyvern]<NEWLINE>When agitated, the Tigrex's arms and<NEWLINE>head turn bright red, presenting a<NEWLINE>signal for rookie hunters to run away.
+           [Tigrex: Wyvern]<NEWLINE>It seldom has difficulty taking over<NEWLINE>another monster's territory as it<NEWLINE>roams the land in search of prey.
+        [Kirin: Elder Dragon]<NEWLINE>Wrapped in a faint glow, its silver<NEWLINE>mane and spiral horn are matched with<NEWLINE>violent spirit and thunderous hooves.
+          [Diablos: Wyvern]<NEWLINE>Known as a Diablos for its two horns.<NEWLINE>Its violent temper is even more<NEWLINE>fierce when cornered.
+          [Diablos: Wyvern]<NEWLINE>Its famed two horns are powerful<NEWLINE>weapons, capable of digging into<NEWLINE>the earth itself.
+          [Gravios: Wyvern]<NEWLINE>A rock-like wyvern living in the<NEWLINE>Volcanic Belt zone. Has a very hard<NEWLINE>shell, but size makes it a weak flyer.
+          [Gravios: Wyvern]<NEWLINE>Its hard skin evolved to withstand<NEWLINE>volcanic heat, it can move freely<NEWLINE>through lava. Fierce heat attack.
+          [Rathian: Wyvern]<NEWLINE>Highly developed land-based wyvern<NEWLINE>known as the queen of the earth.<NEWLINE>Beware when it is protecting its nest.
+       [Lunastra: Elder Dragon]<NEWLINE>Known as the Empress of Flame for the<NEWLINE>moon-like blue blaze that surrounds<NEWLINE>her body.
+          [Lunastra Battle]<NEWLINE>Perched atop the very pinnacle of<NEWLINE>the Tower, those who invade its land<NEWLINE>face a falling hammer of blue flame.
+      [Chameleos: Elder Dragon]<NEWLINE>Known as the Mist Dragon, it can hide<NEWLINE>its own body. It is rarely sighted<NEWLINE>and information on it is lacking. 
+       [Teostra: Elder Dragon]<NEWLINE>The Emperor of Flame, its body is <NEWLINE>wrapped in flickering fire and it can<NEWLINE>shoot red hot breath at its foes.
+          [Rajang: Pelagus]<NEWLINE>A Pelagus who can almost breathe<NEWLINE>Thunder. When agitated, its golden<NEWLINE>fur seems to shine with rage.
+     [Hypnocatrice: Bird Wyvern]<NEWLINE>Special rust-colored bird wyvern that<NEWLINE>breathes sleeping gas on its enemies.<NEWLINE>One kick and it's lights out for good.
+         [Nargacuga: Wyvern]<NEWLINE>A black wyvern known for its speed.<NEWLINE>Flexible and agile, a single crack of<NEWLINE>its tail whips prey into submission.
+     [Lavasioth: Piscine Wyvern]<NEWLINE>Piscine that live in lava, they have<NEWLINE>great size and strength, and can spew<NEWLINE>molten rocks from their fiery abode.
+    [Lao-Shan Lung: Elder Dragon]<NEWLINE>Said to be as large as a mountain.<NEWLINE>It moves one step at a time, and the<NEWLINE>earth trembles under its feet.
+      [Shen Gaoren: Carapaceon]<NEWLINE>Living in a supremely rare Lao-Shan<NEWLINE>skull, Gaoren is a giant-legged beast.<NEWLINE>Standing, it appears to be a titan.
+    [Lao-Shan Lung: Elder Dragon]<NEWLINE>An elder dragon with an enormously<NEWLINE>long lifespan. Its scales are like<NEWLINE>tough rocks, piled on with age.
+          [Akantor: Wyvern]<NEWLINE>Living on the Volcano, this beast is<NEWLINE>disputably the most violent of all.<NEWLINE>Its name means "calamity" in Pokke.
+          [Akantor: Wyvern]<NEWLINE>A jet black body with large fangs and<NEWLINE>a spiny shell match a violent<NEWLINE>personality, making Akantor a terror.
+     [Yama Tsukami: Elder Dragon]<NEWLINE>Giant elder dragon that likes to float<NEWLINE>around the Tower. Its mountain-esque<NEWLINE>body is covered in a dense forest...?
+          [Ukanlos: Wyvern]<NEWLINE>This beast known as "white god" in<NEWLINE>ancient Pokke is oft spotted on Snowy<NEWLINE>Mountains' peak after avalanches.
+       [Fatalis: Elder Dragon]<NEWLINE>An elder dragon that has only been<NEWLINE>spotted in the pages of history. Said<NEWLINE>to have been seen at Castle Schrade.
+     [Red Fatalis: Elder Dragon]<NEWLINE>Name means "Battle of Fates" in an<NEWLINE>ancient tongue. The Red Fatalis is<NEWLINE>said to be especially vitriolic.
+    [White Fatalis: Elder Dragon]<NEWLINE>The ancestor of all dragons. No one<NEWLINE>has ever seen its shape or heard its<NEWLINE>roar, and it exists only in legend.
+            [Silver World]<NEWLINE>A world covered in white snow also<NEWLINE>hides deadly fangs. Visitors must be<NEWLINE>prepared for all that awaits them.
+       [The Green of the Land]<NEWLINE>A Jungle with a comfortable climate.<NEWLINE>Its luxurious green atmosphere is a<NEWLINE>paradise for living things.
+          [White Night Dune]<NEWLINE>The Desert: A land where night and day<NEWLINE>are polar opposites. Its temperature<NEWLINE>shifts are truly unforgiving to life.
+        [Location of Eternity]<NEWLINE>Accessible from the village, gentle<NEWLINE>rivers and rolling hills cover the<NEWLINE>nostalgia-evoking Forest and Hills.
+          [The Still Swamp]<NEWLINE>A Swamp covered in the stickiness of<NEWLINE>humidity. When the sun sinks down,<NEWLINE>noxious gases rise from the earth.
+            [Burning Rock]<NEWLINE>A savage, desolate land scarred by<NEWLINE>lava. It is also home to many<NEWLINE>valuable treasures.
+             [The Tower]<NEWLINE>Brimming with mysteries and built long<NEWLINE>ago for an unknown purpose. The spire<NEWLINE>enshrines the tower's guardian master.
+         [Deep Sea of Green]<NEWLINE>The Great Forest has existed since the<NEWLINE>dawn of recorded time. Who knows what<NEWLINE>monsters lurk in its dark shadows?
+~B00Play ~B01Back/Stop Playback
+%02d: %s
+Day
+Night
+Beginning Quest
+Preparing Quest
+Quest Cleared
+Quest Failed
+Quest Retire
+ＰＲＥＳＳ　ＳＴＡＲＴ　ＢＵＴＴＯＮ
+This game contains scenes of
+violence and gore.
+Fortress
+Frst&Hills(Day)
+Desert(Day)
+Swamp(Day)
+Volcano(Day)
+Jungle(Day)
+Castle Schrade
+Battleground
+Great Arena
+Arena
+SnwyMntains(Day)
+Town
+Tower
+Tower
+Tower
+Frst&Hills(Nght)
+Desert(Night)
+Swamp(Night)
+Volcano(Night)
+Jungle(Night)
+SnwMntains(Nght)
+Moat Arena
+SnwyMtnsPeak
+Old Jungle
+Old Desert
+Old Swamp
+Old Volcano
+GrtForest(Day)
+GrtForest(Nght)
+No
+HR 2 Or Above Only
+HR 3 Or Above Only
+HR 4 Or Above Only
+HR 5 Or Above Only
+HR 6 Or Above Only
+HR 7 Or Above Only
+HR 8 Or Above Only
+HR 9 Or Above Only
+Great Sword Only Quest
+Lance Only Quest
+Hammer Only Quest
+Sword Only Quest
+Bowgun Only Quest
+Dual Blades Only Quest
+Long Sword Only Quest
+Gunlance Only Quest
+Hunting Horn Only Quest
+Bow Only Quest
+Initiating & joining quest<NEWLINE>reqs. No equipped armor.
+Quest for two hunters or<NEWLINE>less. No personal items.
+Quest for 2 hunters or less,<NEWLINE>HR 4 or above. No Items.
+None
+Torso Inc
+Paralysis
+Sleep
+Faint
+Poison
+Antiseptic
+Snow Res
+Sneak
+Health
+Rec Speed
+Sharpness
+Artisan
+Fencing
+Expert
+SwdShrpner
+Guard
+Guard Up
+Auto-Guard
+Throw
+Reload
+Recoil
+NormalS Up
+PierceS Up
+PelletS Up
+NormalSAdd
+PierceSAdd
+PelletSAdd
+Crag S Add
+ClustS Add
+Spc Attack
+ElementAtk
+BombStrUp
+Hunger
+Gluttony
+Attack
+Defense
+Protection
+HearProtct
+Anti-Theft
+Wide Area
+Backpackng
+All Resist
+Fire Res
+Water Res
+Ice Res
+ThunderRes
+Dragon Res
+Heat Res
+Cold Res
+WindPress
+Map
+Gathering
+HiSpdGathr
+Whim
+Fate
+Fishing
+PsychicVis
+Recovery
+MixSucRate
+Shot Mix
+Alchemy
+Evade
+Potential
+Everlastng
+Stamina
+Capacity
+Precision
+Cooking
+Carving
+Terrain
+Quake Res
+BBQ
+Gunnery
+Horn
+Fatigue
+Evade Dist
+Sword Draw
+ComrdGuide
+ComradeAtk
+ComradeDef
+SpeedSetup
+PoisonCAdd
+ParalyCAdd
+SleepCAdd
+PowerCAdd
+ClsRngCAdd
+Guts
+Constitutn
+Tranquilzr
+Perceive
+ResistSts
+Edgemaster
+SteadyHand
+Fury
+AntiFirDrg
+AntiDaora
+AntiChamel
+ShortCharg
+AutoReload
+No Skill
+Para Duration Halved
+Paralysis Negated
+Para Duration[×2]
+Sleep Dur Halved
+Sleep Negated
+Sleep Dur[×2]
+Faint Prob Halved
+Faint Negated
+Faint Duration[×2]
+Poison Dur Halved
+Poison Negated
+Poison Dur[×2]
+Antiseptic
+Snow Resistance
+Stealth
+Taunt
+Health +20
+Health +30
+Health +50
+Health -10
+Health -20
+Health -30
+Damage Rec Speed +1
+Damage Rec Speed +2
+Damage Rec Speed -1
+Damage Rec Speed -2
+Sharp Sword
+Blunt
+Sharpness +1
+Sharpness -1
+ESP
+Reckless Abandon+1
+Reckless Abandon+2
+Reckless Abandon+3
+Reckless Abandon-1
+Reckless Abandon-2
+Reckless Abandon-3
+Sharpening Skl Inc
+Sharpening Skl Half
+Guard +1
+Guard +2
+Guard -1
+Guard -2
+Guard Inc
+Auto-Guard
+Throwing Skill Up
+Reloading Speed +1
+Reloading Speed +2
+Reloading Speed +3
+Reloading Speed -1
+Reloading Speed -2 
+Reloading Speed -3 
+Recoil Reduction +1
+Recoil Reduction +2
+NormalS/RapidBow Up
+PierceS/PierceBow Up
+PelletS/ScattrBow Up
+Normal S All LV Add
+Pierce S LV1 Add
+Pierce S All LV Add
+Pellet S LV1 Add
+Pellet S All LV Add
+Crag S LV1 Add
+Crag S All LV Add
+Clust S LV1 Add
+Clust S All LV Add
+Abnormal Sts Atk Up
+Element Attack Up
+Bomber
+Hunger Halved
+Hunger Negated
+Hunger Increase [Lo]
+Hunger Increase [Hi]
+Filled Up
+Scavenger
+Attack Up (Small)
+Attack Up (Medium)
+Attack Up (Large)
+Attack Down (Small)
+Attack Down (Medium)
+Attack Down (Large)
+Defense +20
+Defense +30
+Defense +40
+Defense -20
+Defense -30
+Defense -40
+Divine Protection
+Demonic Protection
+Earplug
+High Grade Earplug
+Steal No Effect
+Wide Area +1
+Wide Area +2
+Backpacking Expert
+All Res +3
+All Res +5
+All Res +10
+All Res -3
+All Res -5
+All Res -10
+Fire Res +5
+Fire Res +10
+Fire Res -5
+Fire Res -10
+Water Res +5
+Water Res +10
+Water Res -5
+Water Res -10
+Ice Res +5
+Ice Res +10
+Ice Res -5
+Ice Res -10
+Thunder Res +5
+Thunder Res +10
+Thunder Res -5
+Thunder Res -10
+Dragon Res +5
+Dragon Res +10
+Dragon Res -5
+Dragon Res -10
+Heat Cancel [Lo]
+Heat Cancel [Hi]
+Heat Inc [Lo]
+Heat Inc [Hi]
+Cold Elimination[Lo]
+Cold Elimination[Hi]
+Cold Increase [Lo]
+Cold Increase [Hi]
+Low Wind Res
+High Wind Res
+Dragon Wind Breaker
+Farsight
+Map Unavailable
+Gathering +1
+Gathering +2
+Gathering -1
+Gathering -2
+High Speed Gathering
+Spirit's Whim
+Divine Whim
+Spectre's Whim
+Devil's Whim
+Good Luck
+Luck Booster
+Bad Luck
+Calamity
+Fishing Expert
+Detect
+Autotracker
+HealthRecItemsImprvd
+HealthRecItemsWeaknd
+Combine Success +15%
+Combine Success +25%
+Combine Success +45%
+Combine Success -5%
+Combine Success -10%
+Combine Success -15%
+Bullet Limit
+Alchemy
+Evade +1
+Evade +2
+Adrenaline +1 
+Adrenaline +2
+Worry
+Item Usage Improve
+Item Usage Decline
+Runner
+Flat Footed
+Capacity Up
+Shell Deviation Down
+Shell Deviation Up
+Quick Eating
+Slow Life
+Carving Iron Man
+Carving Celebrity
+TerrainDamageHalf
+TerrainDamageNegate
+TerrainDamageInc[Lo]
+TerrainDamageInc[Hi]
+Quake Resistance
+BBQ Celebrity
+So-Called BBQ King
+Gunnery Master
+Gunnery King
+Flute Expert
+Fatigue Cancellation
+Evade Distance Up
+Art of Unsheathing
+Comrade Guidance
+ComradGuidance&Trade
+Comrade Attack Up
+Comrade Defense Up
+Trap Master
+Poison Coating Add
+Paralysis Coat Add
+Sleep Coating Add
+Power Coating Add
+ClsRngCAdd
+Guts
+Constitution +1
+Constitution +2
+Constitution -1
+Constitution -2
+Tranquilizing Whiz
+Tranquilizing Celeb
+Tranquilizing Guru
+Self-Defense
+Stellar Hunter
+Straight & True
+Emboldened
+Metallic Protection
+Frosty Protection
+Fiery Protection
+Focus
+Distracted
+Auto-Reload
+No Kitchen Skills
+FelyneDismantle[Hi]
+FelyneDismantle[Lo]
+Felyne Negotiations
+Felyne Culinary Arts
+Felyne Medicine
+FelyneMartialArts[H]
+FelyneMartialArts[L]
+Felyne Gunpowder
+FelyneSpecialAttack
+Felyne Defense[Hi]
+Felyne Defense[Lo]
+Felyne Woodwinds
+Felyne Frugality
+Felyne Charisma
+Felyne Combine[Hi]
+Felyne Combine[Lo]
+Felyne Gathering
+Felyne Aim
+Mega Lucky Cat
+Ultra Lucky Cat
+Felyne Heroics
+Felyne Blunt Force
+Felyne Great Break
+Felyne Escape
+Felyne Throw
+Felyne Courage
+Felyne Supercat
+Felyne Strongcat
+Felyne Fear Factor
+Felyne Ballooner
+Felyne Explorer
+Felyne Exchanger
+Felyne Gastronomy
+FelyneResilience[Hi]
+FelyneResilience[Lo]
+Felyne Temper
+Felyne Kickboxer
+Felyne Fighter
+Felyne Vine Climber
+Felyne Vine Master
+Felyne Supercarver
+Felyne Landing
+Felyne Constructor
+Felyne Dance
+Felyne Bulldozer
+Felyne Scavenger
+Felyne Bonus Skills
+Felyne Knock-Out
+Crazy Lucky Cat
+LANGUAGE
+SOUND
+BGM LEVEL
+FX LEVEL
+QUICK CONTINUE
+FILE REPLACER
+SAVEDATA QUESTS
+DEFAULT SETTINGS
+~B09Select　~B01Back
+~B00Confirm　~B01Back
+ENGLISH
+DEUTSCH
+FRANÇAIS
+ESPAÑOL
+ITALIANO
+STEREO
+DOLBY PRO LOGIC Ⅱ
+BOOST
+MIN
+MAX
+OFF
+ON
+Select the language for in-game text.
+Select Stereo mode.
+Set BGM output volume.
+Select sound effect output volume.
+Selecting ON will simplify the character selection screen and<NEWLINE>shorten loading times.
+Toggle to turn ON/OFF file replacer (NATIVEPSP).<NEWLINE>Please restart the game after changing this option for<NEWLINE>the changes to take effect.
+Toggle between loading built-in events or loading custom<NEWLINE>quests from Savedata.<NEWLINE>               ~C02OFF = Built-in  ~C00|  ~C03ON = Savedata
+Return all options to their default settings.
+You selected Dolby Pro Logic II. Connect your PSP~B10<NEWLINE>to a sound system with Dolby Pro Logic II decoding<NEWLINE>to experience the excitement of surround sound.
+You selected Boost. This setting boosts the sound quality of<NEWLINE>your PSP~B10 speakers. This setting is not optimized for<NEWLINE>headphones.
+Select Dolby Pro Logic II mode -- Experience the excitement of<NEWLINE>surround sound! Connect your PSP~B10 (PlayStation~B11Portable) to<NEWLINE>a sound system with Dolby Pro Logic II decoding.
+Select Boost mode -- This mode boosts the sound quality of<NEWLINE>your PSP~B10 (PlayStation~B11Portable) speakers. This setting<NEWLINE>is not optimized for headphones.
+Return to the Game Menu.
+WLAN switch has been turned off.
+Open Item Bag and check current<NEWLINE>item inventory.
+Combine items.
+Check status and conditions<NEWLINE>of the current quest.
+Perform Gestures.
+Listen to the Training School<NEWLINE>Instructor's advice.
+Pause game.
+Check your current status.
+View details of your equipment.
+Check reference material.
+Change various game options.
+Quit the current quest and<NEWLINE>return to the village.
+Select the action you'd like<NEWLINE>to perform.
+Examine your Combo List.
+Examine your Monster List.
+Display Felyne Comrade's Status.
+Turn HUD display ON/OFF.
+Turn Map display ON/OFF.
+Settings for normal camera<NEWLINE>movement.
+Settings for camera movement<NEWLINE>when using a scope.
+Settings for simple aiming<NEWLINE>of the Bowgun or final aim<NEWLINE>adjustments for the Bow.
+Settings for the camera type when <NEWLINE>simple aiming of the Bowgun or <NEWLINE>final aim adjustments for the Bow.
+Set relationship between camera<NEWLINE>type and input during mid-attack<NEWLINE>evasive movements.
+Adjust Bowgun Shoulder Sight<NEWLINE>settings.
+Select Stereo mode.
+Set the selection method for the<NEWLINE>Online Gathering Hall and Group<NEWLINE>Training School.
+Select Stereo mode.
+Toggle between loading built-in<NEWLINE>events or loading custom quests<NEWLINE>from Savedata.<NEWLINE> ~C02OFF = Built-in  ~C00|  ~C03ON = Savedata
+Select Dolby Pro Logic II mode --<NEWLINE>Experience the excitement of<NEWLINE>surround sound by connecting your<NEWLINE>PSP~B10 (PlayStation~B11Portable)<NEWLINE>to a sound system with Dolby Pro<NEWLINE>Logic II decoding.
+Select Boost mode -- This mode<NEWLINE>boosts the sound quality of your<NEWLINE>PSP~B10 (PlayStation~B11Portable)<NEWLINE>speakers. This setting is not<NEWLINE>optimized for headphones.
+Select an item to send to<NEWLINE>the Item Box.
+Item has been sent.
+~C02The Item Box is full.
+Do you want to sort your items?
+Disconnected.
+The selected item will<NEWLINE>be discarded. OK?
+Select a recipient.
+Is this OK?
+Select the number to give.
+Please select the number of items<NEWLINE>that you would like to deliver.
+These items will be delivered.<NEWLINE>Is this OK?
+Do you want to sort your items?
+Select item destination.
+~C10Unknown
+Unknown
+~C02You have no materials.
+~C02You cannot carry any more<NEWLINE>of this item.
+~C02There is no room in your<NEWLINE>Item Bag.
+You cannot carry any more items.<NEWLINE>Please select a course of action.
+Which item do you want<NEWLINE>to exchange?
+Item will be exchanged.<NEWLINE>Is this OK?
+1
+1～2
+2
+1～3
+2～4
+3
+5
+Wave
+Bow
+Greet
+Call
+Dance
+Cheer
+Nod Head
+Praise
+Taunt
+Frustrtd
+Shake Hd
+Despair
+Pokke Village(Offline)
+Gathering Hall 
+Training Area 
+Press the ~B00 button
+Sale Price:
+Total Sale:
+Village Chief's Glove
+Village Chief's Hat
+Village Chief's Scarf
+Village Chief's Coat
+Mane Necklace
+Blood Onyx
+King's Crown
+Miniature Crown
+Bronze Medal
+Silver Medal
+Gold Medal
+Black Belt Badge
+Expert Badge
+Legend Badge
+Rare Species Report
+Ecology Research Report
+Azure Stone
+Great Hornfly
+Springnight Carp
+Dosbiscus
+Grateful Letter
+Sage's Bracelet
+Wyverian Artisan's Hammer
+Hunter's Progress
+Nekoht's Whiskers
+Nekoht's Bell
+Nekoht's Coat
+Pokke Village Gourd
+Orichalcum Shield
+Platinum Shield
+Gold Shield
+Supreme Hunter's Crest
+Igneous Ring
+Ring of Fire
+Powder-White Crown
+Gold Snowshoes
+Ukanlos Bead
+Epic Hunts Armband
+Warrior's Medal
+Guardian's Award
+Flower Bouquet from the Guild
+Adventurer's Helm
+Trenya's Flag
+The Ultimate Catnip
+Letter to My Fearless Leader
+Member's Card
+Wyverian Artisan's Mitten
+Hunter's Miracle
+View
+Exit
+Battle Training
+Special Training
+Group Training
+G-Level Training
+Yian Kut-Ku Training
+Congalala Training
+Khezu Training
+Daimyo Hermitaur Training
+Blangonga Training
+Yian Garuga Training
+Tigrex Training
+Diablos Training
+Gravios Training
+Kirin Training
+Cephadrome Training
+Plesioth Training
+Shogun Ceanataur Training
+Rathalos Training
+Rajang Training
+Cephadrome Exercises
+Rathian Exercises
+Shogun Ceanataur Exercises
+Tigrex Exercises
+Hypnocatrice Training
+Emerald Congalala Training
+Plum D.Hermitaur Training
+Nargacuga Training
+Copper Blangonga Training
+Lavasioth Training
+Terra S.Ceanataur Training
+Rajang Training
+Online Interactions<NEWLINE>Not Rated by the ESRB
+Receive Item
+Send Item to Item Box
+Finish
+First Leader
+Comrade LV
+Fondness
+Temperament
+Slash/Strike
+Attack Pref
+Comrade Skill
+Coloration
+pts
+:
+No Felyne Comrade selected
+Slsh
+Strk
+Felyne Comrade
+Flute
+Health Flute
+Demon Flute
+Armor Flute
+Large Barrel-Bomb
+Speedy Recovery
+Guard Percentage Up
+Rob 'em Blind
+Shock Trap
+Hyperdrive
+Element Atk Fire
+Element Atk Water
+Element Atk Thunder
+Element Atk Ice
+Element Atk Dragon
+StatusAtkParalysis
+Status Atk Poison
+Status Atk Sleep
+Element Attack Up
+Abn Status Atk Up
+True Health Flute
+Health Up
+Attack Up
+Defense Up
+Affinity Attack
+Bomb Strength Up
+Antidote Flute
+Clairvoyance
+Bomb Dmg Reduction
+Say No to Gathering
+Workaholic
+Fall 7x, Get Up 8x
+In a Corner
+Poison Negate
+Wind Negate
+Earplugs
+Average
+Bomb-lover
+PreferBomb
+PreferWeapon
+Weapon-lover
+Foolhardy
+Brave
+Cautious
+Cowardly
+Aims Large
+Aims Large
+Aims Small
+Aims Small
+Double KO
+Scrapper
+Peace-loving
+Bombs Only
+MainlyBombs
+Balanced
+MainlyWeapon
+Weapon Only
+Doesn't Atk

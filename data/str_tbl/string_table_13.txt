@@ -1,0 +1,409 @@
+Nothing equipped.
+Leather Belt
+Light Belt
+Chain Belt
+Iron Belt
+Hunter's Tasset
+Hunter's Coat
+Bone Tasset
+Bone Coat
+Velociprey Tasset
+Velociprey Coat
+Battle Tasset
+Battle Coat
+Hide Belt
+Vespoid Tasset
+Vespoid Coat
+Hornet Tasset
+Hornet Coat
+Hi-Metal Tasset
+Hi-Metal Coat
+Genprey Tasset
+Genprey Coat
+Chrome Metal Coat
+Kut-Ku Tasset
+Kut-Ku Coat
+Ioprey Tasset
+Ioprey Coat
+Gypceros Tasset
+Gypceros Coat
+Cephalos Tasset
+Cephalos Coat
+Steel Belt
+Rathian Tasset
+Rathian Coat
+Khezu Tasset
+Khezu Coat
+Rathalos Tasset
+Rathalos Coat
+Basarios Tasset
+Basarios Coat
+Diablo Coil
+Diablo Coat
+Monoblos Coil
+Monoblos Coat
+Gravios Tasset
+Gravios Coat
+Black Belt Tasset
+Mosswine Hip
+Melahoa Skirt
+Bistro Apron
+Shinobi Belt (Sun)
+Shinobi Belt (Moon)
+Guardian Coil
+Guardian Coat
+Helper Skirt
+Healer Frills
+Garuga Tasset
+Garuga Coat
+Auroros Tasset
+Genesis Tasset
+Borealis Tasset
+Glyph Tasset
+Red Borealis Tasset
+Red Glyph Tasset
+Black Spine
+Black Scale
+Leather Belt U
+Chain Belt U
+Hunter's Tasset U
+Hunter's Coat U
+Bone Tasset U
+Bone Coat U
+Giaprey Tasset U
+Giaprey Coat U
+Battle Tasset U
+Battle Coat U
+Vespoid Tasset U
+Vespoid Coat U
+Hornet Tasset U
+Hornet Coat U
+Hi-Metal Tasset U
+Hi-Metal Coat U
+Genprey Tasset U
+Genprey Coat U
+Kut-Ku Tasset U
+Kut-Ku Coat U
+Ioprey Tasset U
+Ioprey Coat U
+Gypceros Tasset U
+Gypceros Coat U
+Cephalos Tasset U
+Cephalos Coat U
+Steel Belt U
+Rathian Heart Coil
+Rathian Heart Coat
+Khezu Tasset U
+Khezu Coat U
+Rathalos Soul Coil
+Rathalos Soul Coat
+Basarios Tasset U
+Basarios Coat U
+Diablo Coil U
+Diablo Coat U
+Monodevil Coil
+Monodevil Coat
+Gravios Tasset U
+Gravios Coat U
+Shinobi Belt (Sky)
+Shinobi Belt (Sea)
+Guardian Coil U
+Guardian Coat U
+Helper Skirt U
+Healer Frills U
+Auroros Tasset Ten
+Genesis Tasset Ten
+Borealis Tasset Ten
+Glyph Tasset Ten
+Fatalis Spine
+Fatalis Scales
+Golden Moon Tasset 
+Golden Moon Coat
+Silver Sol Tasset
+Silver Sol Coat
+Leather Belt S
+Chain Belt S
+Hunter's Tasset S
+Hunter's Coat S
+Bone Tasset S
+Bone Coat S
+Velociprey Tasset S
+Velociprey Coat S
+Battle Tasset S
+Battle Coat S
+Vespoid Tasset S
+Vespoid Coat S
+Hornet Tasset S
+Hornet Coat S
+Hi-Metal Tasset S
+Hi-Metal Coat S
+Genprey Tasset S
+Genprey Coat S
+Kut-Ku Tasset S
+Kut-Ku Coat S
+Ioprey Tasset S
+Ioprey Coat S
+Gypceros Tasset S
+Gypceros Coat S
+Cephalos Tasset S
+Cephalos Coat S
+Steel Belt S
+Rathian Tasset S
+Rathian Coat S
+Khezu Tasset S
+Khezu Coat S
+Rathalos Tasset S
+Rathalos Coat S
+Basarios Tasset S
+Basarios Coat S
+Diablo Coil S
+Diablo Coat S
+Monoblos Coil S
+Monoblos Coat S
+Gravios Tasset S
+Gravios Coat S
+Shinobi Belt(Heaven)
+Shinobi Belt (Earth)
+Red Guild Guard Coil
+Red Guild Guard Coat
+Red Guild Guard Coil
+Red Guild Guard Coat
+Auroros Tasset Haku
+Genesis Tasset Haku
+Borealis Tasset Haku
+Glyph Tasset Haku
+Dragon Spine S
+Dragon Scales S
+Hermitaur Tasset
+Hermitaur Coat
+Hermitaur Tasset U
+Hermitaur Coat U
+Hermitaur Tasset S
+Hermitaur Coat S
+Conga Tasset
+Conga Coat
+Conga Tasset U
+Conga Coat U
+Conga Tasset S
+Conga Coat S
+Blango Tasset
+Blango Coat
+Blango Tasset U
+Blango Coat U
+Blango Tasset S
+Blango Coat S
+Ceanataur Tasset
+Ceanataur Coat
+Ceanataur Tasset U
+Ceanataur Coat U
+Ceanataur Tasset S
+Ceanataur Coat S
+Kirin Hoop
+Kirin Shorts
+Kirin Hoop S
+Kirin Shorts S
+Kushala Cocoon
+Kushala Wind Wrap
+Mizuha Sash
+Extravagant Coat
+Empress Tasset
+Empress Coat
+Indra Wrap
+Steadfast Coat
+Kaiser Tasset
+Kaiser Coat
+Guardian Spirit Coil
+Carnage Wrap
+Golden Obi
+Puppet Master Obi
+White Fatalis Spine
+White Fatalis Scale
+Plesioth Tasset S
+Plesioth Coat S
+Black Belt Tasset S
+Remobra Belt
+Guild Knight Coat
+Guild Knight Kilt
+Maiden's Skirt
+Personal Frills
+Blue GuildGuard Coil
+Blue GuildGuard Coat
+Blue GuildGuard Coil
+Blue GuildGuard Coat
+Lobster Coil
+Lobster Coat
+Amezari Tasset
+Amezari Coat
+Mafumofu Coat
+Mafumofu Coat S
+Giaprey Tasset
+Giaprey Coat
+Melahoa Trunk
+Melahoa Skirt U
+Melahoa Trunk U
+Makluva Coat
+Makluva Fin
+Makluva Coat U
+Makluva Fin U
+Bistro Apron U
+Kut-Ku Tasset D
+Kut-Ku Coat D
+Gypceros Tasset D
+Gypceros Coat D
+Khezu Tasset D
+Khezu Coat D
+Obituary Anca
+Obituary Cocusa
+Butterfly Anca
+Butterfly Cocusa
+Obituary Anca S
+Obituary Cocusa S
+Butterfly Anca S
+Butterfly Cocusa S
+Kushala Cocoon S
+Kushala Wind Wrap S
+Tigrex Tasset
+Tigrex Coat
+Tigrex Tasset S
+Tigrex Coat S
+Death Stench Bowels
+Death Stench Belly
+DeathStench Bowels S
+Death Stench Belly S
+Diablo Coil D
+Diablo Coat D
+Gravios Tasset D
+Gravios Coat D
+Supreme Mizuha Sash
+SuprmExtravagantCoat
+Kaiser Tasset S
+Kaiser Coat S
+Rathian Heart Coil U
+Rathian Heart Coat U
+Rathalos Soul Coil U
+Rathalos Soul Coat U
+Ultimate Indra Wrap
+SupremeSteadfastCoat
+DarkAkantor Cincture
+Dark Akantor Sash
+Diasorte Coil
+Diasorte Coat
+Pirate J Coil
+Pirate J Skirt
+Hypno Tasset X
+Hypno Coat X
+Lava Tasset X
+Lava Coat X
+Garuga Tasset X
+Garuga Coat X
+Kut-Ku Tasset Z
+Kut-Ku Coat Z
+Gypceros Tasset Z
+Gypceros Coat Z
+Khezu Tasset Z
+Khezu Coat Z
+Basarios Tasset X
+Basarios Coat X
+Plesioth Tasset Z
+Plesioth Coat Z
+Hermitaur Tasset Z
+Hermitaur Coat Z
+Conga Tasset Z
+Conga Coat Z
+Rathian Heart Coil Z
+Rathian Heart Coat Z
+Rathalos Soul Coil Z
+Rathalos Soul Coat Z
+Ceanataur Tasset Z
+Ceanataur Coat Z
+Blango Tasset Z
+Blango Coat Z
+Auroros Tasset Goku
+Genesis Tasset Goku
+Borealis Tasset Goku
+Glyph Tasset Goku
+Golden Moon Coil Z
+Golden Moon Coat Z
+Silver Sol Coil Z
+Silver Sol Coat Z
+Diablo Coil Z
+Diablo Coat Z
+Gravios Tasset Z
+Gravios Coat Z
+Tigrex Tasset X
+Tigrex Coat X
+Indra Wrap Shin
+Steadfast Coat Shin
+Golden Obi Shin
+PuppetMasterObiShin
+Kirin Hoop X
+Kirin Shorts X
+Kushala Cocoon X
+Kushala Wind Wrap X
+Mizuha Sash Shin
+ExtravagantCoatShin
+Kaiser Tasset X
+Kaiser Coat X
+GuardianSprtCoilShin
+Carnage Wrap Shin
+Fatalis Spine Z
+Fatalis Scale Z
+WhiteFatalisSpineZ
+WhiteFatalisScaleZ
+Black Belt Tasset X
+Black Belt Coat X
+Melahoa Skirt Z
+Melahoa Trunk Z
+Makluva Coil Z
+Makluva Fin Z
+Chakra Tasset
+Hypno Tasset S
+Hypno Coat S
+Garuga Tasset S
+Garuga Coat S
+Narga Tasset S
+Narga Coat S
+Monodevil Coil U
+Monodevil Coat U
+Kut-Ku Tasset X
+Kut-Ku Coat X
+Conga Tasset X
+Conga Coat X
+Gypceros Tasset X
+Gypceros Coat X
+Khezu Tasset X
+Khezu Coat X
+Hermitaur Tasset X
+Hermitaur Coat X
+Plesioth Tasset X
+Plesioth Coat X
+Obituary Anca X
+Obituary Cocusa X
+Butterfly Anca X
+Butterfly Cocusa X
+Blango Tasset X
+Blango Coat X
+Monoblos Coil X
+Monoblos Coat X
+Ceanataur Tasset X
+Ceanataur Coat X
+Rathian Tasset X
+Rathian Coat X
+Rathalos Tasset X
+Rathalos Coat X
+Narga Tasset X
+Narga Coat X
+Diablo Coil X
+Diablo Coat X
+Gravios Tasset X
+Gravios Coat X
+Empress Coil X
+Empress Coat X
+Dragon Spine X
+Dragon Scales X
+DarkUkanlosCincture
+Dark Ukanlos Sash
+Hypno Tasset
+Hypno Coat
+Lava Tasset
+Lava Coat

@@ -1,0 +1,354 @@
+Nothing equipped.
+Shooter's Barrel
+Chain Blitz
+Shotgun (White)
+Shotgun (Azure)
+Shotgun (Green)
+Shotgun (Blood)
+Desert Storm
+Sandfall
+Maelstrom
+Jade Storm
+Lobster Gun
+Amezari Crossbow
+Tail String
+Tail String+
+Kut-Ku Anger
+Kut-Ku Rage
+Raven Do
+Angel Parasol
+Sakura Parasol
+Tigrex Tank
+Grenade Launcher
+Titan Launcher
+Uranos Grenade
+Valkyrie Fire
+Valkyrie Heart
+Spartacus Fire
+Spartacus Soul
+Azure Sakura
+Felyne Ragdoll
+Melynx Ragdoll
+Black Belt Bowgun
+Demonlock
+Blessed Lamp
+Black Parasol
+Great Crossbow Gun
+Hornet Gun
+Bullet Storm
+Aqua Blade Shower
+Green Blade Shower
+Crimson Blade Shower
+Desert Tempest
+Sandfall+
+Maelstrom+
+Jade Tempest
+King Lobster Gun
+Tail Catapult
+Wolf Do
+Peach Parasol
+Tigrex Wargun
+Grenade Launcher+
+Titan Launcher+
+Chronos Grenade
+Rajang Barrage
+Valkyrie Blaze
+Valkyrie Heart+
+Gold Valkyrie
+Spartacus Blaze
+Spartacus Soul+
+Silver Spartacus
+Crimson Blue
+Supreme Azure Sakura
+Profusion
+Fire Wrath
+Felyne Helldoll
+Melynx Helldoll
+Expert Bowgun
+Island of the Gods
+Cursed Lamp
+Dark Parasol
+Bone Shooter
+Rapidcaster
+Monodevilcaster
+Duelcaster
+Quickcaster
+Injector Cannon
+Flechette Gun
+Ladybug Cannon
+Yian Kut-Ku Cannon
+Blue Kut-Ku Cannon
+Raven Heirloom
+Tankmage
+Bastionmage
+Crab Buster
+Meteor Cannon
+Rock Eater
+Tigrex Howl
+Daora's Delphinidae
+Lunastra's Cannon
+Teostra's Artillery
+Lao-Shan Lung Cannon
+Bronze Fire
+Black Cannon
+Great Arbalest
+Monodevilcaster+
+Duelcaster+
+Quickcaster+
+Honeycomber
+Ladybug Cannon+
+Mega Kut-Ku Cannon
+Wolf Heirloom
+Tankmage+
+Blastion Cannon
+Heavy Buster Crab
+Meteor Buster
+Earth Eater
+Tigrex Skull
+Gravios Howl
+Gravios Roar
+Daora Grande
+Teostra's Flames
+Supreme Lao-Shan Can
+Empr Lao-Shan Cannon
+Gaoren's Fire
+Vor Cannon
+Destiny's Hand
+Hunter's Bow I
+Hunter's Bow II
+Hunter's Bow III
+Hunter's Bow IV
+Hunter's Power BowI
+Hunter's Power BowII
+Hunter's PowerBowIII
+Wild Bow I
+Wild Bow II
+Wild Bow III
+Wild Bow IV
+Wild Power Bow I
+Wild Power Bow II
+Blango Fur Bow I
+Blango Fur Bow II
+Blango Fur Bow III
+Blango Fur Bow IV
+Abominable Bow I
+Kut-Ku Stave I
+Kut-Ku Stave II
+Kut-Ku Stave III
+Blue Kut-Ku Stave I
+Daimyo's Warbow I
+Daimyo's Warbow II
+Daimyo's Warbow III
+Daimyo's Warbow IV
+Sonic Bow I
+Sonic Bow II
+Sonic Bow III
+Queen Blaster I
+Queen Blaster II
+Queen Blaster III
+Heartshot Bow I
+Heartshot Bow II
+Prominence Bow I
+Prominence Bow II
+Prominence Bow III
+Courageous Hope
+Courageous Wish
+Diablos Horn Bow I
+Diablos Horn Bow II
+Tiger Arrow I
+Tiger Arrow II
+Tigrex Whisker
+Dragonhead Harp I
+Dragon Bow Halo
+Dragon Bow Solar
+Dragon Bow Earth
+Dragon Bow Mountain
+Akantor Bow
+Exterminator Bow I
+Glorious Victory I
+Assault Conga
+Shakalaka Prized Bow
+Assault Conga+
+Hidden Gaze
+Hi Chain Blitz
+Nebula Storm
+Jade Typhoon
+Royal Lobster Gun
+Hexed Shaka Bow
+Heartfelt Cast
+Combat Conga
+Jungle Assault
+Kut-Ku Counterattack
+Kut-Ku Barrage
+Owl's Eye Darkbow
+Grenade Revolver
+Warrior's Bowgun
+Fierce Moss Green
+Fierce Wine Red
+Promenade
+Shotgun (Snake)
+Sakura Semi-Auto
+Azure Semi-Auto
+Pollination
+Tail Launcher
+Crow Do
+Lava Storm
+Desert Tail
+Mythical Three-Horn
+Gold Semi-Auto 
+Silver Semi-Auto
+Prosperity
+Genie's Lamp
+Titan Panzer
+Chronos Panzer
+EngravedFireWyvnBow
+Ten-Thousand Volts
+Tigrex Wargun+
+Absolute Bow
+Ukanlos Flame Bow
+Island of the Gods G
+Crossbow Gun G
+Shotgun (White) G
+Shotgun (Azure) G
+Shotgun (Emerald) G
+Shotgun (Blood) G
+Hornet Gun G
+Desert Tempest G
+Sandfall G
+Angel Parasol G
+Peach Parasol G
+Felyne Helldoll G
+Melynx Helldoll G
+Maelstrom G
+Jade Typhoon G
+King Lobster Gun G
+Amezari Crossbow G
+Hexed Shaka Bow G
+Heartfelt Cast G
+Combat Conga G
+Jungle Assault G
+Kut-Ku Counteratk G
+Kut-Ku Barrage G
+Dark Parasol G
+Sand Diver
+Piercing Crab
+Desert Diver
+Heavy Piercing Crab
+Lunastra's Flames
+Hidden Sniper
+Great Arbalest+
+Tanksorcerer
+Bastionwitch
+Pressurized Plesioth
+Queen Needle
+Power Stinger
+Violet Punisher
+Super Kut-Ku Cannon
+Ultra Kut-Ku Cannon
+Evil Wind Darkcannon
+Meteor Shower
+GreatLadybugCannon+
+Gaia Eater
+Icethrower
+Crow Heirloom
+Ceanataur Blaster
+Terra C Blaster
+UltimateLao-ShaoCan
+Quick Quiver
+Destiny's Arm
+Daora's Ceti
+Gravios Gigahowl
+Gravios Gigaroar
+Teostra Flamethrower
+Vor Buster
+Dark Duelcaster
+Tigrex Skull+
+AncientDrgnwoodCan
+Gaoren Orb
+Ukanlos Cannon
+Arbalest G
+Injector Cannon G
+Rapidcaster G
+Honeycomber G
+Tanksorcerer G
+Bastionwitch G
+Desert Diver G
+PressurizedPlesiothG
+Meteor Cannon G
+Black Cannon G
+Power Stinger G
+Queen Needle G
+Lunastra's Flames G
+SuperKut-KuCannon G
+UltraKut-KuCannon G
+Crab Buster G
+Violet Punisher G
+Monodevilcaster G
+Duelcaster G
+Lao-ShanLungCannon G
+Hunter's Bow G
+Hunter's Power BowIV
+Icicle Bow I
+Icicle Bow II
+Blango Fur Bow G
+Abominable Bow II
+Wild Bow G
+Wild Power Bow G
+Jungle Bow I
+Jungle Bow II
+Kut-Ku Stave G
+Blue Kut-Ku Stave II
+BlueKut-KuStave III
+Wolf Bow
+Crow Bow
+Defect Swordfish Bow
+Whole Swordfish Bow
+PerfectSwordfishBow
+Swordfish Bow G
+Sonic Bow IV
+Sonic Bow G
+Daimyo's Warbow G
+Grt Purple Emperor I
+GrtPurpleEmperor II
+Blue Blade Bow I
+Blue Blade Bow II
+Blue Blade Bow III
+Showroom Model
+Carmine Bow
+Eraser
+Tigrex Whisker+
+Hidden Bow
+Midnight Bow
+Black Bow I
+Black Bow II
+Black Bow G
+Exterminator Bow II
+Glorious Victory II
+Dragon Bow Chaos
+Dragon Bow Solar G
+AncientDragonwoodBow
+Prominence Bow IV
+Prominence Bow V
+Queen Blaster IV
+Queen Blaster V
+Heartshot Bow III
+Wing Bow I
+Wing Bow II
+Wing Bow III
+Wing Bow IV
+Dragonhead Harp II
+Dragonhead Harp III
+Diablos Horn Bow G
+Gale Horn Bow
+DiablosKingHornBow
+Courageous Dream
+Akantor Chaos Bow
+Ukanlos Bow
+Khezu Bow I
+Khezu Bow II
+Beast Thunderbow
+BeastKingThunderbow
+Icy Steel Bow
+Daora's Sagittarii
+Pirate J Cannon
+Diasorte Arrow

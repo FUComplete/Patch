@@ -1,0 +1,1261 @@
+－－－－－－
+Book of Combos 1
+Book of Combos 2
+Book of Combos 3
+Book of Combos 4
+Book of Combos 5
+Alchemy Guide
+Potion
+Mega Potion
+Nutrients
+Mega Nutrients
+Antidote
+Immunizer
+Power Juice
+Mega Juice
+Demondrug
+Mega Demondrug
+Power Pill
+Armorskin
+Mega Armorskin
+Armor Pill
+Cool Drink
+Hot Drink
+Thawing Agent
+Psychoserum
+Monster Fluid
+Monster Broth
+Monster Essence
+Thunderbug Juice
+Thunderbug Jelly
+Herbal Medicine
+Max Potion
+Ancient Potion
+Catalyst
+Energy Drink
+Gunpowder
+Lifecrystals
+Lifepowder
+Powercharm
+Powertalon
+Armorcharm
+Armortalon
+Tranquilizer
+Raw Meat
+Poisoned Meat
+Tainted Meat
+Drugged Meat
+Rare Steak
+Well-Done Steak
+Gourmet Steak
+Burnt Meat
+Hot Meat
+Cold Meat
+Rare Fish
+Gourmet Fish
+Gourmet Fish+
+Burnt Fish
+Boomerang
+Throwing Knife
+Poison Thrw Knf
+Sleeping Thr Knf
+Paralyze Thr Knf
+Tranq Thrwng Knf
+Bomb Material
+Paintball
+Flash Bomb
+Sonic Bomb
+Dung
+Wyvern Droppings
+Dung Bomb
+Smoke Bomb
+Poison Smoke Bmb
+Farcaster
+Deodorant
+Tranq Bomb
+Spiderweb
+Net
+Trap Tool
+Pitfall Trap
+Shock Trap
+Lightning Rod
+Barrel Lid
+Small Barrel
+Large Barrel
+Sm Barrel-Bomb
+Sm Barrel-Bomb+
+Lg Barrel-Bomb
+Lg Barrel-Bomb+
+Bounce Bomb
+Bounce Bomb+
+Anti-Dragon Bomb
+Polytan Bomb
+JUMP Barrel Bomb
+Huskberry
+Sm Bone Husk
+Lg Bone Husk
+Normal S Lv1
+Normal S Lv2
+Normal S Lv3
+Pierce S Lv1
+Pierce S Lv2
+Pierce S Lv3
+Pellet S Lv1
+Pellet S Lv2
+Pellet S Lv3
+Crag S Lv1
+Crag S Lv2
+Crag S Lv3
+Clust S Lv1
+Clust S Lv2
+Clust S Lv3
+Flaming S
+Water S
+Thunder S
+Freeze S
+Dragon S
+Recov S Lv1
+Recov S Lv2
+Poison S Lv1
+Poison S Lv2
+Para S Lv1
+Para S Lv2
+Sleep S Lv1
+Sleep S Lv2
+Tranq S
+Paint S
+Demon S
+Armor S
+No Coating
+Empty Bottle
+Power Coating
+Poison Coating
+ParalysisCoating
+Sleep Coating
+CloseRngCoating
+Paint Coating
+Cricket
+Worm
+Firefly
+Frog
+Tuna Bait
+Arrowana Bait
+Goldenfish Bait
+Mega Fishing Fly
+Old Pickaxe
+Iron Pickaxe
+Mega Pickaxe
+Expand Pickaxe
+Old Bugnet
+Bugnet
+Mega Bugnet
+BBQ Spit
+Gourmet BBQ Spit
+Whetstone
+Binoculars
+Garbage
+Flute
+Health Flute
+Antidote Flute
+Demon Flute
+Armor Flute
+Honey
+Sunset Herb
+Herb
+Antidote Herb
+Fire Herb
+Ivy
+Sleep Herb
+Sap Plant
+Felvine
+Cactus Flower
+Hot Pepper
+Dosbiscus
+Mountain Herbs
+Giant Corn
+Special Mushroom
+Select Mushroom
+Blue Mushroom
+Nitroshroom
+Parashroom
+Toadstool
+Exciteshroom
+Dragon Toadstool
+Spicy Mushroom
+Chaos Mushroom
+Paintberry
+Power Seed
+Armor Seed
+Dragon Seed
+Scatternut
+Needleberry
+Bomberry
+Tropical Berry
+Frozen Berry
+Red Seed
+Green Seed
+Yellow Seed
+Beautiful Shell
+Black Pearl
+Giant Blk Pearl
+Stone
+Disk Stone
+Iron Ore
+Earth Crystal
+Machalite Ore
+Dragonite Ore
+Carbalite Ore
+Eltalite Ore
+Union Ore
+Mellanje Ore
+Firestone
+Firecell Stone
+Coal
+Goldstone Piece
+Goldstone Hunk
+Lightcrystal
+Novacrystal
+Purecrystal
+Antiseptic Stone
+Ice Crystal
+Rainbow Ore
+Great Stone
+Armor Stone
+Armor Sphere
+Armor Sphere+
+Hrd Armor Sphere
+Hvy Armor Sphere
+Ryl Armor Sphere
+Tru Armor Sphere
+Knife Mackerel
+Sushifish
+Sleepyfish
+Pin Tuna
+Rumblefish
+Scatterfish
+Burst Arrowana
+Bomb Arrowana
+Glutton Tuna
+Gastronome Tuna
+Speartuna
+Small Goldenfish
+Goldenfish
+Silverfish
+Ancient Fish
+Springnight Carp
+Tailed Frog
+Insect Husk
+Yambug
+Bughopper
+Snakebee Larva
+Godbug
+Bitterbug
+Flashbug
+Thunderbug
+Carpenterbug
+King Scarab
+Emperor Cricket
+Killer Beetle
+Hercudrome
+Rare Scarab
+PhantomButterfly
+Royal Rhino
+Divine Rhino
+Rainbow Insect
+Great Hornfly
+Great Ladybug
+Screamer
+Poison Sac
+Toxin Sac
+DeadlyPoisonSac
+Paralysis Sac
+Sleep Sac
+Coma Sac
+Flame Sac
+Inferno Sac
+Blazing Fire Sac
+Electro Sac
+Thunder Sac
+Lightning Sac
+Power Extract
+Pale Extract
+Sm Monster Bone
+Med Monster Bone
+Lg Monster Bone
+Monster Bone+
+Hrd Monster Bone
+Hvy Monster Bone
+Eldr Dragon Bone
+BigEDragonBone
+Mystery Bone
+Unknown Skull
+Master's Skull
+Bone
+RobustWyvernBone
+Brute Bone
+Giant Bone
+Stout Bone
+Massive Bone
+Wyvern Fang
+Wyvern Claw 
+Wyvern Stone
+Big Wyvern Stone
+BigEDragonJewel
+White Liver
+Popo Tongue
+Secret Pouch
+CarapaceonBrains
+CarapaceonBrain+
+Piscine Liver
+Wyvern Tears
+Wyvern Sobs
+Territorial Dung
+TerritorialDung+
+Crab Pearl
+Crab Pearl+
+Dragon Treasure
+Anc Drgn Treasre
+Decayed Drgn Scl
+Dragon Herb
+Felyne Fur Ruby
+Mosswine Hide
+Bullfango Pelt
+ThkBullfangoPelt
+Bullfango Head
+Bulldrome Tusk
+Bulldrome Hide
+Bulldrome Hide+
+Kelbi Horn
+Kelbi Hide
+Anteka Antlers
+Anteka Pelt
+High Qualty Pelt
+Remobra Skin
+Remobra Skin+
+SpecRemobraSkin+
+Striped Skin
+Remobra Skull
+ShakalakaTreasre
+ShakalakaTreasr+
+ShakaInheritance
+Giaprey Scale
+Giaprey Scale+
+Giaprey Hide
+Giaprey Hide+
+Giadrome Hide
+Giadrome Claw
+Giadrome Claw+
+Giadrome Skull
+Velociprey Fang
+Velociprey Scale
+Velociprey Scle+
+Velociprey Hide
+Velociprey Hide+
+Velocidrome Hide
+Velocidrome Claw
+Velocidrome Clw+
+Velocidrome Head
+Genprey Fang
+Genprey Scale
+Genprey Scale+
+Genprey Hide
+Genprey Hide+
+Gendrome Hide
+Gendrome Tail
+Gendrome Skull
+Ioprey Fang
+Ioprey Scale
+Ioprey Scale+
+Ioprey Hide
+Ioprey Hide+
+Iodrome Hide
+Iodrome Skull
+OrangeHypnoPelt
+OrangeHypnoPelt+
+Top-GrdHypnoClaw
+Hypno Claw+
+Hypno Bezoar
+Hypno Bezoar+
+Hypno Beak
+Hypno Fang
+RainbowTailFeath
+Hypno Ticket
+Kut-Ku Scale
+Kut-Ku Scale+
+Thick Kut-Ku Scl
+Kut-Ku Shell
+Kut-Ku Carapace
+Hvy Kut-Ku Shell
+Kut-Ku Ear
+Long Kut-Ku Ear
+Lucky Kut-Ku Ear
+Giant Beak
+Splendid Beak
+Kut-Ku Webbing
+Str Kut-Ku Wing
+Blue Kut-Ku Scl
+Blue Kut-Ku Scl+
+ThkBlueKut-KuScl
+Blue Kut-Ku Shl
+Blue Kut-Ku Cpc
+HvyBlueKut-KuShl
+Rubbery Hide
+Rubbery Hide+
+SpecRubberyHide+
+Gypceros Head
+HardGypcerosHead
+Pur Rubbery Hide
+Pur Gypceros Wng
+HrdPuGypcerosWng
+Garuga Scale
+Garuga Scale+
+ThickGarugaScale
+Garuga Shell
+Garuga Carapace
+Hvy Garuga Shell
+Garuga Ear
+Long Garuga Ear
+Sharpened Beak
+Rejuvenated Beak
+Garuga Wing
+Str Garuga Wing
+Garuga Tail
+LethrGarugaTail
+Garuga Mane
+SilverGarugaPelt
+Blango Pelt
+Blango Pelt+
+Sharp Claw
+Piercing Claw
+Blangonga Fang
+Blangonga Fang+
+HvyBlangongaFang
+Blangonga Pelt
+Blangonga Pelt+
+HrdBlangongaPlt+
+Blangonga Whiskr
+Lthr Pelagus Plt
+Blangonga Tail
+LeathrBlangoTail
+C.BlangongaPelt+
+HvyC.BlangoFang
+LthrC.BlangoTail
+Conga Pelt
+Conga Pelt+
+Congalala Pelt
+Congalala Pelt+
+HrdCongalalaPlt+
+Vibrant Pelt
+Congalala Claw
+Congalala Claw+
+HrdCongalalaClw+
+Congalala Fang
+Lg Pelagus Fang
+E.CongalalaPelt+
+HrdE.CongaClaw
+Vibrant Comb
+Rajang Horn
+Hard Rajang Horn
+Rajang Fang
+Hvy Rajang Fang
+Blk Rajang Pelt
+Blk Rajang Pelt+
+Rajang Claw
+Hard Rajang Claw
+Rajang Tail
+Dummy
+Gold Rajang Pelt
+GoldRajangPelt+
+Piscine Fang
+HvyPiscineFang
+Plesioth Scale
+Plesioth Scale+
+ThckPlesiothScl
+Plesioth Fin
+Plesioth Fin+
+SpecPlesiothFin+
+Grn Plesioth Scl
+Grn Plsioth Scl+
+ThckGrnPlesioScl
+Grn Plesioth Fin
+Grn Plsioth Fin+
+SpecGrnPlesioFn+
+Cephalos Scale
+Cephalos Scale+
+Cephalos Fin
+Cephalos Fin+
+Coral Cphlos Scl
+Coral Cphlos Fin
+ThckLavasiothScl
+HvyLavasiothShl
+HvyLavasiothFang
+SpecLavasioFin+
+Lavasioth Ticket
+Wyvern Skull Shl
+Sm Hermitaur Shl
+Hermitaur Shell
+Hermitaur Carpce
+HvyHermitaurShl
+Hermitaur Claw
+Hermitaur Claw+
+HrdHermitaurClaw
+PlumD.HermitrShl
+PlumD.HermitrClw
+Sm Ceanataur Shl
+Ceanataur Shell
+Ceanataur Carpce
+HvyCeanataurShl
+Ceanataur Leg
+HvyCeanataurLeg
+Ceanataur Pincer
+Ceanataur Claw
+Ceanataur Claw+
+HrdCeanataurClaw
+TerraCeanatrShl
+TerraCeanatrClaw
+Sm Lobstershell
+Lg Lobstershell
+Gt Lobstershell
+Amezari Shell
+Amezari Carapace
+Rathian Scale
+Rathian Scale+
+ThckRathianScl
+Rathian Plate
+Rathian Ruby
+HvnlyRathianScl
+Rathian Shell
+Rathian Carapace
+HvyRathianShell
+Rathian Spike
+Rathian Spike+
+Rathian Thorn
+Pnk Rathian Scl
+Pnk Rathian Scl+
+ThckPnkRathnScl
+Pnk Rathian Shl
+Pnk Rathian Cpc
+HvyPnkRathianShl
+Gld Rathian Scl+
+ThckGldRathnScl
+Gld Rathian Cpc
+HvyGldRathianShl
+GoldRathianThorn
+Fire Wyvern Claw
+HrdFireWyvernClw
+FireWyvern Fluid
+FireWyvrn Marrow
+FireWyvrn BrnStm
+Rathalos Scale
+Rathalos Scale+
+Hrd Rathalos Scl
+Rathalos Plate
+Rathalos Ruby
+HvnlyRathalosScl
+Rathalos Shell
+Rathalos Carpace
+HvyRathalosShl
+Rathalos Tail
+LthrRathalosTail
+Rathalos Webbing
+Rathalos Wing
+StrRathalosWing
+Azure Rthlos Scl
+Azre Rthlos Scl+
+ThckAzurRthlsScl
+Azure Rthlos Shl
+Azure Rthlos Cpc
+HvyAzurRthlsShl
+Azur Rthlos Tail
+LthrAzrRthlsTail
+Azur Rthlos Wing
+Slvr Rthlos Scl+
+ThckSlvrRthlsScl
+Slvr Rthlos Cpc
+HvySlvrRthlsShl
+Slvr Rthlos Tail
+LthrSlvrRthlsTal
+Slvr Rthlos Wing
+Flabby Hide
+Khezu Hide - Tan
+KhezuHide-Cream
+Pale Bone
+Pale Khezu Steak
+KhezuSpecialCut
+Alluring Hide
+Alluring Webbing
+StrAlluringWing
+Basarios Shell
+Basarios Carpace
+HvyBasariosShell
+Basarios Wing
+StrBasariosWing
+Basarios Tears
+Tigrex Scale
+Tigrex Scale+
+ThickTigrexScale
+HvnlyTigrexScale
+Tigrex Shell
+Tigrex Carapace
+Hvy Tigrex Shell
+Tigrex Tail
+LeathrTigrexTail
+Tigrex Claw
+Tigrex Claw+
+Hard Tigrex Claw
+Tigrex Fang
+Tigrex Fang+
+Hvy Tigrex Fang
+Tigrex Skull Shl
+Narga Scale+
+ThickNargaScale
+HvnlyNargaScale
+Black Narga Pelt
+BlackNargaPelt+
+Nargacuga Tail
+LeatherNargaTail
+Narga Tail Spike
+HvyNargaTailSpik
+NargaCuttingWing
+StrNargaCttngWng
+Nargacuga Fang+
+HvyNargacugaFang
+Narga Brain Stem
+Gravios Shell
+Gravios Carapace
+HvyGraviosShell
+HvnlyGraviosShl
+Gravios Skl Shl
+Gravios BrainStm
+Blk Gravios Shl
+Blk Gravios Cpc
+HvyBlkGraviosShl
+HvnlyBlkGraviShl
+Blk Gravios Skl
+Twisted Horn
+Majestic Horn
+StoutWarpedHorn
+Diablos Shell
+Diablos Carapace
+HvyDiablosShell
+Diablos Spine
+Diablos Thoracic
+HvyDiablosSpine
+Diablos Tail
+LthrDiablosTail
+Blos Fang
+TwstBlkBlosHrn
+StoutBlkTwstdHrn
+Black Blos Shell
+Black Blos Cpc
+HvyBlkBlosShell
+Black Blos Spine
+Blk Blos Thracic
+HvyBlkBlosSpine
+Black Blos Tail
+LthrBlkBlosTail
+Vespoid Abdomen
+VespoidQn'sCrown
+Vespoid Shell
+Vespoid Carapace
+Vespoid Wing
+Vespoid InnrWng
+Vspoid Razorwing
+Hornetaur Shell
+Hornetaur Crapce
+Hornetaur Head
+Hornetaur Wing
+HornetaurInnrWng
+Hornet Razorwing
+Blood Red Horn
+Top-GrdRedHorn
+Monoblos Shell
+MonoblosCarapace
+Monoblos Spine
+MonoblosThoracic
+Monoblos Heart
+Wht Monoblos Hrn
+Top-GrdPlatHorn
+Wht Monoblos Shl
+Wht Monoblos Cpc
+Wht Monoblos Spn
+WhtMonoblosThora
+Kirin Horn
+Kirin Hide
+Kirin Hide+
+SpecialKirinHide
+Kirin Mane
+Platinum Mane
+Kirin Thndr Tail
+LthrKirinThndrTl
+Kirin Azure Horn
+Lao-Shan's Claw
+Lao-Shan's Horn
+Lao-Shan's Scale
+Lao-Shan Scale+
+Lao-Shan'sThkScl
+Lao-Shan's Ruby
+Lao-ShanHvnlyScl
+Lao-Shan's Shell
+Lao-ShanCarapace
+Lao-Shan'sHvyShl
+Azure LaoS Horn
+Azure LaoS Shell
+Azure LaoS Claw
+Gaoren Shell
+Gaoren Carapace
+HvyGaorenShell
+HvnlyGaorenShell
+Gaoren Spine
+Gaoren Thoracic
+Hvy Gaoren Spine
+Gaoren Pincer
+Gaoren Claw
+Hard Gaoren Claw
+Daora Shell
+Daora Carapace
+Hvy Daora Shell
+DaoraDragonScale
+DaoraDragonScal+
+ThckDaoraDrgnScl
+Daora Webbing
+Str Daora Wing
+Daora Horn
+Hard Daora Horn
+Daora Tail
+Lthr Daora Tail
+Daora Claw
+Daora Sharp Claw
+Daora Jewel
+Chameleos Hide
+Chameleos Hide+
+SpecChameleHide+
+Chameleos Horn
+Chameleos Spike
+HrdChameleosHorn
+Chameleos Claw
+ChameleosWebbing
+StrChameleosWing
+Chameleos Tail
+LthrChameleoTail
+Chameleos Jewel
+Fire Dragon Scl
+Fire Drgn Scl+
+ThckFireDrgnScl
+Fire Dragon Claw
+HrdFireDrgnClaw
+Fire Drgn Webbng
+Fire Dragon Pwdr
+Fire Drgn Jwl
+ElderDragonBlood
+Lunastra Shell
+LunastraCarapace
+Lunastra Mane
+Lunastra Tail
+Lunastra Horn
+Lunastra Spike
+Teostra Shell
+Teostra Carapace
+HvyTeostraShell
+Teostra Mane
+Teostra Tail
+LthrTeostraTail
+Teostra Horn
+Teostra Horn+
+HardTeostraHorn
+Dragonmoss
+Dragonmoss+
+AncientDrgnmoss
+Dragonwood
+Dragonwood+
+AncientDrgnwood
+YamaTsukamiHide
+YamaTsukaFillet
+YamaTsukamiFluid
+Dark Piece
+Dark Stone
+Fatalis Horn
+HardFatalisHorn
+Fatalis Scale
+ThckFatalisScale
+Fatalis Shell
+Hvy Fatalis Shl
+Fatalis Eye
+Fatalis Evil Eye
+Fatalis Webbing
+Str Fatalis Wng
+Fatalis CrmsnHrn
+HrdFatlisCrmHorn
+Fatalis CrmsnScl
+ThckFatlisCrmScl
+Fatalis CrmsnShl
+HvyFatalisCrmShl
+Fatalis DevilEye
+Fatalis CrmsnWng
+StrFatlisCrmWing
+Wht Fatalis Scl
+ThckWhtFatlisScl
+Wht Fatalis Shl
+HvyWhtFatalisShl
+Wht Fatalis Wbng
+StrWhtFatalisWng
+Wht Fatalis Horn
+HrdWhtFatlisHorn
+Akantor Scale
+Akantor Shell
+Akantor Tail
+Akantor Claw
+Akantor Fang
+Akantor Spike
+HvyUkanlosShell
+UkanlosUnderscl
+Hvy Ukanlos Tail
+UkanlosDiggngClw
+UkanlosShovelJaw
+StrongUkanlosFin
+Ukanlos Stone
+Wyverian Harp
+Sinister Cloth
+Lost Umbrella
+Ruststone
+Flat Ruststone
+Large Ruststone
+Small Ruststone
+Ruststone Rod
+Ancient Stone
+AncientFlatstone
+Lg Ancient Stone
+Sm Ancient Stone
+Ancient StoneRod
+Organizer Guide
+Backpacker Guide
+Lynian Info
+Shakalaka Info
+Neopteron Info
+GrtThundrbugInfo
+Herbivore Info
+Bird Wyvern Info
+HypnocatriceInfo
+Yian Garuga Info
+FlyingWyvernInfo
+Remobra Info
+Tigrex Info
+Nargacuga Info
+Akantor Info
+Ukanlos Info
+Piscine Info
+Lavasioth Info
+Carapaceon Info1
+Carapaceon Info2
+Shen Gaoren Info
+Pelagus Info
+Rajang Info
+Kirin Info
+KushalaDaoraInfo
+Chameleos Info
+Lunastra Info
+Teostra Info
+Lao-Shan Info
+YamaTsukamiInfo
+Fatalis Info
+Steel Egg
+Silver Egg
+Golden Egg
+Map
+First-Aid Med
+Ration
+Portable Spit
+Mini Whetstone
+Prtbl Shock Trap
+Supply Flash Bmb
+Sply Max Potion
+Sply Pitfall Trp
+Sply Lg Brrl Bmb
+Ballista S
+Cannon S
+Wyvern
+Wyvern Egg
+Herbivore Egg
+Carnivore Egg
+Sootstone Ore
+Quartz Ore
+Powderstone
+Khezu Whelp
+Khz Whlp Ice Crm
+Kut-Ku Coin
+Congalala Coin
+Khezu Coin
+Daimyo Coin
+Blangonga Coin
+Yian Garuga Coin
+Tigrex Coin
+Diablos Coin
+Gravios Coin
+Kirin Coin
+Cephadrome Coin
+Plesioth Coin
+Shogun Coin
+Fire Coin
+Rajang Coin
+BlackBeltCoinG
+Expert Coin G
+Warrior Coin G
+Legend Coin G
+Commendation
+Commendation G
+Commendation S
+Pawprint Stamp
+Pokke Ticket
+Pokke Ticket+
+Normal Ticket
+Hard Ticket
+Plus Class Tcket
+Hero of Kkto Bio
+Hero of JumboBio
+Elder Thank You
+Elder Thnk You+
+FlynMealPassReg
+FlynMealPassPlus
+Comrade Ticket
+VeggieElderTcket
+VeggieElderTckt+
+VegElderTcktBrz
+VegElderTcktSlv
+VegElderTcktGld
+VegElderTcktSky
+Blackbelt Ticket
+Expert Ticket
+Paw Pass Ticket
+Limited Paw Pass
+Famitsu Ticket
+Famitsu Invoice
+Famitsu PT Tckt
+FamitsuCustomTkt
+Dengeki Ticket
+Dengeki G Ticket
+Dengeki 2G Tckt
+Dengeki Maoh Tkt
+Pirate J Ticket
+Pirate J Tckt G
+Magazine Ticket
+Hunter's Ticket
+Hunter Soul Tkt
+Puppet Ticket
+SpecPuppetTicket
+Suiko Jewel
+Akito Jewel
+BattlefieldJewel
+LapisLazuliJewel
+Paralysis Jewel
+Paralysis Jewel+
+Pep Jewel
+Jolt Jewel
+Steadfast Jewel
+Steadfast Jewel+
+Antidote Jewel
+Antidote Jewel+
+Retroviral Jewel
+Antiviral Jewel
+Snowblower Jewel
+SnowblowerJewel+
+Tip Toe Jewel
+Ninja Jewel
+Strength Jewel
+Feel Good Jewel
+Razor Jewel
+Artisan Jewel
+Fencer Jewel
+Expert Jewel
+Grinder Jewel
+Stone Wall Jewel
+Hard Wall Jewel
+HvnlyShieldJewel
+Hardball Jewel
+Early Bird Jewel
+Recoilless Jewel
+StrongShot Jewel
+Pierce Jewel
+Pellet Jewel
+Shot Bonus Jewel
+PierceBonusJewel
+PelletBonusJewel
+Crag Bonus Jewel
+ScattrBonusJewel
+SpecialAtk Jewel
+Element Jewel
+Bombardier Jewel
+PickyEater Jewel
+No Food Jewel
+Fatso Jewel
+Attack Jewel
+Defense Jewel
+Protection Jewel
+DivineProtectJwl
+Earplug Jewel
+Alarm Jewel
+Friendship Jewel
+Backpacker Jewel
+Impervious Jewel
+Inferno Jewel
+Crimson Jewel
+Stream Jewel
+Torrent Jewel
+Freeze Jewel
+Glacier Jewel
+Lightning Jewel
+Thunder Jewel
+Slayer Jewel
+DragonslyrJewel
+CoolBreeze Jewel
+ColdBreezeJewel
+WarmBreeze Jewel
+HotBreezeJewel
+PaperweightJewel
+Map Jewel
+Gathering Jewel
+Grab'n'DashJewel
+Good Luck Jewel
+Blessing Jewel
+Fate Jewel
+Fisher Jewel
+Psychic Jewel
+Curing Jewel
+Professor Jewel
+Armory Jewel
+SecretArts Jewel
+Evade Jewel
+Danger Jewel
+StayingPwr Jewel
+Marathon Jewel
+Ammo Box Jewel
+Sniper Jewel
+SharpshootrJewel
+QuickEaterJewel
+HideCutter Jewel
+Melt-Proof Jewel
+Anchor Jewel
+BBQ Jewel
+Small Arms Jewel
+Howitzer Jewel
+Fife Jewel
+Tireless Jewel
+Jumping Jewel
+Sword Draw Jewel
+Cat Guide Jewel
+Cat Attack Jewel
+CatDefenseJewel
+TrapMasterJewel
+PoisonCoatJewel
+ParalysCoatJewel
+Sleep Coat Jewel
+Power Coat Jewel
+Combo Coat Jewel
+Guts Jewel
+ConstitutnJewel
+Tranq Jewel
+Perceive Jewel
+ShortChargeJewel
+Cont. Fire Jewel
+AntiParalyzJewel
+Anti-Faint Jewel
+Antivenin Jewel
+Snowplow Jewel
+SpeedyRecvrJewel
+Celebrity Jewel
+IronCurtainJewel
+Wall Jewel
+High Speed Jewel
+SpecialAtkJewel+
+Fasting Jewel
+Fierce Jewel
+Turtle Jewel
+Beloved Jewel
+Omnipotent Jewel
+Extinction Jewel
+Cold Wind Jewel
+Hot Wind Jewel
+HeavyMetal Jewel
+Destiny Jewel
+Cure All Jewel
+Cure All Jewel+
+Dodge Jewel
+Pinch Jewel
+Permanence Jewel
+Eternal Jewel
+Fast Food Jewel
+Anti-Thaw Jewel
+Tectonic Jewel
+UnsheathingJewel
+ParalysisCAddJwl
+PowerCAddJewel
+More Guts Jewel
+Health Jewel
+Knockout Jewel
+Cutter Jewel
+Master Jewel
+Swordsman Jewel
+Hermit Jewel
+StrongWall Jewel
+Shockless Jewel
+StrongShotJewel+
+Pierce Jewel+
+Pellet Jewel+
+Element Jewel+
+Strongest Jewel
+Silencer Jewel
+Tenderness Jewel
+TrueResistJewel
+Solid Rock Jewel
+Crisis Jewel
+Sprinter Jewel
+Magazine Jewel
+Scarfing Jewel
+Carving Jewel
+Flying Jewel
+RapidChargeJewel
+Barrage Jewel
+Giadrome Jewel
+Kut-Ku Jewel
+Daimyo Jewel
+Congalala Jewel
+Rathalos Jewel
+Gravios Jewel
+Garuga Jewel
+Eldr Drgn Tears
+Lao-Shan Melon
+Eldr Drgn Fossil
+Gypceros Crystal
+Rathian Jewel
+Teostra Meteor
+ThsandYearForest
+Frozen Meatball
+Buckshot Acorn
+Cephadrome Melon
+Golden Cocoon
+Amber Egg
+Graviscus Bulb
+Century Walnut
+Hard Dragonrock
+Dragonrock+
+Dragonrock
+Green Fin
+Kut-Ku Cartilage
+Hermitaur Brains
+Congalala Stomch
+Rathalos Liver
+Gravios Giblets
+Garuga Drumstick
+Giadrome Thigh
+Kut-Ku Gizzards
+Daimyo Legs
+Congalala Innrds
+Rathalos Tongue
+Gravios Wingtip
+GarugaClavclMeat
+Blango Bacon
+Kut-Ku Skin
+Cephalos Roe
+Twstd Bldrm Tsk
+Rathian Chops
+Purple Crest
+GarugaWhiteLiver
+Dragonite (L)
+Dragonite (M)
+Dragonite (S)
+Pokke Snowman
+Felyne Crown
+GldFlynJewelSwd
+Dynasty Vase
+Mysterious Mask
+Eldr Drgn Rfrnc
+AncntCatKingStat
+Blngo Blzrd Ball
+Blngo Flrry Ball
+Inferior FlynCrn
+Flyn Crwn Frgmnt
+Hndlelss Gld Bld
+GldBladelessHndl
+Bttmlss Old Vase
+Old Vase Bottom
+Holed Shaka Mask
+Shakalaka Stone
+Torn Old Book
+Old Book Scrap
+TaillessCatStatu
+BrokenStoneTail
+Popo Dandelion
+Velociprey Lily
+Monoblos Rose
+Chameleos' Purse
+Peach Clover
+Gravibiscus
+Shakalaka Ranka
+Wyvern Grass
+Glitter Mushroom
+Shining Jellyfsh
+Bright Mushroom
+Glittr Capshroom
+Skin Care Shroom
+Beauty Shroom
+ShimmeringShroom
+Wyvernshroom
+Blangonga Apple
+Kelbi Nuts
+Cephalos Wtrmeln
+Khezu Seed
+Writhe Nut
+Basarios Peach
+Shakalaka Squash
+Lady Mackerel
+Angler Snapper
+Yokotuna
+Nobunaga Bonito
+Goldendrome
+Amateratuna
+Brilliant Aji
+Chuck Mackerel
+Victory Fish
+Plump Goldenfish
+Hideyoshi Ambrjk
+Silverdrome
+Susanofish
+Pharr Yellowtail
+Large Wyvernfish
+Med Wyvernfish
+Small Wyvernfish
+Pickaxe Fish
+Bugnet Fish
+Cooler Fish
+Pokke Quartz
+Telos Stone
+Sekumaeya Pearl
+Schradite
+Minegarde Night
+Lateobrium
+Mezeporter Topaz
+Furiamond
+Jumboite
+Dragokurium
+Liber Ruby
+Kokotoite
+Dondorumin
+GrtForestCrystal
+Wyvern Ore
+Pure Wyvern Ore
+Pillow Bug
+Cleopatris
+GiantStagBeetle
+Ghostly Cicada
+Celeb Cicada
+Athena Beetle
+Hornfly Princess
+Princess Scarab
+Marilyn Btterfly
+Cricket of Troy
+Cutie Crawler
+Lovely Locust
+Killer Venus
+Hornfly Prince
+Rathian Fly
+Rathalos Fly
+Embroidered Flag

@@ -1,0 +1,102 @@
+Checking for Memory Stick Duo~B10. <NEWLINE><NEWLINE>Please do not turn off the <NEWLINE>PSP system <NEWLINE>or remove the Memory Stick Duo~B10. 
+Load completed.
+Game data is corrupted.
+Not enough free space available<NEWLINE>on Memory Stick Duo~B10. 
+Would you like to save?
+1776KB is required to save this data.<NEWLINE>(Up to ~A00KB may be used depending on<NEWLINE>the Memory Stick Duo~B10 used.)<NEWLINE>Delete other data and create free space?
+Save this character?
+Please select a save location.
+Please do not remove the Memory Stick Duo~B10<NEWLINE>while playing Monster Hunter Freedom Unite~B10.
+Character already exists. <NEWLINE>Delete previously saved character?
+Would you like to save here?
+No Character data found. <NEWLINE>Please insert the Memory Stick Duo~10 <NEWLINE>containing previously saved Game data. 
+Load this character?
+Character selected. <NEWLINE>Please do not remove the Memory Stick Duo~B10<NEWLINE>while playing Monster Hunter Freedom Unite~B10.
+Checking for Memory Stick Duo~B10. <NEWLINE><NEWLINE>Please do not turn off the<NEWLINE>PSP system<NEWLINE>or remove the Memory Stick Duo~B10. <NEWLINE><NEWLINE>~C04Patch: DEBUG ENG    ~C02Loader: %l          
+TIME
+MALE
+FEMALE
+MONEY
+NO DATA
+Saving...<NEWLINE><NEWLINE>Please do not remove the<NEWLINE>Memory Stick Duo~B10. 
+Auto-loaded Game data.
+This game requires at least 1776KB to save.<NEWLINE>(Up to ~A00KB may be used depending on<NEWLINE>the Memory Stick Duo~B10 used.)<NEWLINE>Continue?
+Save Game Settings?
+There is already Game data on the Memory Stick Duo~B10. <NEWLINE>OK to overwrite this data?
+Select a character.
+Equipment Details
+The Memory Stick Duo~10 used to start<NEWLINE>this game is not inserted.<NEWLINE>Please insert the Memory Stick Duo~10<NEWLINE>used to start this game.
+Save completed.
+Abort loading?
+Connect to download content? <NEWLINE>~C02Please do not disconnect from the Network<NEWLINE>or remove the Memory Stick Duo~B10 while<NEWLINE>downloading.~C00
+The following Quests are saved <NEWLINE>on the Memory Stick Duo~B10. 
+There are no downloadable Quests currently saved <NEWLINE>on the Memory Stick Duo~B10. 
+Exit game?
+If you quit the game without saving, <NEWLINE>all of the items and money (z) <NEWLINE>that you acquired will be lost.
+Delete corrupted Game data?
+Save Gallery Status?
+       Save?     Exit without saving?    
+Character(s) created in Monster Hunter<NEWLINE>Freedom 2 can be imported to Monster<NEWLINE>Hunter Freedom Unite~B10. <NEWLINE><NEWLINE>*When importing a character, the original<NEWLINE>character's Game data will not be deleted.
+●Character names will be imported as is.<NEWLINE>*However, sex and appearance can be altered.<NEWLINE>*Sex and/or appearance alterations do not affect the<NEWLINE>character's Guild Card, which will be imported as is.<NEWLINE><NEWLINE>●The maximum number of Items and Equipment holdable in their<NEWLINE>respective sections of the Item Box will increase to 800.<NEWLINE><NEWLINE>●Bows that can now be further upgraded will be denoted with<NEWLINE>an "I" symbol in front of its name.
+●Some Weapons, Armor, Items, etc. have been adjusted, and<NEWLINE>will change to reflect the new Monster Hunter Freedom Unite<NEWLINE>stats.<NEWLINE><NEWLINE>*If a piece of Armor is no longer wearable due to a sex<NEWLINE>change, it will be converted to its equivalent, or its<NEWLINE>monetary equivalent in z if no equivalent Armor is available.<NEWLINE><NEWLINE>*All Equipment will be unequipped. There is a possibility<NEWLINE>that some equipment will have its stats adjusted or that some<NEWLINE>skills will become unavailable.
+●Titles and Awards won in Monster Hunter Freedom 2 will be<NEWLINE>imported.<NEWLINE><NEWLINE>*It is possible some previously acquired Titles and Awards do<NEWLINE>not fulfill all of the requirements for that Title or Award<NEWLINE>as set in Monster Hunter Freedom Unite.<NEWLINE><NEWLINE>*The following cannot be imported: option settings,<NEWLINE>Training School records, certain sections of the Gallery,<NEWLINE>and downloaded Quests.
+Please insert the Memory Stick Duo~B10<NEWLINE>containing the Monster Hunter Freedom 2<NEWLINE>Game data of the character you wish to<NEWLINE>import, and press the ~B00 button.
+Import character?
+Cancel import?
+Select the character you'd like to import.
+Import this character?
+Character selected.<NEWLINE>On the following screens, you<NEWLINE>can setup your character.<NEWLINE><NEWLINE>Press the ~B00 button
+~B00Next
+Imported names cannot be edited.
+The following Bonus content is saved<NEWLINE>on the Memory Stick Duo~B10.
+There is no downloadable Bonus content currently saved <NEWLINE>on the Memory Stick Duo~B10.
+Wandering Felyne Chef × %d
+Title × %d
+Piggie's Fashions × %d
+Pokke Points
+Farm Equipment
+Peddling Granny's Special Items
+Felyne Comrade Armor
+Felyne Comrade Skill
+Monster Hunter Freedom 2 Game data was found.<NEWLINE><NEWLINE>You can import a previously created character<NEWLINE>into Monster Hunter Freedom Unite~B10 by selecting<NEWLINE>"New Game" from the Game Menu screen.<NEWLINE><NEWLINE>Press the ~B00 button
+Memory Stick Duo~10 found.
+No Monster Hunter Freedom Unite~10<NEWLINE>Game data was found.<NEWLINE>Please insert a Memory Stick Duo~10<NEWLINE>containing Game data with a saved<NEWLINE>character.<NEWLINE>*To import a character from Monster<NEWLINE>Hunter Freedom 2, please select<NEWLINE>"New Game" from the Game Menu screen.
+Start Game? 
+%s<NEWLINE>Unable to load Installed Data.<NEWLINE>All data will be loaded from the UMD~10.<NEWLINE><NEWLINE>Data Install Option has been switched to<NEWLINE>"OFF".
+Memory Stick Duo~10 not found.
+Install Data not found.
+Install Data is corrupted.
+%s<NEWLINE>Install Data load failed mid-Quest.<NEWLINE>All data will be loaded from the UMD~10.<NEWLINE><NEWLINE>Data Install Option has been switched to<NEWLINE>"OFF".
+A Memory Stick Duo~10 was not found.
+Install Data was not found.
+Install Data has been corrupted.<NEWLINE>Please reinstall the Install Data.
+%s<NEWLINE>Install Data load failed during transmission.<NEWLINE>All data will be loaded from the UMD~10.<NEWLINE><NEWLINE>Data Install Option has been switched to<NEWLINE>"OFF".
+＜Data Install＞<NEWLINE><NEWLINE>Use this "Data Install" option to shorten<NEWLINE>loading times. A portion of game will be saved<NEWLINE>as "Install Data" on your Memory Stick Duo~B10.<NEWLINE>The game will then load data from both the<NEWLINE>Install Data and the UMD~B10.
+The Install Data requires at least 578MB<NEWLINE>to install.<NEWLINE>(Up to ~A01MB may be used depending on<NEWLINE>the Memory Stick Duo~B10 used.)<NEWLINE><NEWLINE>*Regular Game data requires at least<NEWLINE>1776KB to save.<NEWLINE>(Up to ~A00KB may be used depending on<NEWLINE>the Memory Stick Duo~B10 used.)
+In order to use all collected Weapons, Items, etc.<NEWLINE>and the Data Install option at the same time, the<NEWLINE>Game data and Install Data must be saved on the same<NEWLINE>Memory Stick Duo~B10.<NEWLINE><NEWLINE>*You may also first save the Install Data onto your<NEWLINE>Memory Stick Duo~B10 and then copy Game data onto<NEWLINE>it at a later date.
+Install the Install Data?<NEWLINE><NEWLINE><NEWLINE>*Due to memory requirements, a 1GB or greater<NEWLINE>Memory Stick Duo~B10 is required to install.<NEWLINE>*The installation will take approximately 10 minutes.<NEWLINE>*Please make sure there is enough power, or use an<NEWLINE>AC adaptor.
+TBD
+The Install Data requires at least 578 to install.<NEWLINE>(Up to ~A01 may be used depending on the<NEWLINE>Memory Stick Duo~B10 used.)<NEWLINE>Delete other Game data and check memory availability?
+To use the Data Install option, go to "Data Install"<NEWLINE>under the Options menu and set it to "ON".<NEWLINE><NEWLINE>Data Install option has been set to《ON》.
+When the game is loading Install Data, the<NEWLINE>Memory Stick Duo~B10 access indicator will flash.<NEWLINE>Please do not remove the Memory Stick Duo~B10 at<NEWLINE>that time.
+Please press the ~B00 button
+Install Data already exists.<NEWLINE>Overwrite?
+Due to memory requirements, a 1GB or greater<NEWLINE>Memory Stick Duo~B10 is required. Even if all<NEWLINE>other data is deleted through the following<NEWLINE>utility, you will not be able to install.
+The Install Data requires at least 578MB to install.<NEWLINE>(Up to ~A01MB may be used depending on the<NEWLINE>Memory Stick Duo~B10 used.)<NEWLINE>Delete other Game data and check memory availability?
+~B01 Cancel
+Cancel installation?<NEWLINE>*The Install Data will not work properly if<NEWLINE>installation is canceled.
+New Character Creation
+Import a Monster Hunter Freedom 2 Character
+Import a Monster Hunter Freedom Unite~B10 Character
+The imported character will be saved into a<NEWLINE>Monster Hunter Freedom Unite~B10 Game data.<NEWLINE>Please insert the Memory Stick Duo~B10 you'd<NEWLINE>like to save to and press the ~B00 button.<NEWLINE><NEWLINE>*Game data requires at least 1776KB to save.<NEWLINE>(Up to ~A00KB may be used depending on the<NEWLINE>Memory Stick Duo~B10 used.)
+The following properties of your Monster Hunter<NEWLINE>Freedom Unite~B10 character will be imported and<NEWLINE>available for play in a new game.<NEWLINE><NEWLINE>*The original data will remain as is even after<NEWLINE>the character has been imported.
+●You may freely change the character's name,<NEWLINE>sex, etc.<NEWLINE><NEWLINE>●All Weapons and Armor will be converted to their<NEWLINE>monetary equivalent in z.<NEWLINE><NEWLINE>●Items of rarity 1 through 3 will be imported.<NEWLINE>*Items that cannot be imported will be converted<NEWLINE>to their monetary equivalent in z.<NEWLINE>*Your Monster List will return to the default state.
+●Money (z), including amounts remitted through<NEWLINE>Items, Weapons, and Armor conversions, will be<NEWLINE>imported in full.
+Please insert the Memory Stick Duo~B10 containing the<NEWLINE>Monster Hunter Freedom Unite~B10 Game data of the<NEWLINE>character you wish to import, and press the ~B00 button.
+Monster Hunter Freedom 2 Game<NEWLINE>data not found. Please insert the<NEWLINE>Memory Stick Duo~10 containing the<NEWLINE>Game data with the desired character<NEWLINE>saved to it.
+The Monster Hunter Freedom 2<NEWLINE>Game data is corrupted.
+Monster Hunter Freedom 2 Character<NEWLINE>data not found. Please insert the<NEWLINE>Memory Stick Duo~10 containing the<NEWLINE>Game data with the desired character<NEWLINE>saved to it.
+Monster Hunter Freedom Unite~10 Game<NEWLINE>data not found. Please insert the<NEWLINE>Memory Stick Duo~10 containing the<NEWLINE>Game data with the desired character<NEWLINE>saved to it.
+The Monster Hunter Freedom Unite~10 Game data<NEWLINE>is corrupted.
+Monster Hunter Freedom Unite~10<NEWLINE>Character data not found. Please<NEWLINE>insert the Memory Stick Duo~10<NEWLINE>containing the Game data with the<NEWLINE>desired character saved to it.
+%s<NEWLINE>Install Data load failed while viewing the<NEWLINE>Gallery. All data will be loaded from the<NEWLINE>UMD~10.<NEWLINE><NEWLINE>Data Install Option has been switched to<NEWLINE>"OFF".

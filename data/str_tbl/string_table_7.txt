@@ -1,0 +1,436 @@
+Nothing equipped.
+Leather Helm
+Chain Helm
+Hunter's Helm
+Hunter's Cap
+Bone Helm
+Bone Cap
+Velociprey Helm
+Velociprey Cap
+Battle Helm
+Battle Cap
+Vespoid Helm
+Vespoid Cap
+Hornet Helm
+Hornet Cap
+Hi-Metal Helm
+Hi-Metal Cap
+Genprey Helm
+Genprey Cap
+Ioprey Helm
+Ioprey Cap
+Gypceros Helm
+Gypceros Cap
+Cephalos Helm
+Cephalos Cap
+Rathian Helm
+Rathian Cap
+Khezu Helm
+Khezu Cap
+Rathalos Helm
+Rathalos Cap
+Plesioth Helm
+Plesioth Cap
+Lobster Helm
+Basarios Helm
+Basarios Cap
+Diablo Helm
+Diablo Cap
+Monoblos Helm
+Monoblos Cap
+Gravios Helm
+Gravios Cap
+Black Belt Helm
+Mosswine Mask
+Felyne Mask
+Chaoshroom
+Melahoa Flower Hat
+Makluva Hood
+Bistro Cap
+Velociprey Mask
+Genprey Mask
+Ioprey Mask
+Bullfango Mask
+Red Piercing
+Blue Piercing
+Yellow Piercing
+Black Piercing
+Shinobi Mask (Sun)
+Shinobi Mask (Moon)
+Guardian Helm
+Guardian Mask
+Helper Hood
+Healer Glasses
+Skull Face
+Yian Garuga Helm
+Yian Garuga Cap
+Garuga Mask
+Auroros Helm
+Genesis Headpiece
+Borealis Crown
+Glyph Crown
+Black Head
+Black Face
+Leather Helm U
+Chain Helm U
+Hunter's Helm U
+Hunter's Cap U
+Bone Helm U
+Bone Cap U
+Giaprey Helm U
+Giaprey Cap U
+Battle Helm U
+Battle Cap U
+Vespoid Helm U
+Vespoid Cap U
+Hornet Helm U
+Hornet Cap U
+Hi-Metal Helm U
+Hi-Metal Cap U
+Genprey Helm U
+Genprey Cap U
+Ioprey Helm U
+Ioprey Cap U
+Gypceros Helm U
+Gypceros Cap U
+Cephalos Helm U
+Cephalos Cap U
+Rathian Heart Helm
+Rathian Heart Cap
+Khezu Helm U
+Khezu Cap U
+Rathalos Soul Helm
+Rathalos Soul Cap
+Plesioth Helm U
+Plesioth Cap U
+Basarios Helm U
+Basarios Cap U
+Diablo Helm U
+Diablo Cap U
+Monodevil Helm
+Monodevil Cap
+Gravios Helm U
+Gravios Cap U
+Shinobi Mask (Sky)
+Shinobi Mask (Sea)
+Guardian Helm U
+Guardian Mask U
+Helper Hood U
+Healer Beret U
+Auroros Helm Ten
+Genesis HeadpieceTen
+Borealis Crown Ten
+Glyph Crown Ten
+Fatalis Head
+Fatalis Face
+Golden Moon Helm
+Golden Moon Cap
+Silver Sol Helm
+Silver Sol Cap
+Leather Helm S
+Chain Helm S
+Hunter's Helm S
+Hunter's Cap S
+Bone Helm S
+Bone Cap S
+Velociprey Helm S
+Velociprey Cap S
+Battle Helm S
+Battle Cap S
+Vespoid Helm S
+Vespoid Cap S
+Hornet Helm S
+Hornet Cap S
+Hi-Metal Helm S
+Hi-Metal Cap S
+Genprey Helm S
+Genprey Cap S
+Kut-Ku Helm S
+Kut-Ku Cap S
+Ioprey Helm S
+Ioprey Cap S
+Gypceros Helm S
+Gypceros Cap S
+Cephalos Helm S
+Cephalos Cap S
+Rathian Helm S
+Rathian Cap S
+Khezu Helm S
+Khezu Cap S
+Rathalos Helm S
+Rathalos Cap S
+Plesioth Helm S
+Plesioth Cap S
+Basarios Helm S
+Basarios Cap S
+Diablo Helm S
+Diablo Cap S
+Monoblos Helm S
+Monoblos Cap S
+Gravios Helm S
+Gravios Cap S
+Shinobi Mask(Heaven)
+Shinobi Mask (Earth)
+RdGuildGuardTricorne
+Red Guild Guard Mask
+Red Guild Guard Hat
+RedGuildGuardPiercng
+Auroros Helm Haku
+GenesisHeadpieceHaku
+Borealis Crown Haku
+Glyph Crown Haku
+Dragonhead S
+Dragonface S
+Hermitaur Helm
+Hermitaur Cap
+Hermitaur Helm U
+Hermitaur Cap U
+Hermitaur Helm S
+Hermitaur Cap S
+Conga Helm
+Conga Cap
+Conga Helm U
+Conga Cap U
+Conga Helm S
+Conga Cap S
+Blango Helm
+Blango Cap
+Blango Helm U
+Blango Cap U
+Blango Helm S
+Blango Cap S
+Ceanataur Helm
+Ceanataur Cap
+Ceanataur Helm U
+Ceanataur Cap U
+Ceanataur Helm S
+Ceanataur Cap S
+Kirin Horn
+Kirin Crest
+Kirin Horn S
+Kirin Crest S
+Kushala Glare
+Kushala Snarl
+Mizuha Cap
+Extravagant Cap
+Empress Crown
+Empress Mask
+Indra Helm
+Steadfast Helm
+Kaiser Crown
+Kaiser Mask
+Guardian Spirit Mask
+Carnage Mask
+Golden Hair Tie
+Puppet Master Mask
+White Fatalis Head
+White Fatalis Face
+Black Belt Helm S
+Giaprey Mask
+Remobra Face
+Guild Knight Feather
+Guild Knight Mask
+Maiden's Hat
+Designer Glasses
+White Piercing
+BlGuildGuardTricorne
+Blue GuildGuard Mask
+Blue Guild Guard Hat
+BluGuildGuardPiercng
+Lobster Cap
+Silence Piercing
+Piercing of Rage
+Demon Edge Piercing
+Blast Piercing
+Piercing of Mastery
+Piercing of Pursuit
+Kirin Piercing
+Piercing of Might
+Piercing of Fate
+Echo Piercing
+Amezari Head
+Amezari Cap
+Mafumofu Hood
+Mafumofu Hood S
+Giaprey Helm
+Giaprey Cap
+Melahoa Bloom
+Melahoa Flower Hat U
+Melahoa Bloom U
+Makluva Gills
+Makluva Hood U
+Makluva Gills U
+Bistro Cap U
+Kut-Ku Helm
+Kut-Ku Cap
+Kut-Ku Helm D
+Kut-Ku Cap D
+Kut-Ku Helm U
+Kut-Ku Cap U
+Gypceros Helm D
+Gypceros Cap D
+Plesioth Helm D
+Plesioth Cap D
+Khezu Helm D
+Khezu Cap D
+Obituary Testa
+Obituary Caput
+Butterfly Testa
+Butterfly Caput
+Obituary Testa S
+Obituary Caput S
+Butterfly Testa S
+Butterfly Caput S
+Kushala Glare S
+Kushala Snarl S
+Tigrex Helm
+Tigrex Cap
+Tigrex Helm S
+Tigrex Cap S
+Death Stench Brain
+Death Stench Soul
+Death Stench Brain S
+Death Stench Soul S
+Diablo Helm D
+Diablo Cap D
+Gravios Helm D
+Gravios Cap D
+Supreme Mizuha Cap
+SuprmeExtravagantCap
+Kaiser Crown S
+Kaiser Mask S
+Rathian Heart Helm U
+Rathian Heart Cap U
+Rathalos Soul Helm U
+Rathalos Soul Cap U
+Ultimate Indra Helm
+SupremeSteadfastHelm
+Dark Akantor Mask
+Dark Akantor Fangs
+Sword Saint Piercing
+Barrage Piercing
+Protection Piercing
+Diasorte Helm
+Diasorte Cap
+Pirate J Hat
+Pirate J Roger
+Hypno Helm X
+Hypno Cap X
+Lava Helm X
+Lava Cap X
+Garuga Helm X
+Garuga Cap X
+Kut-Ku Helm Z
+Kut-Ku Cap Z
+Gypceros Helm Z
+Gypceros Cap Z
+Khezu Helm Z
+Khezu Cap Z
+Basarios Helm X
+Basarios Cap X
+Plesioth Helm Z
+Plesioth Cap Z
+Hermitaur Helm Z
+Hermitaur Cap Z
+Conga Helm Z
+Conga Cap Z
+Rathian Heart Helm Z
+Rathian Heart Cap Z
+Rathalos Soul Helm Z
+Rathalos Soul Cap Z
+Ceanataur Helm Z
+Ceanataur Cap Z
+Blango Helm Z
+Blango Cap Z
+Auroros Helm Goku
+GenesisHeadpieceGoku
+Borealis Crown Goku
+Glyph Crown Goku
+Golden Moon Helm Z
+Golden Moon Cap Z
+Silver Sol Helm Z
+Silver Sol Cap Z
+Diablo Helm Z
+Diablo Cap Z
+Gravios Helm Z
+Gravios Cap Z
+Tigrex Helm X
+Tigrex Cap X
+Indra Helm Shin
+Steadfast Helm Shin
+Golden Hair Tie Shin
+PuppetMasterMaskShin
+Kirin Horn X
+Kirin Crest X
+Kushala Glare X
+Kushala Snarl X
+Mizuha Cap Shin
+Extravagant Cap Shin
+Kaiser Crown X
+Kaiser Mask X
+GuardianSprtMaskShin
+Carnage Mask Shin
+Fatalis Head Z
+Fatalis Face Z
+White Fatalis Head Z
+White Fatalis Face Z
+Black Belt Helm X
+Black Belt Cap X
+Melahoa Flower Hat Z
+Melahoa Bloom Z
+Makluva Hood Z
+Makluva Gills Z
+Chakra Piercing
+Hypno Helm S
+Hypno Cap S
+Garuga Helm S
+Garuga Cap S
+Narga Helm S
+Narga Cap S
+Monodevil Helm U
+Monodevil Cap U
+Kut-Ku Helm X
+Kut-Ku Cap X
+Conga Helm X
+Conga Cap X
+Gypceros Helm X
+Gypceros Cap X
+Khezu Helm X
+Khezu Cap X
+Hermitaur Helm X
+Hermitaur Cap X
+Plesioth Helm X
+Plesioth Cap X
+Obituary Testa X
+Obituary Caput X
+Butterfly Testa X
+Butterfly Caput X
+Blango Helm X
+Blango Cap X
+Monoblos Helm X
+Monoblos Cap X
+Ceanataur Helm X
+Ceanataur Cap X
+Rathian Helm X
+Rathian Cap X
+Rathalos Helm X
+Rathalos Cap X
+Narga Helm X
+Narga Cap X
+Diablo Helm X
+Diablo Cap X
+Gravios Helm X
+Gravios Cap X
+Empress Crown X
+Empress Mask X
+Dragonhead X
+Dragonface X
+Dark Ukanlos Mask
+Dark Ukanlos Fangs
+Hypno Helm
+Hypno Cap
+Lava Helm
+Lava Cap
+Ambitious Piercing
+Comrade Piercing
+Hawkeye Piercing
