@@ -8,6 +8,7 @@ PATCH="$WORKDIR/patches"
 BIN_DIR="$WORKDIR/binary"
 OVL_DIR="$WORKDIR/binary/overlay"
 DECEBOOT="$TOOLS/deceboot"
+EXTERNAL="$WORKDIR/external"
 
 # ---------------------------------------
 # Grab repos and build the tools...
@@ -18,12 +19,16 @@ mkdir "$TOOLS/armips" && git clone --recurse-submodules https://github.com/Kingc
 mkdir "$TOOLS/mhef" && git clone https://github.com/IncognitoMan/mhef.git "$TOOLS/mhef"
 mkdir "$TOOLS/mhff" && git clone https://github.com/IncognitoMan/mhff.git "$TOOLS/mhff"
 fi
+if [ ! -d "$EXTERNAL/target_cam" ]; then
+mkdir "$EXTERNAL" && git clone --branch FUComplete --single-branch https://github.com/pggkun/mhfu_target_camera.git "$EXTERNAL/target_cam"
+fi
 # Setup python venv
 if [ ! -d "$PYENV" ]; then
 python -m venv env/
 source "$WORKDIR/env/bin/activate"
 cd "$TOOLS/mhef"
 python setup.py install
+python -m pip install pillow
 cd "$WORKDIR"
 fi
 # Build armips
@@ -43,6 +48,13 @@ cd "$TOOLS"
 mv "$TOOLS/src" "$TOOLS/deceboot"
 cd "$TOOLS/deceboot"
 sed -i 's/main.cpp/main.cpp -fpermissive/' Makefile
+make
+cd "$WORKDIR"
+fi
+# Build target cam mod
+if [ ! -f "$EXTERNAL/target_cam/bin" ]; then
+cd "$EXTERNAL/target_cam"
+make deps
 make
 cd "$WORKDIR"
 fi
