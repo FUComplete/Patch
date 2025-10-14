@@ -45,6 +45,9 @@ ModloaderCode       equ 0x08A35910  ; modload.bin location
 .open "binary/EBOOT.BIN","build/ISO_ROOT/PSP_GAME/SYSDIR/EBOOT.BIN",0x08801A4C
     .include    "patches/boot.asm"
     .include    "modloader/preloader_init.asm"
+
+    ;Target cam mod
+    .include    "external/target_cam/src/main.asm"
 .close
 
 ; Main Menu
@@ -145,5 +148,6 @@ ModloaderCode       equ 0x08A35910  ; modload.bin location
         .db     0x0     ; 0x19 - Early Lao kill toggle
         .db     0x0     ; 0x1A - Full chest guildhall (offline)
         .db     0x0     ; 0x1B - Guildhall drink buff
+        .db     0x0     ; 0x1C - Target Camera
     .endarea
 .close
